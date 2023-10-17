@@ -1,108 +1,45 @@
-@media only screen and (max-width:640px){
-    body{
-        background-color:yellow;
-    }
-    .container{
-        display:grid;
-        grid-template-columns: 30px 25px 100px 130px 50px 10px 30px 90px 1px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
-        grid-template-rows:15px 15px 20px 20px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    }
-    .box-1{
-        padding:10px;
-        border-radius:20px;
-        background-color:limegreen;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column-start: 1;
-        grid-column-end: 10 ;
-        font-size: 25px;
-    }
-    .box-3{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 6;
-        grid-column-end:7;
-    }
-    .box-4{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 8;
-        grid-column-end: 9;
-    }
+.container{
+    display:grid;
+    grid-template-rows: 25px 10px 3px 10px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 40px 50px 50px 50px 30px 20px 50px 50px 50px ;
 }
-@media only screen and (min-width:641px){
-    body{
-        background-color:green;
-    }
-    .container{
-        display:grid;
-        grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
-        grid-template-rows:15px 15px 20px 20px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    }
-    .box-1{
-        padding:10px;
-        border-radius:20px;
-        background-color:limegreen;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column-start: 1;
-        grid-column-end: 16 ;
-        font-size: 25px;
-    }
-    .box-3{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 12;
-        grid-column-end: 13;
-    }
-    .box-4{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 13;
-        grid-column-end: 14;
-    }
-    }
-@media only screen and (min-width:1000px){
-    body{
-        background-color:red;
-    }
-    .container{
-        display:grid;
-        grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
-        grid-template-rows:15px 15px 20px 20px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
-    }
-    .box-1{
-        padding:10px;
-        border-radius:20px;
-        background-color:limegreen;
-        grid-row-start: 1;
-        grid-row-end: 4;
-        grid-column-start: 1;
-        grid-column-end: 16 ;
-        font-size: 25px;
-    }
-    .box-3{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 12;
-        grid-column-end: 13;
-    }
-    .box-4{
-        border-radius:20px;
-        text-align: center;
-        grid-row-start: 2;
-        grid-row-end: 3;
-        grid-column-start: 13;
-        grid-column-end: 14;
-    }
+
+.name{
+    grid-column-start:3;
+    grid-row-start: 2;
+    font-size:30px;
+    font-weight: 700;
+}
+.logo{
+    grid-column-start: 4;
+    grid-row-start: 1;
+}
+.features{
+    grid-column-start: 11;
+    grid-row-start: 4;
+}
+.aboutus{
+    grid-column-start: 13;
+    grid-column-end: 15 ;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.privacy{
+    grid-column-start: 15;
+    grid-column-end: 18 ;
+    grid-row-start: 4;
+    grid-row-end: 4;
+}
+.container::after{
+    content:"";
+    position:absolute;
+    background-color: #ff3c78;
+    height:3px;
+    width:0;
+    left:0;
+    bottom:-10px;
+    transition:0.3s;
+}
+.container:hover:after{
+    width:100%;
 }
