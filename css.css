@@ -1,4 +1,7 @@
 @media only screen and (max-width:480px){
+    body{
+        background-color:blue;
+    }
     .container{
         display:grid;
         grid-template-columns: 100px 100px 100px 50px 50px 80px;
@@ -32,7 +35,9 @@
     }
 }
 @media only screen and (min-width:640px){
-    
+body{
+    background-color:green;
+}
 .container{
     display:grid;
     grid-template-columns: 30px 25px 100px 130px 50px 10px 30px 90px 1px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
@@ -66,7 +71,9 @@
 }
 }
 @media only screen and (min-width:641px){
-    
+    body{
+        backgroud-color:yellow
+    }
     .container{
         display:grid;
         grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
@@ -100,7 +107,9 @@
     }
     }
     @media only screen and (min-width:1000px){
-    
+        body{
+            background-color:red
+        }
         .container{
             display:grid;
             grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 75px 100px 100px 100px 100px 50px 10px 10px 50px 100px 100px 100px 100px;
