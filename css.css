@@ -1,4 +1,37 @@
-@media only screen and (max-width:640px){
+@media only screen and (max-width:480px){
+    .container{
+        display:grid;
+        grid-template-columns: 100px 100px 100px 50px 50px 80px;
+        grid-template-rows:15px 15px 20px 20px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px;
+    }
+    .box-1{
+        padding:10px;
+        border-radius:20px;
+        background-color:limegreen;
+        grid-row-start: 1;
+        grid-row-end: 4;
+        grid-column-start: 1;
+        grid-column-end: 6 ;
+        font-size: 25px;
+    }
+    .box-3{
+        border-radius:20px;
+        text-align: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 4;
+        grid-column-end:5;
+    }
+    .box-4{
+        border-radius:20px;
+        text-align: center;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        grid-column-start: 6;
+        grid-column-end: 7;
+    }
+}
+@media only screen and (min-width:640px){
     
 .container{
     display:grid;
