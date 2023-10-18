@@ -1,11 +1,11 @@
 body{
-    background-color: mediumspringgreen;
+    background-color: whitesmoke;
 }
 .container{
     display:grid;
     grid-template-rows: 25px 50px;
     grid-template-columns: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 40px 50px 50px 50px 30px 20px 50px 50px 50px ;
-    background-color: deepskyblue;
+    background-color: purple;
 }
 
 .name{
