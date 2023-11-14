@@ -1,2 +1,4 @@
-Konichiwa, Kore ga watashitachi no saigo no purojekutodesu
-Kore wa raibu rinkudesu <a href="https://gamakagami.github.io/Imissher-Project/">Link</a>
+Welcome!
+Come visit our <a href="https://gamakagami.github.io/Imissher-Project/">Website</a>,
+kuru kuru
+
