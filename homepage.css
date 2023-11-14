@@ -1,7 +1,7 @@
 .container{
     display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
 .logoo{
     grid-row-start:3;
@@ -24,12 +24,13 @@
     grid-row-end:8;
     font-size: 15px;
     padding-bottom: 10px;
+    font-style:italic;
     color:black;
     
 }
 .aboutus{
-    grid-column-start: 55;
-    grid-column-end: 80;
+    grid-column-start: 74;
+    grid-column-end: 82;
     grid-row-start: 6;
     grid-row-end:6;
     font-size: 15px;
@@ -38,23 +39,39 @@
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
+    cursor: pointer;
 }
 .aboutus:hover{
     color:black;
 }
 .services{
-    grid-column-start: 70;
-    grid-column-end: 80;
     grid-row-start: 6;
-    grid-row-end:6;
+    grid-column-start: 91;
     font-size: 15px;
     padding-bottom: 10px;
     font-family: Arial;
     color:darkgreen;
     transition:0.3s ease-in-out;
     font-weight:bold;
+    cursor:pointer;
 }
 .services:hover{
     color:black;
 }
-
+.signin{
+    grid-column-start:108;
+    grid-column-end: 116;
+    grid-row-start: 5;
+    border:none;
+    font-size:15px;
+    background-color: darkolivegreen;
+    color:white;
+    padding-top:10px;
+    font-family: arial;
+    padding-bottom:28px;
+    transition:0.8s;
+}
+.signin:hover{
+    background-color: green;
+    color:white;
+}
