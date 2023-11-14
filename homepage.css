@@ -1,4 +1,4 @@
-@media only screen and (max-width:480px){
+@media only screen and (max-width:640px){
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -10,22 +10,24 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     position:relative;
     display:inline-block;
-    grid-column-start: 36;
-    grid-column-end: 43;
+    grid-column-start: 35;
+    grid-column-end: 37;
     grid-row-start: 5;
-    grid-row-end: 9;
+    grid-row-end: 8;
     text-align: center;
     color:white;
-    background-color: darkolivegreen;
-    border:1px solid darkolivegreen;
     padding-top:10px;
     justify-content: space-between;
-    box-shadow: 0 0.5em 1em rgba(0,0,0,0.1);
     cursor:pointer;
     width:100%;
     transform:translatex(50%);
     z-index:1;
+    background-color: transparent;
     transition:0.3s;
+    width:80px; 
+}
+.menuicon{
+    width:50px;
 }
 .menu-content{
     display:grid;
@@ -35,11 +37,12 @@
     position: absolute;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
 }
 .menu:hover .menu-content{
     color: black;
@@ -47,6 +50,7 @@
     text-decoration: none;
     display: block;
     text-align: left;
+    width:80px;
 }
 .container{
     display:grid;
@@ -124,7 +128,10 @@
 .signin2:hover{
     color:black;
 }
-@media only screen and (min-width:481px){
+img{
+    background-color: transparent;
+}
+@media only screen and (min-width:641px){
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
