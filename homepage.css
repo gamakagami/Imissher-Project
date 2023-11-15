@@ -11,7 +11,7 @@
     position:relative;
     display:inline-block;
     grid-column-start: 28;
-    grid-column-end: 37;
+    grid-column-end: 35;
     grid-row-start: 5;
     grid-row-end: 8;
     text-align: center;
@@ -59,12 +59,12 @@
 }
 .logoo{
     grid-row-start:3;
-    grid-column-start:5;
+    grid-column-start:3;
     width:70px;
     height:auto;
 }
 .logo{
-    grid-column-start: 13;
+    grid-column-start: 11;
     grid-row-start: 4;
     grid-row-end:4;
     font-family: Arial;
@@ -72,8 +72,8 @@
     color:darkolivegreen;
 }
 .slogan{
-    grid-column-start: 14;
-    grid-column-end: 25;
+    grid-column-start: 12;
+    grid-column-end: 23;
     grid-row-start: 8;
     grid-row-end:8;
     font-size: 15px;
@@ -128,8 +128,29 @@
 .signin2:hover{
     color:black;
 }
-img{
-    background-color: transparent;
+.image1{
+    width:350px;
+    grid-row-start: 45;
+    grid-column-start: 3;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 19;
+    grid-column-start: 3;
+    font-family: arial;
+    font-size: 40;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:40;
+    font-family: arial;
+    font-size: 16;
 }
 @media only screen and (min-width:641px){
 .container{
@@ -144,11 +165,6 @@ img{
     display:none;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-}
-.container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -224,5 +240,29 @@ img{
 .signin:hover{
     background-color: green;
     color:white;
+}
+.image1{
+    width:500px;
+    grid-row-start: 15;
+    grid-column-start: 8;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 22;
+    grid-column-start: 73;
+    font-family: arial;
+    font-size: 40;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 73;
+    grid-column-end: 115    ;
+    font-family: arial;
+    font-size: 16;
 }
 }
