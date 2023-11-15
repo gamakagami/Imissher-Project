@@ -239,6 +239,7 @@
     font-family: arial;
     padding-bottom:28px;
     transition:0.8s;
+    border-radius: 10px;
 }
 .signin:hover{
     background-color: green;
