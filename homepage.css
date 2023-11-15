@@ -139,11 +139,11 @@
     opacity:0.9;
 }
 .astracaresintro{
-    grid-row-start: 19;
+    grid-row-start: 18;
     grid-column-start: 3;
     grid-column-end: 30;
     font-family: arial;
-    font-size: 30;
+    font-size: 35;
     color:darkolivegreen;
 }
 .description{
@@ -273,3 +273,4 @@
     font-size: 16;
 }
 }
+
