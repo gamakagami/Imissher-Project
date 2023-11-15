@@ -141,12 +141,13 @@
 .astracaresintro{
     grid-row-start: 19;
     grid-column-start: 3;
+    grid-column-end: 30;
     font-family: arial;
-    font-size: 40;
+    font-size: 30;
     color:darkolivegreen;
 }
 .description{
-    grid-row-start: 25;
+    grid-row-start: 28;
     grid-column-start: 3;
     grid-column-end:36;
     font-family: arial;
@@ -256,14 +257,16 @@
     opacity:0.9;
 }
 .astracaresintro{
-    grid-row-start: 22;
+    grid-row-start: 18;
+    grid-row-end: 23;
     grid-column-start: 73;
+    grid-column-end: 95;
     font-family: arial;
     font-size: 40;
     color:darkolivegreen;
 }
 .description{
-    grid-row-start: 28;
+    grid-row-start: 30;
     grid-column-start: 73;
     grid-column-end: 115    ;
     font-family: arial;
