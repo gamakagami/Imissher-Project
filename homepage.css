@@ -73,7 +73,7 @@
 }
 .slogan{
     grid-column-start: 12;
-    grid-column-end: 23;
+    grid-column-end: 26;
     grid-row-start: 8;
     grid-row-end:8;
     font-size: 15px;
