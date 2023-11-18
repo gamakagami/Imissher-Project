@@ -1,4 +1,7 @@
 @media only screen and (max-width:640px){
+*{
+    font-family:arial;
+}
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -28,6 +31,8 @@
 }
 .menuicon{
     width:50px;
+    outline:none;
+    cursor:pointer;
 }
 .menu-content{
     display:grid;
@@ -154,6 +159,9 @@
     font-size: 16;
 }
 @media only screen and (min-width:641px){
+*{
+    font-family: arial;
+}
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -271,6 +279,69 @@
     grid-column-end: 115    ;
     font-family: arial;
     font-size: 16;
+}
+.baby{
+    grid-row-start: 67;
+    grid-row-end:96;
+    grid-column-start: 8;
+    grid-column-end: 30;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.babysitterimg{
+    grid-row-start: 64;
+    grid-column-start: 8;
+    width:200px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 82;
+    grid-column-start: 10;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 86;
+    grid-column-start: 10;
+    grid-column-end: 27;
+}
+.children{
+    grid-row-start: 67;
+    grid-row-end:96;
+    grid-column-start: 37;
+    grid-column-end: 59;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.teenager{
+    grid-row-start: 67;
+    grid-row-end:96;
+    grid-column-start: 66;
+    grid-column-end: 88;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.viewmore{
+    grid-row-start: 67;
+    grid-row-end:96;
+    grid-column-start: 95;
+    grid-column-end: 117;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 }
 
