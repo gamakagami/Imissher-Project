@@ -10,7 +10,7 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     position:relative;
     display:inline-block;
-    grid-column-start: 28;
+    grid-column-start: 26;
     grid-column-end: 35;
     grid-row-start: 5;
     grid-row-end: 8;
@@ -131,9 +131,9 @@
     color:black;
 }
 .image1{
-    width:350px;
-    grid-row-start: 50;
-    grid-column-start: 3;
+    width:300px;
+    grid-row-start: 54;
+    grid-column-start: 2;
     border-radius:0px 0px 15px 50px;
     transition:0.8s ease;
 }
@@ -151,7 +151,7 @@
 .description{
     grid-row-start: 28;
     grid-column-start: 3;
-    grid-column-end:36;
+    grid-column-end:30;
     font-family: arial;
     font-size: 16;
 }
@@ -403,4 +403,3 @@
     border-radius: 5px;
 }
 }
-
