@@ -158,8 +158,8 @@
 .baby{
     grid-row-start: 90;
     grid-row-end:115;
-    grid-column-start: 4;
-    grid-column-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 17;
     color:darkolivegreen;
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
@@ -167,27 +167,27 @@
 }
 .babysitterimg{
     grid-row-start: 87;
-    grid-column-start: 4;
+    grid-column-start: 1;
     width:150px;
     padding-left: 5px;
     height:auto;
 }
 .baby-head{
     grid-row-start: 102;
-    grid-column-start: 6;
+    grid-column-start: 3;
     font-size: 18px;
     font-weight:bold;
 }
 .baby-text{
     grid-row-start: 106;
-    grid-column-start: 6;
+    grid-column-start: 3;
     grid-column-end: 19;
 }
 .children{
     grid-row-start: 90;
     grid-row-end:115;
-    grid-column-start: 22;
-    grid-column-end: 36;
+    grid-column-start: 19;
+    grid-column-end: 33;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -198,8 +198,8 @@
 .teenager{
     grid-row-start: 117 ;
     grid-row-end:142;
-    grid-column-start: 4;
-    grid-column-end: 20;
+    grid-column-start: 1;
+    grid-column-end: 17;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -209,8 +209,8 @@
 .viewmore{
     grid-row-start: 117 ;
     grid-row-end:142;
-    grid-column-start: 22;
-    grid-column-end: 36;
+    grid-column-start: 19;
+    grid-column-end: 33;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
