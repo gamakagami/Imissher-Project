@@ -1,7 +1,4 @@
 @media only screen and (max-width:640px){
-*{
-    font-family:arial;
-}
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -157,6 +154,68 @@
     grid-column-end:36;
     font-family: arial;
     font-size: 16;
+}
+.baby{
+    grid-row-start: 80;
+    grid-row-end:105;
+    grid-column-start: 4;
+    grid-column-end: 20;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.babysitterimg{
+    grid-row-start: 77;
+    grid-column-start: 4;
+    width:150px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 92;
+    grid-column-start: 6;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 96;
+    grid-column-start: 6;
+    grid-column-end: 19;
+}
+.children{
+    grid-row-start: 80;
+    grid-row-end:105;
+    grid-column-start: 22;
+    grid-column-end: 36;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.teenager{
+    grid-row-start: 107 ;
+    grid-row-end:132;
+    grid-column-start: 4;
+    grid-column-end: 20;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.viewmore{
+    grid-row-start: 107 ;
+    grid-row-end:132;
+    grid-column-start: 22;
+    grid-column-end: 36;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
 }
 @media only screen and (min-width:641px){
 *{
@@ -344,4 +403,3 @@
     border-radius: 5px;
 }
 }
-
