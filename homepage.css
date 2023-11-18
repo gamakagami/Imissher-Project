@@ -156,8 +156,8 @@
     font-size: 16;
 }
 .baby{
-    grid-row-start: 80;
-    grid-row-end:105;
+    grid-row-start: 90;
+    grid-row-end:115;
     grid-column-start: 4;
     grid-column-end: 20;
     color:darkolivegreen;
@@ -166,26 +166,26 @@
     border-radius: 5px;
 }
 .babysitterimg{
-    grid-row-start: 77;
+    grid-row-start: 87;
     grid-column-start: 4;
     width:150px;
     padding-left: 5px;
     height:auto;
 }
 .baby-head{
-    grid-row-start: 92;
+    grid-row-start: 102;
     grid-column-start: 6;
     font-size: 18px;
     font-weight:bold;
 }
 .baby-text{
-    grid-row-start: 96;
+    grid-row-start: 106;
     grid-column-start: 6;
     grid-column-end: 19;
 }
 .children{
-    grid-row-start: 80;
-    grid-row-end:105;
+    grid-row-start: 90;
+    grid-row-end:115;
     grid-column-start: 22;
     grid-column-end: 36;
     text-align: center;
@@ -196,8 +196,8 @@
 }
 
 .teenager{
-    grid-row-start: 107 ;
-    grid-row-end:132;
+    grid-row-start: 117 ;
+    grid-row-end:142;
     grid-column-start: 4;
     grid-column-end: 20;
     text-align: center;
@@ -207,8 +207,8 @@
     border-radius: 5px;
 }
 .viewmore{
-    grid-row-start: 107 ;
-    grid-row-end:132;
+    grid-row-start: 117 ;
+    grid-row-end:142;
     grid-column-start: 22;
     grid-column-end: 36;
     text-align: center;
@@ -403,3 +403,4 @@
     border-radius: 5px;
 }
 }
+
