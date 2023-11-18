@@ -157,7 +157,7 @@
 }
 .baby{
     grid-row-start: 90;
-    grid-row-end:115;
+    grid-row-end:117;
     grid-column-start: 1;
     grid-column-end: 17;
     color:darkolivegreen;
@@ -185,7 +185,7 @@
 }
 .children{
     grid-row-start: 90;
-    grid-row-end:115;
+    grid-row-end:117;
     grid-column-start: 19;
     grid-column-end: 33;
     text-align: center;
@@ -212,8 +212,8 @@
     grid-column-end: 33;
 }
 .teenager{
-    grid-row-start: 117;
-    grid-row-end:142;
+    grid-row-start: 119;
+    grid-row-end:146;
     grid-column-start: 1;
     grid-column-end: 17;
     text-align: center;
@@ -240,8 +240,8 @@
     grid-column-end: 15;
 }
 .viewmore{
-    grid-row-start: 117 ;
-    grid-row-end:142;
+    grid-row-start: 121 ;
+    grid-row-end:146;
     grid-column-start: 19;
     grid-column-end: 33;
     text-align: center;
