@@ -181,7 +181,7 @@
 .baby-text{
     grid-row-start: 106;
     grid-column-start: 3;
-    grid-column-end: 19;
+    grid-column-end: 15;
 }
 .children{
     grid-row-start: 90;
@@ -256,7 +256,7 @@
 }
 .slogan{
     grid-column-start: 16;
-    grid-column-end: 25;
+    grid-column-end: 27;
     grid-row-start: 8;
     grid-row-end:8;
     font-size: 15px;
@@ -366,7 +366,7 @@
 .baby-text{
     grid-row-start: 86;
     grid-column-start: 10;
-    grid-column-end: 27;
+    grid-column-end: 28;
 }
 .children{
     grid-row-start: 67;
@@ -379,7 +379,24 @@
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-
+.nannypic{
+    grid-row-start: 68;
+    grid-column-start: 41;
+    width:110px;
+    padding-left: 5px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 82;
+    grid-column-start: 39;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 86;
+    grid-column-start: 39;
+    grid-column-end: 57;
+}
 .teenager{
     grid-row-start: 67;
     grid-row-end:96;
@@ -391,6 +408,24 @@
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
+.governessimg{
+    grid-row-start: 69;
+    grid-column-start: 71;
+    width:110px;
+    padding-left: 5px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 82;
+    grid-column-start: 68;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 86;
+    grid-column-start: 68;
+    grid-column-end: 86;
+}
 .viewmore{
     grid-row-start: 67;
     grid-row-end:96;
@@ -401,5 +436,29 @@
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+.viewmore-text{
+    grid-row-start: 75;
+    grid-column-start: 98;
+    grid-column-end: 114;
+    text-align: center;
+    font-weight: bold;
+}
+.clickhere{
+    grid-row-start: 83  ;
+    grid-row-end: 87;
+    grid-column-start: 99;
+    grid-column-end: 113;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
 }
 }
