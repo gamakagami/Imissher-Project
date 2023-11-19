@@ -134,7 +134,7 @@
     color:black;
 }
 .image1{
-    width:300px;
+    width:320px;
     grid-row-start: 54;
     grid-column-start: 2;
     border-radius:0px 0px 15px 50px;
@@ -156,7 +156,6 @@
     grid-column-start: 3;
     grid-column-end:30;
     font-family: arial;
-    font-size: 16;
 }
 .baby{
     grid-row-start: 90;
