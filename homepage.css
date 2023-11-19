@@ -279,6 +279,84 @@
     color:black;
     border:2px solid black;
 }
+.chooseus{  
+    grid-row-start: 165;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:100px;
+    height:auto;
+    grid-row-start: 172;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 172;
+    grid-column-start: 14;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 175;
+    grid-column-start: 15;
+    grid-column-end: 34;
+}
+.lightningimg{
+    width:114px;
+    height:auto;
+    grid-row-start: 192;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 192;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 195;
+    grid-column-start: 15;
+    grid-column-end: 34;
+}
+.comfortsymbol{
+    width:115px;
+    height:auto;
+    grid-row-start: 213;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 214;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 217;
+    grid-column-start: 15;
+    grid-column-end: 34;
+}
+.healthsymbol{
+    grid-row-start: 235;
+    grid-column-start: 3; 
+    width:110px;
+}
+.health-head{
+    grid-row-start: 236;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 239;
+}
 @media only screen and (min-width:641px){
 *{
     font-family: arial;
@@ -362,12 +440,13 @@
     font-family: arial;
     padding-bottom:28px;
     transition:0.8s;
-    border-radius: 10px;
+    border-radius: 5px;
     font-weight: bold;
 }
 .signin:hover{
-    background-color: green;
-    color:white;
+    background-color: white;
+    color:darkolivegreen;
+    border:2px solid black;
 }
 .image1{
     width:500px;
@@ -396,8 +475,8 @@
     font-size: 18;
 }
 .baby{
-    grid-row-start: 67;
-    grid-row-end:96;
+    grid-row-start: 64;
+    grid-row-end:93;
     grid-column-start: 8;
     grid-column-end: 30;
     text-align: center;
@@ -407,28 +486,28 @@
     border-radius: 5px;
 }
 .babysitterimg{
-    grid-row-start: 64;
+    grid-row-start: 61;
     grid-column-start: 8;
     width:200px;
     padding-left: 5px;
     height:auto;
 }
 .baby-head{
-    grid-row-start: 82;
+    grid-row-start: 79;
     grid-column-start: 10;
     font-size: 18px;
     font-weight:bold;
     cursor: pointer;
 }
 .baby-text{
-    grid-row-start: 86;
+    grid-row-start: 83;
     grid-column-start: 10;
     grid-column-end: 28;
     cursor: pointer;
 }
 .children{
-    grid-row-start: 67;
-    grid-row-end:96;
+    grid-row-start: 64;
+    grid-row-end:93;
     grid-column-start: 37;
     grid-column-end: 59;
     text-align: center;
@@ -438,28 +517,28 @@
     border-radius: 5px;
 }
 .nannypic{
-    grid-row-start: 68;
+    grid-row-start: 65;
     grid-column-start: 41;
     width:110px;
     padding-left: 5px;
     height:auto;
 }
 .children-head{
-    grid-row-start: 82;
+    grid-row-start: 79;
     grid-column-start: 39;
     font-size: 18px;
     font-weight:bold;
     cursor: pointer;
 }
 .children-text{
-    grid-row-start: 86;
+    grid-row-start: 83;
     grid-column-start: 39;
     grid-column-end: 57;
     cursor: pointer;
 }
 .teenager{
-    grid-row-start: 67;
-    grid-row-end:96;
+    grid-row-start: 64;
+    grid-row-end:93;
     grid-column-start: 66;
     grid-column-end: 88;
     text-align: center;
@@ -469,28 +548,28 @@
     border-radius: 5px;
 }
 .governessimg{
-    grid-row-start: 69;
+    grid-row-start: 66;
     grid-column-start: 71;
     width:110px;
     padding-left: 5px;
     height:auto;
 }
 .governess-head{
-    grid-row-start: 82;
+    grid-row-start: 79;
     grid-column-start: 68;
     font-size: 18px;
     font-weight:bold;
     cursor: pointer;
 }
 .governess-text{
-    grid-row-start: 86;
+    grid-row-start: 83;
     grid-column-start: 68;
     grid-column-end: 86;
     cursor: pointer;
 }
 .viewmore{
-    grid-row-start: 67;
-    grid-row-end:96;
+    grid-row-start: 64;
+    grid-row-end:93;
     grid-column-start: 95;
     grid-column-end: 117;
     text-align: center;
@@ -500,7 +579,7 @@
     border-radius: 5px;
 }
 .viewmore-text{
-    grid-row-start: 75;
+    grid-row-start: 72;
     grid-column-start: 98;
     grid-column-end: 114;
     text-align: center;
@@ -508,8 +587,8 @@
     cursor: pointer;
 }
 .clickhere{
-    grid-row-start: 83  ;
-    grid-row-end: 87;
+    grid-row-start: 80  ;
+    grid-row-end: 84;
     grid-column-start: 99;
     grid-column-end: 113;
     border-radius: 5px;
