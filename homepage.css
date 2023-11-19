@@ -1,4 +1,7 @@
 @media only screen and (max-width:640px){
+*{
+    font-family: arial;
+}
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
@@ -367,6 +370,7 @@
     padding-bottom:28px;
     transition:0.8s;
     border-radius: 10px;
+    font-weight: bold;
 }
 .signin:hover{
     background-color: green;
@@ -396,7 +400,7 @@
     grid-column-start: 73;
     grid-column-end: 115    ;
     font-family: arial;
-    font-size: 16;
+    font-size: 18;
 }
 .baby{
     grid-row-start: 67;
@@ -421,11 +425,13 @@
     grid-column-start: 10;
     font-size: 18px;
     font-weight:bold;
+    cursor: pointer;
 }
 .baby-text{
     grid-row-start: 86;
     grid-column-start: 10;
     grid-column-end: 28;
+    cursor: pointer;
 }
 .children{
     grid-row-start: 67;
@@ -450,11 +456,13 @@
     grid-column-start: 39;
     font-size: 18px;
     font-weight:bold;
+    cursor: pointer;
 }
 .children-text{
     grid-row-start: 86;
     grid-column-start: 39;
     grid-column-end: 57;
+    cursor: pointer;
 }
 .teenager{
     grid-row-start: 67;
@@ -479,11 +487,13 @@
     grid-column-start: 68;
     font-size: 18px;
     font-weight:bold;
+    cursor: pointer;
 }
 .governess-text{
     grid-row-start: 86;
     grid-column-start: 68;
     grid-column-end: 86;
+    cursor: pointer;
 }
 .viewmore{
     grid-row-start: 67;
@@ -502,6 +512,7 @@
     grid-column-end: 114;
     text-align: center;
     font-weight: bold;
+    cursor: pointer;
 }
 .clickhere{
     grid-row-start: 83  ;
@@ -516,8 +527,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
+    background-color: white;
+    color:darkolivegreen;
     border:2px solid black;
 }
 }
