@@ -15,7 +15,7 @@
     display:inline-block;
     grid-column-start: 26;
     grid-column-end: 35;
-    grid-row-start: 5;
+    grid-row-start: 3;
     grid-row-end: 8;
     text-align: center;
     color:white;
@@ -68,24 +68,34 @@
 .navbar{
     display:none;
 }
-.logoo{
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
     grid-row-start:3;
     grid-column-start:3;
-    width:70px;
+    width:65px;
     height:auto;
 }
-.logo{
+.logo2{
     grid-column-start: 11;
     grid-row-start: 4;
     grid-row-end:4;
     font-family: Arial;
-    font-size: 35px;
+    font-size: 30px;
     color:darkolivegreen;
 }
-.slogan{
+.slogan2{
     grid-column-start: 12;
     grid-column-end: 26;
-    grid-row-start: 8;
+    grid-row-start: 7;
     grid-row-end:8;
     font-size: 15px;
     padding-bottom: 10px;
@@ -382,7 +392,7 @@
     width:100%;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
-.menu{
+.navbar2{
     display:none;
 }
 .menu-content{
@@ -716,16 +726,6 @@
 .menu-content{
     display:none;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
 .logoo{
     grid-row-start:3;
     grid-column-start:5;
@@ -800,6 +800,16 @@
 .signin:hover{
     background-color: green;
     color:white;
+}
+.navbar{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
+    top:0;
+    position:fixed;
+    background-color: white;
+    width:100%;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
 }
 .image1{
     width:610px;
