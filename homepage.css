@@ -765,6 +765,7 @@
     grid-column-start: 29;
     grid-column-end: 40;    
     font-weight: bold;
+    font-size: 20px;
 }
 .comfort-text{
     grid-row-start: 193;
