@@ -138,7 +138,7 @@
 }
 .image1{
     width:320px;
-    grid-row-start: 54;
+    grid-row-start: 50;
     grid-column-start: 2;
     border-radius:0px 0px 15px 50px;
     transition:0.8s ease;
