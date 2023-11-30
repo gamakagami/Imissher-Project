@@ -504,7 +504,7 @@
 }
 .bg{
     background-color: rgb(62, 61, 61);
-    opacity: 0.05;
+    opacity: 0.04;
     grid-column-start: 1;
     grid-column-end: 126;
     grid-row-start: 59;
@@ -702,7 +702,7 @@
 }
 .bg2{
     background-color: rgb(62, 61, 61);
-    opacity: 0.05;
+    opacity: 0.04;
     grid-column-start: 1;
     grid-column-end: 126;
     grid-row-start: 154;
