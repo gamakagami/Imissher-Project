@@ -1,3 +1,4 @@
+<div class="text>
 <h1>I miss her</h1>
 <h2>Welcome to our final project</h2>
 <p>This project is made by:</p>
@@ -6,5 +7,12 @@
   <li>Gabriel</li>
   <li>Rafael</li>
 </ul>
+  </div>
 <img src="klee.jpeg">
 <h4>Visit our website <a href="https://gamakagami.github.io/Imissher-Project/">here</a> </h4>
+<style>
+  img{
+    display:flex}
+  .text{
+display:flex}
+</style>
