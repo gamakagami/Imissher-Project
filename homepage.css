@@ -490,9 +490,9 @@
     grid-row-start: 18;
     grid-row-end: 23;
     grid-column-start: 73;
-    grid-column-end: 95;
+    grid-column-end: 100;
     font-family: arial;
-    font-size: 40;
+    font-size: 42;
     color:darkolivegreen;
 }
 .description{
@@ -500,7 +500,7 @@
     grid-column-start: 73;
     grid-column-end: 115    ;
     font-family: arial;
-    font-size: 18;
+    font-size: 19;
 }
 .bg{
     background-color: rgb(62, 61, 61);
