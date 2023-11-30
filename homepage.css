@@ -147,7 +147,7 @@
     opacity:0.9;
 }
 .astracaresintro{
-    grid-row-start: 11;
+    grid-row-start: 18;
     grid-column-start: 3;
     grid-column-end: 30;
     font-family: arial;
@@ -308,15 +308,15 @@
     grid-column-start: 3;
     grid-column-end:34;
     text-align: center;
-    font-size: medium;
+    font-size:14px;
 }
 .caretakershead{
     color:darkolivegreen;
 }
 .caretakerstext{
     color:darkolivegreen;
-    grid-row-start: 190;
-    grid-column-start: 3;
+    grid-row-start: 180;
+    grid-column-start: 5;
     grid-column-end:60;
     font-size: larger;
 }
@@ -324,87 +324,90 @@
     font-size: larger;
 }
 .list{
-    grid-row-start: 192;
+    grid-row-start: 181;
     grid-column-start: 3;
     grid-column-end: 30;
     font-size: larger;
     text-align: center;
 }
 .senpaiimg{
-    grid-row-start: 210;
+    grid-row-start: 197;
     grid-column-start: 6;
     width:240px;
     height:Auto;
     border-radius: 15px 10px 10px 15px;
 }
 .chooseus{  
-    grid-row-start: 245;
+    grid-row-start: 235;
     grid-column-start: 5;
     grid-column-end: 30;
     font-size: 30px;
     color:darkolivegreen;
 }
 .percentagesymbol{
-    width:100px;
+    width:90px;
     height:auto;
-    grid-row-start: 252;
+    grid-row-start: 243;
     grid-column-start: 3;
 }
 .percentage-head{
-    grid-row-start: 252;
+    grid-row-start: 243;
     grid-column-start: 15;
     grid-column-end: 40;
     font-size: 20px;
     font-weight: bold;
 }
 .percentage-text{
-    grid-row-start: 255;
+    grid-row-start: 246;
     grid-column-start: 15;
     grid-column-end: 34;
+    font-size: 14px;
 }
 .lightningimg{
-    width:114px;
+    width:104px;
     height:auto;
-    grid-row-start: 272;
+    grid-row-start: 258;
     grid-column-start: 2;   
 }
 .lightning-head{
-    grid-row-start: 272;
+    grid-row-start: 258;
     grid-column-start: 15;
     grid-column-end: 41;
     font-size: 20px;
     font-weight: bold;
 }
 .lightning-text{
-    grid-row-start: 275;
+    grid-row-start: 261;
     grid-column-start: 15;
     grid-column-end: 34;
+    font-size: 14px;
 }
 .comfortsymbol{
-    width:115px;
+    width:105px;
     height:auto;
-    grid-row-start: 293;
+    grid-row-start: 273;
     grid-column-start: 3;
 }
 .comfort-head{
-    grid-row-start: 294;
+    grid-row-start: 273;
     grid-column-start: 15;
     grid-column-end: 34;
     font-size: 20px;
     font-weight: bold;
 }
 .comfort-text{
-    grid-row-start: 297;
+    grid-row-start: 276;
     grid-column-start: 15;
     grid-column-end: 34;
+    font-size: 14px;
 }
 .healthsymbol{
-    grid-row-start: 315;
+    grid-row-start: 289;
     grid-column-start: 3; 
-    width:110px;
+    width:100px;
 }
-.health-head{
-    grid-row-start: 316;
+.health-head{   
+    grid-row-start: 289;
     grid-column-start: 15;
     grid-column-end: 34;
     font-size: 20px;
@@ -413,7 +416,8 @@
 .health-text{
     grid-column-start: 15;
     grid-column-end: 34;
-    grid-row-start: 319;
+    grid-row-start: 292;
+    font-size: 14px;
 }
 }
 @media only screen and (min-width:541px) and (max-width:590px){
