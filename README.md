@@ -1,4 +1,4 @@
-<div class="text>
+<div class="text">
 <h1>I miss her</h1>
 <h2>Welcome to our final project</h2>
 <p>This project is made by:</p>
