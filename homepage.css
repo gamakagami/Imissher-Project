@@ -695,9 +695,10 @@
 }
 .senpaiimg{
     grid-row-start: 107;
-    grid-column-start: 72;
-    width:380px;
+    grid-column-start: 73;
+    width:390px;
     height:Auto;
+    border-radius: 15px 10px 10px 15px;
 }
 .bg2{
     background-color: rgb(62, 61, 61);
