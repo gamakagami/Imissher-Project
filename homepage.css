@@ -174,9 +174,21 @@
 }
 .bg{
     grid-column-start: 1;
-    grid-column-end:30;
+    grid-column-end:39;
     grid-row-start:80;
     grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:39;
+    grid-row-start: 242;
+    grid-row-end: 330;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
 }
 .baby{
     grid-row-start: 90;
@@ -187,6 +199,7 @@
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    background-color: white;
 }
 .babysitterimg{
     grid-row-start: 87;
@@ -216,6 +229,7 @@
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    background-color: white;
 }
 .nannypic{
     grid-row-start: 90;
@@ -244,6 +258,7 @@
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    background-color: white;
 }
 .governessimg{
     grid-row-start: 122     ;
@@ -272,6 +287,7 @@
     font-family: arial;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+    background-color: white;
 }
 .viewmore-text{
     grid-row-start: 126;
@@ -743,11 +759,11 @@
 .bg2{
     background-color: rgb(62, 61, 61);
     opacity: 0.04;
+    z-index:-1000;
     grid-column-start: 1;
     grid-column-end: 126;
     grid-row-start: 154;
     grid-row-end: 207;
-    z-index:-1000;
 }
 .chooseus{
     grid-row-start: 158;
