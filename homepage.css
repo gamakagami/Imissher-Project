@@ -172,8 +172,8 @@
 .bg2{
     grid-column-start: 1;
     grid-column-end:60;
-    grid-row-start: 242;
-    grid-row-end: 335;
+    grid-row-start: 230;
+    grid-row-end: 305;
     background-color: rgb(62, 61, 61);
     opacity: 0.04;
     z-index:-1000;
