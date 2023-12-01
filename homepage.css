@@ -1,5 +1,5 @@
 /*For smartphones*/
-@media only screen and (max-width:540px){
+@media only screen and (max-width:400px){
 *{
     font-family: arial;
 }
@@ -212,7 +212,7 @@
     grid-row-start: 90;
     grid-row-end:117;
     grid-column-start: 19;
-    grid-column-end: 33;
+    grid-column-end: 35;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -222,7 +222,7 @@
 }
 .nannypic{
     grid-row-start: 90;
-    grid-column-start: 21;
+    grid-column-start: 22;
     width:90px;
     height:auto;
 }
@@ -270,7 +270,7 @@
     grid-row-start: 121 ;
     grid-row-end:148;
     grid-column-start: 19;
-    grid-column-end: 33;
+    grid-column-end: 35;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -280,8 +280,8 @@
 }
 .viewmore-text{
     grid-row-start: 126;
-    grid-column-start: 20;
-    grid-column-end: 31;
+    grid-column-start: 21;
+    grid-column-end: 32;
     text-align: center;
     font-weight: bold;
     padding-left: 5px;
@@ -289,8 +289,8 @@
 .clickhere{
     grid-row-start: 136;
     grid-row-end: 140;
-    grid-column-start: 20;
-    grid-column-end: 31;
+    grid-column-start: 21;
+    grid-column-end: 32;
     margin-left: 7px;
     border-radius: 5px;
     border:none;
@@ -421,21 +421,20 @@
     font-size: 14px;
 }
 }
-/*For tablets*/
-@media only screen and (min-width:541px) and (max-width:590px){
+@media only screen and (min-width:401px) and (max-width:421px){
 *{
     font-family: arial;
 }
 .container{
     display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
 .menu{
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 35;
+    grid-column-start: 27;
     grid-column-end: 35;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -459,6 +458,9 @@
     cursor:pointer;
 }
 .menu-content{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -480,7 +482,7 @@
 }
 .navbar2{
     display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
     top:0;
     position:fixed;
@@ -559,6 +561,2117 @@
 }
 .image1{
     width:320px;
+    grid-row-start: 50;
+    grid-column-start: 3;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 18;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 3;
+    grid-column-end:33;
+    font-family: arial;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:65;
+    grid-row-start:83;
+    grid-row-end:152;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start: 230;
+    grid-row-end: 305;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 1;
+    grid-column-end: 17;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 87;
+    grid-column-start: 1;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 102;
+    grid-column-start: 3;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 106;
+    grid-column-start: 3;
+    grid-column-end: 15;
+}
+.children{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 21;
+    grid-column-end: 37;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 90;
+    grid-column-start: 24;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 102;
+    grid-column-start: 23;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 106;
+    grid-column-start: 23;
+    grid-column-end: 35;
+}
+.teenager{
+    grid-row-start: 121;
+    grid-row-end:148;
+    grid-column-start: 1;
+    grid-column-end: 17;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 122     ;
+    grid-column-start: 5;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 131;
+    grid-column-start: 3;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 135;
+    grid-column-start: 3;
+    grid-column-end: 15;
+}
+.viewmore{
+    grid-row-start: 121 ;
+    grid-row-end:148;
+    grid-column-start: 21;
+    grid-column-end: 37;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 126;
+    grid-column-start: 23;
+    grid-column-end: 34;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 136;
+    grid-row-end: 140;
+    grid-column-start: 23;
+    grid-column-end: 34;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 3;
+    grid-column-end:34;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 180;
+    grid-column-start: 5;
+    grid-column-end:60;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 181;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 197;
+    grid-column-start: 6;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 235;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 243;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 243;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 246;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 258;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 258;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 261;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 273;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 273;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 276;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 289;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 289;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 292;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:421px) and (max-width:441px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 28;
+    grid-column-end: 35;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:320px;
+    grid-row-start: 50;
+    grid-column-start: 3;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 18;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 3;
+    grid-column-end:33;
+    font-family: arial;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start:83;
+    grid-row-end:152;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start: 230;
+    grid-row-end: 305;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 2;
+    grid-column-end: 18;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 87;
+    grid-column-start: 2;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 102;
+    grid-column-start: 4;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 106;
+    grid-column-start: 4;
+    grid-column-end: 16;
+}
+.children{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 23;
+    grid-column-end: 39;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 90;
+    grid-column-start: 26;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 102;
+    grid-column-start: 25;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 106;
+    grid-column-start: 25;
+    grid-column-end: 37;
+}
+.teenager{
+    grid-row-start: 121;
+    grid-row-end:148;
+    grid-column-start: 2;
+    grid-column-end: 18;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 122     ;
+    grid-column-start: 6;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 131;
+    grid-column-start: 4;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 135;
+    grid-column-start: 4;
+    grid-column-end: 16;
+}
+.viewmore{
+    grid-row-start: 121 ;
+    grid-row-end:148;
+    grid-column-start: 23;
+    grid-column-end: 39;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 126;
+    grid-column-start: 25;
+    grid-column-end: 36;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 136;
+    grid-row-end: 140;
+    grid-column-start: 25;
+    grid-column-end: 36;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 6;
+    grid-column-end:37;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 180;
+    grid-column-start: 8;
+    grid-column-end:63;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 181;
+    grid-column-start: 6;
+    grid-column-end: 33;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 197;
+    grid-column-start: 9;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 235;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 243;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 243;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 246;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 258;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 258;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 261;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 273;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 273;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 276;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 289;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 289;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 292;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:441px) and (max-width:461px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 29;
+    grid-column-end: 36;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:330px;
+    grid-row-start: 50;
+    grid-column-start: 4;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 18;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 3;
+    grid-column-end:35;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:62;
+    grid-row-start:83;
+    grid-row-end:152;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:63;
+    grid-row-start: 230;
+    grid-row-end: 305;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 87;
+    grid-column-start: 3;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 102;
+    grid-column-start: 5;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 106;
+    grid-column-start: 5;
+    grid-column-end: 16;
+}
+.children{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 24;
+    grid-column-end: 40;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 90;
+    grid-column-start: 27;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 102;
+    grid-column-start: 26;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 106;
+    grid-column-start: 26;
+    grid-column-end: 38;
+}
+.teenager{
+    grid-row-start: 121;
+    grid-row-end:148;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 122     ;
+    grid-column-start: 7;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 131;
+    grid-column-start: 5;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 135;
+    grid-column-start: 5;
+    grid-column-end: 17;
+}
+.viewmore{
+    grid-row-start: 121 ;
+    grid-row-end:148;
+    grid-column-start: 24;
+    grid-column-end: 40;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 126;
+    grid-column-start: 26;
+    grid-column-end: 37;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 136;
+    grid-row-end: 140;
+    grid-column-start: 26;
+    grid-column-end: 37;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 7;
+    grid-column-end:38;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 180;
+    grid-column-start: 9;
+    grid-column-end:64;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 181;
+    grid-column-start: 7;
+    grid-column-end: 34;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 197;
+    grid-column-start: 10;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 235;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 243;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 243;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 246;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 258;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 258;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 261;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 273;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 273;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 276;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 289;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 289;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 292;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:461px) and (max-width:481px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 31;
+    grid-column-end: 36;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:340px;
+    grid-row-start: 50;
+    grid-column-start: 5;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 18;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 3;
+    grid-column-end:37;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:62;
+    grid-row-start:83;
+    grid-row-end:152;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:63;
+    grid-row-start: 230;
+    grid-row-end: 305;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 87;
+    grid-column-start: 3;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 102;
+    grid-column-start: 5;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 106;
+    grid-column-start: 5;
+    grid-column-end: 16;
+}
+.children{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 24;
+    grid-column-end: 40;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 90;
+    grid-column-start: 27;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 102;
+    grid-column-start: 26;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 106;
+    grid-column-start: 26;
+    grid-column-end: 38;
+}
+.teenager{
+    grid-row-start: 121;
+    grid-row-end:148;
+    grid-column-start: 3;
+    grid-column-end: 19;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 122     ;
+    grid-column-start: 7;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 131;
+    grid-column-start: 5;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 135;
+    grid-column-start: 5;
+    grid-column-end: 17;
+}
+.viewmore{
+    grid-row-start: 121 ;
+    grid-row-end:148;
+    grid-column-start: 24;
+    grid-column-end: 40;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 126;
+    grid-column-start: 26;
+    grid-column-end: 37;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 136;
+    grid-row-end: 140;
+    grid-column-start: 26;
+    grid-column-end: 37;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 7;
+    grid-column-end:38;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 180;
+    grid-column-start: 9;
+    grid-column-end:64;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 181;
+    grid-column-start: 7;
+    grid-column-end: 34;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 197;
+    grid-column-start: 10;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 235;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 243;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 243;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 246;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 258;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 258;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 261;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 273;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 273;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 276;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 289;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 289;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 292;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:481px) and (max-width:501px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 33;
+    grid-column-end: 36;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:345px;
+    grid-row-start: 50;
+    grid-column-start: 6;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 18;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 28;
+    grid-column-start: 3;
+    grid-column-end:37;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:68;
+    grid-row-start:83;
+    grid-row-end:152;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:68;
+    grid-row-start: 230;
+    grid-row-end: 305;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 5;
+    grid-column-end: 21;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 87;
+    grid-column-start: 5;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 102;
+    grid-column-start: 7;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 106;
+    grid-column-start: 7;
+    grid-column-end: 18;
+}
+.children{
+    grid-row-start: 90;
+    grid-row-end:117;
+    grid-column-start: 26;
+    grid-column-end: 42;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 90;
+    grid-column-start: 29;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 102;
+    grid-column-start: 28;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 106;
+    grid-column-start: 28;
+    grid-column-end: 40;
+}
+.teenager{
+    grid-row-start: 121;
+    grid-row-end:148;
+    grid-column-start: 5;
+    grid-column-end: 21;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 122     ;
+    grid-column-start: 7;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 131;
+    grid-column-start: 7;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 135;
+    grid-column-start: 7;
+    grid-column-end: 19;
+}
+.viewmore{
+    grid-row-start: 121 ;
+    grid-row-end:148;
+    grid-column-start: 26;
+    grid-column-end: 42;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 126;
+    grid-column-start: 28;
+    grid-column-end: 39;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 136;
+    grid-row-end: 140;
+    grid-column-start: 28;
+    grid-column-end: 39;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 9;
+    grid-column-end:40;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 180;
+    grid-column-start: 11;
+    grid-column-end:66;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 181;
+    grid-column-start: 9;
+    grid-column-end: 36;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 197;
+    grid-column-start: 12;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 235;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 243;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 243;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 246;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 258;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 258;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 261;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 273;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 273;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 276;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 289;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 289;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 292;
+    font-size: 14px;
+}
+}
+/*For tablets*/
+@media only screen and (min-width:541px) and (max-width:551px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 38;
+    grid-column-end: 38;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:340px;
     grid-row-start: 42;
     grid-column-start: 6;
     border-radius:0px 0px 15px 50px;
@@ -631,8 +2744,8 @@
 .children{
     grid-row-start: 85;
     grid-row-end:112;
-    grid-column-start: 24;
-    grid-column-end: 38;
+    grid-column-start: 29;
+    grid-column-end: 43;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -642,20 +2755,20 @@
 }
 .nannypic{
     grid-row-start: 85;
-    grid-column-start: 26;
+    grid-column-start: 31;
     width:90px;
     height:auto;
 }
 .children-head{
     grid-row-start: 97;
-    grid-column-start: 26;
+    grid-column-start: 31;
     font-size: 18px;
     font-weight:bold;
 }
 .children-text{
     grid-row-start: 101;
-    grid-column-start: 26;
-    grid-column-end: 38;
+    grid-column-start: 31;
+    grid-column-end: 43;
 }
 .teenager{
     grid-row-start: 116;
@@ -689,8 +2802,8 @@
 .viewmore{
     grid-row-start: 116 ;
     grid-row-end:143;
-    grid-column-start: 24;
-    grid-column-end: 38;
+    grid-column-start: 29;
+    grid-column-end: 43;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -700,8 +2813,8 @@
 }
 .viewmore-text{
     grid-row-start: 121;
-    grid-column-start: 25;
-    grid-column-end: 36;
+    grid-column-start: 30;
+    grid-column-end: 41;
     text-align: center;
     font-weight: bold;
     padding-left: 5px;
@@ -709,8 +2822,8 @@
 .clickhere{
     grid-row-start: 131;
     grid-row-end: 135;
-    grid-column-start: 25;
-    grid-column-end: 36;
+    grid-column-start: 31;
+    grid-column-end: 41;
     margin-left: 7px;
     border-radius: 5px;
     border:none;
@@ -726,8 +2839,8 @@
 }
 .senpaihead{
     grid-row-start: 155;
-    grid-column-start: 5;
-    grid-column-end:40;
+    grid-column-start: 10;
+    grid-column-end:45;
     text-align: center;
     font-size:14px;
 }
@@ -737,8 +2850,8 @@
 .caretakerstext{
     color:darkolivegreen;
     grid-row-start: 176;
-    grid-column-start: 8;
-    grid-column-end:60;
+    grid-column-start: 13;
+    grid-column-end:65;
     font-size: larger;
 }
 .senpaihead p{
@@ -746,15 +2859,2952 @@
 }
 .list{
     grid-row-start: 177;
-    grid-column-start: 5;
-    grid-column-end: 38;
+    grid-column-start: 10;
+    grid-column-end: 43;
     font-size: larger;
     text-align: center;
 }
 .senpaiimg{
     grid-row-start: 193;
-    grid-column-start: 13;
+    grid-column-start: 15;
     width:210px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:551px) and (max-width:561px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 39;
+    grid-column-end: 39;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:340px;
+    grid-row-start: 42;
+    grid-column-start: 6;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:42;
+    font-family: arial;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start:80;
+    grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 6;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 29;
+    grid-column-end: 45;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 31;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 31;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 31;
+    grid-column-end: 43;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 10;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 29;
+    grid-column-end: 45;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 31;
+    grid-column-end: 42;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 31;
+    grid-column-end: 41;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 10;
+    grid-column-end:45;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 13;
+    grid-column-end:65;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 10;
+    grid-column-end: 43;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 193;
+    grid-column-start: 15;
+    width:210px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:561px) and (max-width:571px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 40;
+    grid-column-end: 40;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start: 9;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:42;
+    font-family: arial;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start:80;
+    grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 6;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 30;
+    grid-column-end: 46;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 33;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 32;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 32;
+    grid-column-end: 44;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 10;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 30;
+    grid-column-end: 46;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 32;
+    grid-column-end: 43;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 32;
+    grid-column-end: 43;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 10;
+    grid-column-end:45;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 13;
+    grid-column-end:65;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 10;
+    grid-column-end: 43;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 193;
+    grid-column-start: 16;
+    width:220px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:571px) and (max-width:581px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 40;
+    grid-column-end: 40;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start: 9;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:42;
+    font-family: arial;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start:80;
+    grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:60;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 6;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 30;
+    grid-column-end: 46;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 33;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 32;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 32;
+    grid-column-end: 44;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 6;
+    grid-column-end: 22;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 10;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 8;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 8;
+    grid-column-end: 20;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 30;
+    grid-column-end: 46;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 32;
+    grid-column-end: 43;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 32;
+    grid-column-end: 43;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 10;
+    grid-column-end:45;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 13;
+    grid-column-end:65;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 10;
+    grid-column-end: 43;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 193;
+    grid-column-start: 16;
+    width:220px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:581px) and (max-width:591px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 42;
+    grid-column-end: 42;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start: 9;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:45;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:62;
+    grid-row-start:80;
+    grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:62;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 7;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 31;
+    grid-column-end: 47;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 34;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 33;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 33;
+    grid-column-end: 45;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 11;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 31;
+    grid-column-end: 47;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 33;
+    grid-column-end: 44;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 33;
+    grid-column-end: 44;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 11;
+    grid-column-end:46;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 14;
+    grid-column-end:66;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 11;
+    grid-column-end: 44;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 194;
+    grid-column-start: 17;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:591px) and (max-width:601px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 44;
+    grid-column-end: 44;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start:11;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:45;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:64;
+    grid-row-start:80;
+    grid-row-end:150;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:64;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 7;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 33;
+    grid-column-end: 49;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 36;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 35;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 35;
+    grid-column-end: 47;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 11;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 33;
+    grid-column-end: 49;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 35;
+    grid-column-end: 46;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 35;
+    grid-column-end: 46;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 13;
+    grid-column-end:48;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 16;
+    grid-column-end:68;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 13;
+    grid-column-end: 45;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 194;
+    grid-column-start: 19;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:601px) and (max-width:621px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 44;
+    grid-column-end: 44;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start:11;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:45;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:70;
+    grid-row-start:80;
+    grid-row-end:148;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:70;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 7;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 33;
+    grid-column-end: 49;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 36;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 35;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 35;
+    grid-column-end: 47;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 7;
+    grid-column-end: 23;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 11;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 9;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 9;
+    grid-column-end: 21;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 33;
+    grid-column-end: 49;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 35;
+    grid-column-end: 46;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 35;
+    grid-column-end: 46;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 13;
+    grid-column-end:48;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 16;
+    grid-column-end:68;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 13;
+    grid-column-end: 45;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 194;
+    grid-column-start: 19;
+    width:240px;
+    height:Auto;
+    border-radius: 15px 10px 10px 15px;
+}
+.chooseus{  
+    grid-row-start: 231;
+    grid-column-start: 5;
+    grid-column-end: 30;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.percentagesymbol{
+    width:90px;
+    height:auto;
+    grid-row-start: 238;
+    grid-column-start: 3;
+}
+.percentage-head{
+    grid-row-start: 238;
+    grid-column-start: 15;
+    grid-column-end: 40;
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage-text{
+    grid-row-start: 241;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.lightningimg{
+    width:104px;
+    height:auto;
+    grid-row-start: 253;
+    grid-column-start: 2;   
+}
+.lightning-head{
+    grid-row-start: 253;
+    grid-column-start: 15;
+    grid-column-end: 41;
+    font-size: 20px;
+    font-weight: bold;
+}
+.lightning-text{
+    grid-row-start: 256;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.comfortsymbol{
+    width:105px;
+    height:auto;
+    grid-row-start: 268;
+    grid-column-start: 3;
+}
+.comfort-head{
+    grid-row-start: 268;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.comfort-text{
+    grid-row-start: 271;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 14px;
+}
+.healthsymbol{
+    grid-row-start: 284;
+    grid-column-start: 3; 
+    width:100px;
+}
+.health-head{   
+    grid-row-start: 284;
+    grid-column-start: 15;
+    grid-column-end: 34;
+    font-size: 20px;
+    font-weight: bold;
+}
+.health-text{
+    grid-column-start: 15;
+    grid-column-end: 34;
+    grid-row-start: 287;
+    font-size: 14px;
+}
+}
+@media only screen and (min-width:621px) and (max-width:641px){
+*{
+    font-family: arial;
+}
+.container{
+    display:grid;
+    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+}
+.menu{
+    display:grid;
+    position:relative;
+    display:inline-block;
+    grid-column-start: 46;
+    grid-column-end: 46;
+    grid-row-start: 3;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    transform:translatex(50%);
+    z-index:1;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.navbar{
+    display: none;
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    border-radius: 20px;
+    min-width:0px;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.navbar2{
+    display:grid;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
+    top:0;
+    position:fixed;
+    z-index: 2;
+    background-color: white;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+}
+.logoo2{
+    grid-row-start:3;
+    grid-column-start:3;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 11;
+    grid-row-start: 4;
+    grid-row-end:4;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 12;
+    grid-column-end: 26;
+    grid-row-start: 7;
+    grid-row-end:8;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.aboutus{
+    display:none;
+}
+.services{
+    display:none;
+}
+.signin{
+    display:none;
+}
+.aboutus2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+}
+.aboutus2:hover{
+    color:black;
+}
+.services2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.services2:hover{
+    color:black;
+}
+.signin2{
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+.signin2:hover{
+    color:black;
+}
+.image1{
+    width:350px;
+    grid-row-start: 42;
+    grid-column-start:13;
+    border-radius:0px 0px 15px 50px;
+    transition:0.8s ease;
+}
+.image1:hover{
+    opacity:0.9;
+}
+.astracaresintro{
+    grid-row-start: 15;
+    grid-column-start: 3;
+    grid-column-end: 30;
+    font-family: arial;
+    font-size: 35;
+    color:darkolivegreen;
+}
+.description{
+    grid-row-start: 25;
+    grid-column-start: 3;
+    grid-column-end:45;
+    font-family: arial;
+    font-size: 17px;
+}
+.bg{
+    grid-column-start: 1;
+    grid-column-end:70;
+    grid-row-start:80;
+    grid-row-end:148;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.bg2{
+    grid-column-start: 1;
+    grid-column-end:70;
+    grid-row-start: 227;
+    grid-row-end: 302;
+    background-color: rgb(62, 61, 61);
+    opacity: 0.04;
+    z-index:-1000;
+}
+.baby{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 9;
+    grid-column-end: 25;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.babysitterimg{
+    grid-row-start: 82;
+    grid-column-start: 9;
+    width:160px;
+    padding-left: 5px;
+    height:auto;
+}
+.baby-head{
+    grid-row-start: 97;
+    grid-column-start: 11;
+    font-size: 18px;
+    font-weight:bold;
+}
+.baby-text{
+    grid-row-start: 101;
+    grid-column-start: 11;
+    grid-column-end: 23;
+}
+.children{
+    grid-row-start: 85;
+    grid-row-end:112;
+    grid-column-start: 35;
+    grid-column-end: 51;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.nannypic{
+    grid-row-start: 85;
+    grid-column-start: 38;
+    width:90px;
+    height:auto;
+}
+.children-head{
+    grid-row-start: 97;
+    grid-column-start: 37;
+    font-size: 18px;
+    font-weight:bold;
+}
+.children-text{
+    grid-row-start: 101;
+    grid-column-start: 37;
+    grid-column-end: 49;
+}
+.teenager{
+    grid-row-start: 116;
+    grid-row-end:143;
+    grid-column-start: 9;
+    grid-column-end: 25;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.governessimg{
+    grid-row-start: 117     ;
+    grid-column-start: 13;
+    width:80px;
+    height:auto;
+}
+.governess-head{
+    grid-row-start: 126;
+    grid-column-start: 11;
+    font-size: 18px;
+    font-weight:bold;
+}
+.governess-text{
+    grid-row-start: 130;
+    grid-column-start: 11;
+    grid-column-end: 23;
+}
+.viewmore{
+    grid-row-start: 116 ;
+    grid-row-end:143;
+    grid-column-start: 35;
+    grid-column-end: 51;
+    text-align: center;
+    color:darkolivegreen;
+    font-family: arial;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: white;
+}
+.viewmore-text{
+    grid-row-start: 121;
+    grid-column-start: 37;
+    grid-column-end: 48;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 5px;
+}
+.clickhere{
+    grid-row-start: 131;
+    grid-row-end: 135;
+    grid-column-start: 37;
+    grid-column-end: 48;
+    margin-left: 7px;
+    border-radius: 5px;
+    border:none;
+    background-color: darkolivegreen;
+    color:white;
+    font-weight:bold;
+    transition: 0.3s ease-in-out;
+}
+.clickhere:hover{
+    background-color: greenyellow;
+    color:black;
+    border:2px solid black;
+}
+.senpaihead{
+    grid-row-start: 155;
+    grid-column-start: 15;
+    grid-column-end:50;
+    text-align: center;
+    font-size:14px;
+}
+.caretakershead{
+    color:darkolivegreen;
+}
+.caretakerstext{
+    color:darkolivegreen;
+    grid-row-start: 176;
+    grid-column-start: 18;
+    grid-column-end:70;
+    font-size: larger;
+}
+.senpaihead p{
+    font-size: larger;
+}
+.list{
+    grid-row-start: 177;
+    grid-column-start: 15;
+    grid-column-end: 47;
+    font-size: larger;
+    text-align: center;
+}
+.senpaiimg{
+    grid-row-start: 194;
+    grid-column-start: 19;
+    width:280px;
     height:Auto;
     border-radius: 15px 10px 10px 15px;
 }
@@ -1262,6 +6312,7 @@
 }
 
 }
+/* My screen */
 @media only screen and (min-width:1200px){
 *{
     font-family: arial;
