@@ -36,19 +36,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -101,16 +99,44 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
+    color:black;
+}
+#services2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#services2:hover{
+    color:black;
+}
+#signin2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#signin2:hover{
     color:black;
 }
 .services2{
@@ -458,19 +484,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -523,20 +547,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -544,11 +572,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -556,7 +584,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -880,19 +908,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -945,20 +971,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -966,11 +996,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -978,7 +1008,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -1302,19 +1332,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -1367,20 +1395,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -1388,11 +1420,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -1400,7 +1432,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -1725,19 +1757,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -1790,20 +1820,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -1811,11 +1845,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -1823,7 +1857,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -2148,19 +2182,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -2213,20 +2245,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -2234,11 +2270,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -2246,7 +2282,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -2571,19 +2607,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -2636,20 +2670,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -2657,11 +2695,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -2669,7 +2707,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -2994,19 +3032,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -3059,20 +3095,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3080,11 +3120,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3092,7 +3132,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -3417,19 +3457,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -3482,20 +3520,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3503,11 +3545,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3515,7 +3557,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -3840,19 +3882,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -3905,20 +3945,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3926,11 +3970,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -3938,7 +3982,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -4263,19 +4307,17 @@
     cursor:pointer;
 }
 .menu-content{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -4328,20 +4370,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -4349,11 +4395,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -4361,7 +4407,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -4662,7 +4708,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 46;
+    grid-column-start: 44;
     grid-column-end: 48;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -4687,15 +4733,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -4748,20 +4795,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -4769,11 +4820,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -4781,7 +4832,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -5107,15 +5158,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -5168,20 +5220,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -5189,11 +5245,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -5201,7 +5257,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -5515,7 +5571,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 61;
+    grid-column-start: 55;
     grid-column-end: 70;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -5540,15 +5596,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -5601,20 +5658,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -5622,11 +5683,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -5634,7 +5695,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -5948,7 +6009,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 61;
+    grid-column-start: 58;
     grid-column-end: 70;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -5973,15 +6034,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:90px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -6034,20 +6096,24 @@
 .signin{
     display:none;
 }
-.aboutus2{
-    font-size: 15px;
+.moo{
+    padding:20px 0;
+    font-size: 8px;
+}
+#aboutus2{
     padding-bottom: 10px;
     color:white;
     font-weight:bold;
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 17px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6055,11 +6121,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6067,7 +6133,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -6406,15 +6472,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -6467,7 +6534,10 @@
 .signin{
     display:none;
 }
-.aboutus2{
+.moo{
+    padding:20px 0;
+}
+#aboutus2{
     font-size: 15px;
     padding-bottom: 10px;
     color:white;
@@ -6475,12 +6545,13 @@
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 20px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 20px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6488,11 +6559,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 20px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6500,7 +6571,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
@@ -6839,15 +6910,16 @@
 }
 .menu-content{
     display: none;
-    position: absolute;
+    position: flex;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
     border-color:black;
     border-style:solid;
-    border-radius: 20px;
-    min-width:0px;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
 }
 .menu:hover .menu-content{
     color: black;
@@ -6900,7 +6972,10 @@
 .signin{
     display:none;
 }
-.aboutus2{
+.moo{
+    padding:20px 0;
+}
+#aboutus2{
     font-size: 15px;
     padding-bottom: 10px;
     color:white;
@@ -6908,12 +6983,13 @@
     transition:0.3s ease-in-out;
     font-family: Arial;
     cursor: pointer;
+    font-size: 20px;
 }
-.aboutus2:hover{
+#aboutus2:hover{
     color:black;
 }
-.services2{
-    font-size: 15px;
+#services2{
+    font-size: 20px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6921,11 +6997,11 @@
     font-weight:bold;
     cursor:pointer;
 }
-.services2:hover{
+#services2:hover{
     color:black;
 }
-.signin2{
-    font-size: 15px;
+#signin2{
+    font-size: 20px;
     padding-bottom: 10px;
     font-family: Arial;
     color:white;
@@ -6933,7 +7009,7 @@
     font-weight:bold;
     cursor:pointer;
 }
-.signin2:hover{
+#signin2:hover{
     color:black;
 }
 .image1{
