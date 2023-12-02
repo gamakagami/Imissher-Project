@@ -6117,7 +6117,7 @@
 }
 .baby{
     grid-row-start: 95;
-    grid-row-end:122;
+    grid-row-end:121;
     grid-column-start: 13;
     grid-column-end: 34;
     color:darkolivegreen;
@@ -6146,7 +6146,7 @@
 }
 .children{
     grid-row-start: 95;
-    grid-row-end:122;
+    grid-row-end:121;
     grid-column-start: 46;
     grid-column-end: 67;
     text-align: center;
@@ -6175,7 +6175,7 @@
 }
 .teenager{
     grid-row-start: 126;
-    grid-row-end:153;
+    grid-row-end:152;
     grid-column-start: 13;
     grid-column-end: 34;
     text-align: center;
@@ -6204,7 +6204,7 @@
 }
 .viewmore{
     grid-row-start: 126 ;
-    grid-row-end:153;
+    grid-row-end:152;
     grid-column-start: 46;
     grid-column-end: 67;
     text-align: center;
@@ -6242,8 +6242,8 @@
 }
 .senpaihead{
     grid-row-start: 168;
-    grid-column-start: 22;
-    grid-column-end:60;
+    grid-column-start: 8;
+    grid-column-end:46;
     text-align: center;
 }
 .caretakershead{
@@ -6252,24 +6252,24 @@
 .caretakerstext{
     color:darkolivegreen;
     grid-row-start: 195;
-    grid-column-start: 27;
-    grid-column-end:77;
-    font-size: larger;;
+    grid-column-start: 13;
+    grid-column-end:63;
+    font-size: larger;
 }
 .senpaihead p{
     font-size: larger;
 }
 .list{
     grid-row-start: 197;
-    grid-column-start: 26;
-    grid-column-end: 51;
+    grid-column-start: 12;
+    grid-column-end: 37;
     font-size: larger;
     text-align: center;
 }
 .senpaiimg{
-    grid-row-start: 214;
-    grid-column-start: 25;
-    width:310px;
+    grid-row-start: 175;
+    grid-column-start: 53;
+    width:250px;
     height:Auto;
     border-radius: 15px 10px 10px 15px;
 }
@@ -6279,13 +6279,13 @@
     z-index:-1000;
     grid-column-start: 1;
     grid-column-end: 135;
-    grid-row-start: 252;
-    grid-row-end: 340;
+    grid-row-start: 227;
+    grid-row-end: 315;
 }
 .chooseus{
-    grid-row-start: 255;
-    grid-column-start: 26;
-    grid-column-end: 107;
+    grid-row-start: 230;
+    grid-column-start: 27;
+    grid-column-end: 108;
     font-size: 35px;
     font-weight:bolder;
     color:darkolivegreen;
@@ -6293,78 +6293,78 @@
 .percentagesymbol{
     width:110px;
     height:auto;
-    grid-row-start: 265;
-    grid-column-start: 21;
+    grid-row-start: 240;
+    grid-column-start: 22;
     opacity:0.8;
 }
 .percentage-head{
-    grid-row-start: 265;
-    grid-column-start: 34;
-    grid-column-end: 43;
+    grid-row-start: 240;
+    grid-column-start: 35;
+    grid-column-end: 44 ;
     font-size: 20px;
     font-weight: bold;
 }
 .percentage-text{
-    grid-row-start: 268;
-    grid-column-start: 34;
-    grid-column-end: 59;
+    grid-row-start: 243;
+    grid-column-start: 35;
+    grid-column-end: 60;
     font-size: 17px;
 }
 .lightningimg{
     width:122px;
     height:auto;
-    grid-row-start: 285;
-    grid-column-start: 20; 
+    grid-row-start: 257;
+    grid-column-start: 21; 
     opacity: 0.8;
 }
 .lightning-head{
-    grid-row-start: 285;
-    grid-column-start: 34;
-    grid-column-end: 35;
+    grid-row-start: 257;
+    grid-column-start: 35;
+    grid-column-end: 36;
     font-size: 20px;
     font-weight: bold;
 }
 .lightning-text{
-    grid-row-start: 288;
-    grid-column-start: 34;
-    grid-column-end: 59;
+    grid-row-start: 260;
+    grid-column-start: 35;
+    grid-column-end: 60;
     font-size: 17px;
 }
 .comfortsymbol{
     width:125px;
     height:auto;
-    grid-row-start: 305;
-    grid-column-start:20;
+    grid-row-start: 274;
+    grid-column-start:21;
 }
 .comfort-head{
-    grid-row-start: 306;
-    grid-column-start: 34;
-    grid-column-end: 39;    
+    grid-row-start: 275;
+    grid-column-start: 35;
+    grid-column-end: 40;    
     font-weight: bold;
     font-size: 20px;
 }
 .comfort-text{
-    grid-row-start: 309;
-    grid-column-start: 34;
-    grid-column-end: 59;
+    grid-row-start: 278;
+    grid-column-start: 35;
+    grid-column-end: 60;
 }
 .healthsymbol{
-    grid-row-start: 325;
-    grid-column-start: 20; 
+    grid-row-start: 291;
+    grid-column-start: 21; 
     width:120px;
     opacity: 0.8;
 }
 .health-head{
-    grid-row-start: 326;
-    grid-column-start: 34;
-    grid-column-end: 91;
+    grid-row-start: 292;
+    grid-column-start: 35;
+    grid-column-end: 92;
     font-size: 20px;
     font-weight: bold;
 }
 .health-text{
-    grid-column-start: 34;
-    grid-column-end: 59;
-    grid-row-start: 329;
+    grid-column-start: 35;
+    grid-column-end: 60;
+    grid-row-start: 295;
     font-size: 17px;
 }
 }
