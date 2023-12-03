@@ -12048,7 +12048,7 @@
     background-color: rgb(62, 61, 61);
     opacity: 0.04;
     grid-column-start: 1;
-    grid-column-end: 138;
+    grid-column-end: 142;
     grid-row-start: 69;
     grid-row-end: 109;
     z-index:-1000;
@@ -12093,8 +12093,8 @@
 .children{
     grid-row-start: 74;
     grid-row-end:105;
-    grid-column-start: 41;
-    grid-column-end: 65;
+    grid-column-start: 42;
+    grid-column-end: 66;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12105,7 +12105,7 @@
 }
 .nannypic{
     grid-row-start: 75;
-    grid-column-start: 46;
+    grid-column-start: 47;
     width:110px;
     padding-left: 5px;
     height:auto;
@@ -12113,7 +12113,7 @@
 }
 .children-head{
     grid-row-start: 89;
-    grid-column-start: 44;
+    grid-column-start: 45;
     font-size: 20px;
     font-weight:bold;
     cursor: pointer;
@@ -12121,7 +12121,7 @@
 }
 .children-text{
     grid-row-start: 93;
-    grid-column-start: 44;
+    grid-column-start: 45;
     grid-column-end: 62;
     cursor: pointer;
     z-index:2;
@@ -12130,8 +12130,8 @@
 .teenager{
     grid-row-start: 74;
     grid-row-end:105;
-    grid-column-start: 74;
-    grid-column-end: 98;
+    grid-column-start: 76;
+    grid-column-end: 100;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12142,7 +12142,7 @@
 }
 .governessimg{
     grid-row-start: 76;
-    grid-column-start: 80;
+    grid-column-start: 82;
     width:110px;
     padding-left: 5px;
     height:auto;
@@ -12150,7 +12150,7 @@
 }
 .governess-head{
     grid-row-start: 89;
-    grid-column-start: 77;
+    grid-column-start: 79;
     font-size: 20px;
     font-weight:bold;
     cursor: pointer;
@@ -12158,8 +12158,8 @@
 }
 .governess-text{
     grid-row-start: 93;
-    grid-column-start: 77;
-    grid-column-end: 94;
+    grid-column-start: 79;
+    grid-column-end: 96;
     cursor: pointer;
     z-index:2;
     font-size: 18px;
@@ -12167,8 +12167,8 @@
 .viewmore{
     grid-row-start: 74;
     grid-row-end:105;
-    grid-column-start: 107;
-    grid-column-end: 131;
+    grid-column-start: 110;
+    grid-column-end: 134;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12180,8 +12180,8 @@
 }
 .viewmore-text{
     grid-row-start: 82;
-    grid-column-start: 111;
-    grid-column-end: 128;
+    grid-column-start: 114;
+    grid-column-end: 131;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
@@ -12191,8 +12191,8 @@
 .clickhere{
     grid-row-start: 91 ;
     grid-row-end: 97;
-    grid-column-start: 111;
-    grid-column-end: 127;
+    grid-column-start: 114;
+    grid-column-end: 130;
     border-radius: 5px;
     border:none;
     background-color: darkolivegreen;
@@ -12343,7 +12343,7 @@
     grid-row-start: 217;
     font-size:21px;
 }
-}   
+}  
 @media only screen and (min-width:1451px) and (max-width:1501px){
 *{
     font-family: arial;
@@ -12351,13 +12351,13 @@
 .container{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
 .navbar{
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
+    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 8px;
     top:0;
     position:fixed;
     background-color: white;
@@ -12375,7 +12375,7 @@
     grid-row-start:2;
     grid-row-end: 3;
     grid-column-start:5;
-    width:68px;
+    width:72px;
     height:auto;
 }
 .logo{
@@ -12383,26 +12383,25 @@
     grid-row-start: 3;
     grid-row-end:4;
     font-family: Arial;
-    font-size: 30px;
+    font-size: 36px;
     color:darkolivegreen;
 }
 .slogan{
     grid-column-start: 14;
     grid-column-end: 28;
-    grid-row-start: 6;
+    grid-row-start: 7;
     grid-row-end:8;
-    font-size: 15px;
+    font-size: 17px;
     font-style:italic;
     color:black;
-    margin-top: 2px;
     
 }
 .aboutus{
-    grid-column-start: 87;
-    grid-column-end: 95;
+    grid-column-start: 90;
+    grid-column-end: 100;
     grid-row-start: 5;
     grid-row-end:6;
-    font-size: 15px;
+    font-size: 17px;
     padding-bottom: 10px;
     color:darkgreen;
     font-weight:bold;
@@ -12415,8 +12414,8 @@
 }
 .services{
     grid-row-start: 5;
-    grid-column-start: 104;
-    font-size: 15px;
+    grid-column-start: 109;
+    font-size: 17px;
     padding-bottom: 10px;
     font-family: Arial;
     color:darkgreen;
@@ -12428,16 +12427,16 @@
     color:black;
 }
 .signin{
-    grid-column-start:121;
-    grid-column-end: 129;
+    grid-column-start:128;
+    grid-column-end: 138;
     grid-row-start: 4;
     border:none;
-    font-size:15px;
+    font-size:17px;
     background-color: darkolivegreen;
     color:white;
     padding-top:10px;
     font-family: arial;
-    padding-bottom:28px;
+    padding-bottom:30px;
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
@@ -12448,7 +12447,7 @@
     border:2px solid black;
 }
 .image1{
-    width:550px;
+    width:600px;
     grid-row-start: 20;
     grid-column-start: 8;
     border-radius:0px 0px 15px 50px;
@@ -12459,33 +12458,33 @@
     opacity:0.9;
 }
 .astracaresintro{
-    grid-row-start: 20;
-    grid-row-end: 25;
-    grid-column-start: 73;
-    grid-column-end: 100;
+    grid-row-start: 22;
+    grid-row-end: 27;
+    grid-column-start: 80;
+    grid-column-end: 107;
     font-family: arial;
-    font-size: 43px;
+    font-size: 44px;
     color:darkolivegreen;
 }
 .description{
-    grid-row-start: 32;
-    grid-column-start: 73;
-    grid-column-end: 125  ;
+    grid-row-start: 35;
+    grid-column-start: 80;
+    grid-column-end: 132 ;
     font-family: arial;
-    font-size: 22px;
+    font-size: 25px;
 }
 .bg{
     background-color: rgb(62, 61, 61);
     opacity: 0.04;
     grid-column-start: 1;
-    grid-column-end: 138;
-    grid-row-start: 69;
-    grid-row-end: 109;
+    grid-column-end: 142;
+    grid-row-start: 74;
+    grid-row-end: 116;
     z-index:-1000;
 }
 .baby{
-    grid-row-start: 74;
-    grid-row-end:103;
+    grid-row-start: 79;
+    grid-row-end:112;
     grid-column-start: 8;
     grid-column-end: 32;
     text-align: center;
@@ -12497,7 +12496,7 @@
     z-index: 0;
 }
 .babysitterimg{
-    grid-row-start: 71;
+    grid-row-start: 76;
     grid-column-start: 9;
     width:200px;
     padding-left: 5px;
@@ -12505,25 +12504,26 @@
     z-index:2;
 }
 .baby-head{
-    grid-row-start: 89;
+    grid-row-start: 94;
     grid-column-start: 11;
-    font-size: 18px;
+    font-size: 22px;
     font-weight:bold;
     cursor: pointer;
     z-index:2;
 }
 .baby-text{
-    grid-row-start: 93;
+    grid-row-start: 98;
     grid-column-start: 11;
-    grid-column-end: 29;
+    grid-column-end: 30 ;
     cursor: pointer;
     z-index:2;
+    font-size: 20px;
 }
 .children{
-    grid-row-start: 74;
-    grid-row-end:103;
-    grid-column-start: 40;
-    grid-column-end: 64;
+    grid-row-start: 79;
+    grid-row-end:112;
+    grid-column-start: 42;
+    grid-column-end: 66;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12533,33 +12533,34 @@
     background-color: white;
 }
 .nannypic{
-    grid-row-start: 75;
-    grid-column-start: 45;
+    grid-row-start: 80;
+    grid-column-start: 47;
     width:110px;
     padding-left: 5px;
     height:auto;
     z-index:2;
 }
 .children-head{
-    grid-row-start: 89;
-    grid-column-start: 43;
-    font-size: 18px;
+    grid-row-start: 94;
+    grid-column-start: 45;
+    font-size: 22px;
     font-weight:bold;
     cursor: pointer;
     z-index:2;
 }
 .children-text{
-    grid-row-start: 93;
-    grid-column-start: 43;
-    grid-column-end: 61;
+    grid-row-start: 98;
+    grid-column-start: 45;
+    grid-column-end: 62;
     cursor: pointer;
     z-index:2;
+    font-size: 20px;
 }
 .teenager{
-    grid-row-start: 74;
-    grid-row-end:103;
-    grid-column-start: 72;
-    grid-column-end: 96;
+    grid-row-start: 79;
+    grid-row-end:112;
+    grid-column-start: 76;
+    grid-column-end: 100;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12569,33 +12570,34 @@
     z-index:1;
 }
 .governessimg{
-    grid-row-start: 76;
-    grid-column-start: 78;
+    grid-row-start: 81;
+    grid-column-start: 82;
     width:110px;
     padding-left: 5px;
     height:auto;
     z-index:2;
 }
 .governess-head{
-    grid-row-start: 89;
-    grid-column-start: 75;
-    font-size: 18px;
+    grid-row-start: 94;
+    grid-column-start: 79;
+    font-size: 22px;
     font-weight:bold;
     cursor: pointer;
     z-index:2;
 }
 .governess-text{
-    grid-row-start: 93;
-    grid-column-start: 75;
-    grid-column-end: 92;
+    grid-row-start: 98;
+    grid-column-start: 79;
+    grid-column-end: 96;
     cursor: pointer;
     z-index:2;
+    font-size: 20px;
 }
 .viewmore{
-    grid-row-start: 74;
-    grid-row-end:103;
-    grid-column-start: 104;
-    grid-column-end: 128;
+    grid-row-start: 79;
+    grid-row-end:112;
+    grid-column-start: 110;
+    grid-column-end: 134;
     text-align: center;
     color:darkolivegreen;
     font-family: arial;
@@ -12606,19 +12608,20 @@
 
 }
 .viewmore-text{
-    grid-row-start: 82;
-    grid-column-start: 108;
-    grid-column-end: 125;
+    grid-row-start: 87;
+    grid-column-start: 114;
+    grid-column-end: 131;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
     z-index:2;
+    font-size: 22px;
 }
 .clickhere{
-    grid-row-start: 90  ;
-    grid-row-end: 94;
-    grid-column-start: 109;
-    grid-column-end: 123;
+    grid-row-start: 98;
+    grid-row-end: 104;
+    grid-column-start: 114;
+    grid-column-end: 130;
     border-radius: 5px;
     border:none;
     background-color: darkolivegreen;
@@ -12626,6 +12629,7 @@
     font-weight:bold;
     transition: 0.3s ease-in-out;
     z-index:2;
+    font-size: 20px;
 }
 .clickhere:hover{
     background-color: white;
@@ -12640,36 +12644,36 @@
     border-radius: 10px;
 }
 .senpaihead{
-    grid-row-start: 118;
-    grid-column-start: 10;
-    grid-column-end:66;
+    grid-row-start: 125;
+    grid-column-start: 12;
+    grid-column-end:72;
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
 }
 .caretakershead{
     color:darkolivegreen;
 }
 .caretakerstext{
     color:darkolivegreen;
-    grid-row-start: 147;
-    grid-column-start: 20;
-    grid-column-end:60;
-    font-size: 26px;
+    grid-row-start: 156;
+    grid-column-start: 21;
+    grid-column-end:66;
+    font-size: 30px;
 }
 .senpaihead p{
     font-size: larger;
 }
 .list{
-    grid-row-start: 149;
-    grid-column-start: 23;
-    grid-column-end: 48;
+    grid-row-start: 160;
+    grid-column-start: 14;
+    grid-column-end: 63;
     font-size: 22px;
     text-align: center;
 }
 .senpaiimg{
-    grid-row-start: 120;
-    grid-column-start: 84;
-    width: 410px;
+    grid-row-start: 130;
+    grid-column-start: 86;
+    width: 420px;
     height:Auto;
     border-radius: 15px 10px 10px 15px;
 }
@@ -12678,94 +12682,94 @@
     opacity: 0.04;
     z-index:-1000;
     grid-column-start: 1;
-    grid-column-end: 137;
-    grid-row-start: 178;
-    grid-row-end: 230;
+    grid-column-end: 146;
+    grid-row-start: 185;
+    grid-row-end: 239;
 }
 .chooseus{
-    grid-row-start: 181;
-    grid-column-start: 59;
-    grid-column-end: 118    ;
-    font-size: 38px;
+    grid-row-start: 188;
+    grid-column-start: 62;
+    grid-column-end: 120    ;
+    font-size: 40px;
     font-weight:bolder;
     color:darkolivegreen;
 }
 .percentagesymbol{
-    width:120px;
+    width:130px;
     height:auto;
-    grid-row-start: 192;
-    grid-column-start: 19;
+    grid-row-start: 199;
+    grid-column-start: 20;
     opacity:0.8;
 }
 .percentage-head{
-    grid-row-start: 192;
-    grid-column-start: 33;
-    grid-column-end: 44;
-    font-size: 21px;
+    grid-row-start: 199;
+    grid-column-start: 35;
+    grid-column-end: 46;
+    font-size: 22px;
     font-weight: bold;
 }
 .percentage-text{
-    grid-row-start: 195;
-    grid-column-start: 33;
-    grid-column-end: 59;
-    font-size:20px;
+    grid-row-start: 203;
+    grid-column-start: 35;
+    grid-column-end: 65;
+    font-size:21px;
 }
 .lightningimg{
-    width:140px;
+    width:150px;
     height:auto;
-    grid-row-start: 192;
-    grid-column-start: 77;   
+    grid-row-start: 199;
+    grid-column-start: 79;   
     opacity: 0.8;
 }
 .lightning-head{
-    grid-row-start: 192;
-    grid-column-start: 93;
-    grid-column-end: 100;
-    font-size: 20px;
+    grid-row-start: 199;
+    grid-column-start: 96;
+    grid-column-end: 102;
+    font-size: 22px;
     font-weight: bold;
 }
 .lightning-text{
-    grid-row-start: 195;
-    grid-column-start: 93;
-    grid-column-end: 118;
-    font-size:20px;
+    grid-row-start: 203;
+    grid-column-start: 96;
+    grid-column-end: 126;
+    font-size:21px;
 }
 .comfortsymbol{
-    width:140px;
+    width:150px;
     height:auto;
-    grid-row-start: 211;
-    grid-column-start: 18;
+    grid-row-start: 219;
+    grid-column-start: 19;
 }
 .comfort-head{
-    grid-row-start: 213;
-    grid-column-start: 33;
-    grid-column-end: 44;    
+    grid-row-start: 220;
+    grid-column-start: 35;
+    grid-column-end: 45;    
     font-weight: bold;
-    font-size: 21px;
+    font-size: 22px;
 }
 .comfort-text{
-    grid-row-start: 216;
-    grid-column-start: 33;
-    grid-column-end: 58;
-    font-size:20px;
+    grid-row-start: 224;
+    grid-column-start: 35;
+    grid-column-end: 65;
+    font-size:21px;
 }
 .healthsymbol{
-    grid-row-start: 211;
-    grid-column-start: 77; 
-    width:140px;
+    grid-row-start: 219;
+    grid-column-start: 79; 
+    width:145px;
     opacity: 0.8;
 }
 .health-head{
-    grid-row-start: 213;
-    grid-column-start: 93;
-    grid-column-end: 114;
-    font-size: 21px;
+    grid-row-start: 220;
+    grid-column-start: 96;
+    grid-column-end: 116;
+    font-size: 22px;
     font-weight: bold;
 }
 .health-text{
-    grid-column-start: 92;
-    grid-column-end: 117;
-    grid-row-start: 217;
-    font-size:20px;
+    grid-column-start: 96;
+    grid-column-end: 126;
+    grid-row-start: 224;
+    font-size:21px;
 }
-}   
+}  
