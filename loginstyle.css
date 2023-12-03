@@ -1,0 +1,56 @@
+*{
+    font-family: arial;
+}
+.img-fluid{
+    width:250px;
+    height:auto;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.row{
+    background-color: white;
+    border-radius: 15px;
+}
+#box{
+    width: 930px;
+}
+.left-box{
+    background-color: darkolivegreen;
+}
+p{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+small{
+    color: white;
+    width: 17rem;
+    text-align: center;
+}
+.hello{
+    color:black;
+    text-align: center;
+}
+.forget{
+    font-size: 12px;
+    color:grey;
+}
+.back{
+    width:30px;
+    height: auto;
+}
+.ps-6{
+    padding-left: 240px;
+}
+.ps-7{
+    padding-left:33%;
+}
+
+@media only screen and (min-width:768px) and (max-width:991px){
+    .ps-7{
+        padding-left: 10%;
+    }
+}
