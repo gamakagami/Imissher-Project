@@ -41,16 +41,17 @@ small{
 .back{
     width:30px;
     height: auto;
+    cursor: pointer;
 }
 .ps-6{
     padding-left: 240px;
 }
 .ps-7{
-    padding-left:33%;
+    padding-left:26%;
 }
 
 @media only screen and (min-width:768px) and (max-width:991px){
     .ps-7{
-        padding-left: 10%;
+        padding-left: 5%;
     }
 }
