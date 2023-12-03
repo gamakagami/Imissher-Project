@@ -12,7 +12,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 26;
+    grid-column-start: 23;
     grid-column-end: 35;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -44,7 +44,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -180,6 +180,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -492,7 +493,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -604,6 +605,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -916,7 +918,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -1028,6 +1030,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -1340,7 +1343,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -1452,6 +1455,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -1765,7 +1769,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -1877,6 +1881,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -2190,7 +2195,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -2302,6 +2307,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -2615,7 +2621,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -2727,6 +2733,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -3008,7 +3015,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 37;
+    grid-column-start: 36;
     grid-column-end: 37;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -3040,7 +3047,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -3152,6 +3159,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -3433,7 +3441,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 39;
+    grid-column-start: 37;
     grid-column-end: 39;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -3459,7 +3467,7 @@
 .menu-content{
     display: none;
     position: flex;
-    min-width: 160px;
+    min-width:90px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
@@ -3577,6 +3585,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -3858,7 +3867,7 @@
     display:grid;
     position:relative;
     display:inline-block;
-    grid-column-start: 42;
+    grid-column-start: 40;
     grid-column-end: 42;
     grid-row-start: 3;
     grid-row-end: 8;
@@ -3884,7 +3893,7 @@
 .menu-content{
     display: none;
     position: flex;
-    min-width: 160px;
+    min-width:90px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: darkolivegreen;
     color:white;
@@ -4002,6 +4011,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 28;
@@ -4315,7 +4325,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -4427,6 +4437,7 @@
     font-family: arial;
     font-size: 40;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 29;
@@ -4740,7 +4751,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -4852,6 +4863,7 @@
     font-family: arial;
     font-size: 40;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 29;
@@ -5165,7 +5177,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -5279,6 +5291,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -5603,7 +5616,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -5717,6 +5730,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -6155,6 +6169,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -6479,7 +6494,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -6593,6 +6608,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -6917,7 +6933,7 @@
     color:white;
     border-color:black;
     border-style:solid;
-    min-width:110px;
+    min-width:90px;
     justify-self: center;
     align-items: center;
 }
@@ -7031,6 +7047,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -7429,6 +7446,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -7842,6 +7860,7 @@
     font-family: arial;
     font-size: 35;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -8255,6 +8274,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -8668,6 +8688,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -9081,6 +9102,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -9501,6 +9523,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -9921,6 +9944,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -10341,6 +10365,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -10761,6 +10786,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -11003,7 +11029,7 @@
     grid-row-start: 172;
     grid-column-start: 31;
     grid-column-end: 55;
-    font-size:20px;
+    font-size:19px;
 }
 .lightningimg{
     width:140px;
@@ -11016,14 +11042,14 @@
     grid-row-start: 169;
     grid-column-start: 88;
     grid-column-end: 95;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 .lightning-text{
     grid-row-start: 172;
     grid-column-start: 88;
     grid-column-end: 111;
-    font-size:20px;
+    font-size:19px;
 }
 .comfortsymbol{
     width:140px;
@@ -11042,7 +11068,7 @@
     grid-row-start: 193;
     grid-column-start: 31;
     grid-column-end: 54;
-    font-size:20px;
+    font-size:19px;
 }
 .healthsymbol{
     grid-row-start: 188;
@@ -11061,7 +11087,7 @@
     grid-column-start: 88;
     grid-column-end: 111;
     grid-row-start: 193;
-    font-size:20px;
+    font-size:19px;
 }
 }
 @media only screen and (min-width:1301px) and (max-width:1351px){
@@ -11186,6 +11212,7 @@
     font-family: arial;
     font-size: 42;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 30;
@@ -11428,7 +11455,7 @@
     grid-row-start: 182;
     grid-column-start: 33;
     grid-column-end: 59;
-    font-size:20px;
+    font-size:19px;
 }
 .lightningimg{
     width:140px;
@@ -11441,14 +11468,14 @@
     grid-row-start: 179;
     grid-column-start: 90;
     grid-column-end: 97;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 .lightning-text{
     grid-row-start: 182;
     grid-column-start: 90;
     grid-column-end: 115;
-    font-size:20px;
+    font-size:19px;
 }
 .comfortsymbol{
     width:140px;
@@ -11467,7 +11494,7 @@
     grid-row-start: 203;
     grid-column-start: 33;
     grid-column-end: 58;
-    font-size:20px;
+    font-size:19px;
 }
 .healthsymbol{
     grid-row-start: 198;
@@ -11486,7 +11513,7 @@
     grid-column-start: 90;
     grid-column-end: 115;
     grid-row-start: 203;
-    font-size:20px;
+    font-size:19px;
 }
 }
 @media only screen and (min-width:1351px) and (max-width:1401px){
@@ -11611,6 +11638,7 @@
     font-family: arial;
     font-size: 43px;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 32;
@@ -11853,7 +11881,7 @@
     grid-row-start: 195;
     grid-column-start: 33;
     grid-column-end: 59;
-    font-size:20px;
+    font-size:19px;
 }
 .lightningimg{
     width:140px;
@@ -11866,14 +11894,14 @@
     grid-row-start: 192;
     grid-column-start: 92;
     grid-column-end: 99;
-    font-size: 20px;
+    font-size: 21px;
     font-weight: bold;
 }
 .lightning-text{
     grid-row-start: 195;
     grid-column-start: 92;
     grid-column-end: 117;
-    font-size:20px;
+    font-size:19px;
 }
 .comfortsymbol{
     width:140px;
@@ -11892,7 +11920,7 @@
     grid-row-start: 216;
     grid-column-start: 33;
     grid-column-end: 58;
-    font-size:20px;
+    font-size:19px;
 }
 .healthsymbol{
     grid-row-start: 211;
@@ -11911,7 +11939,7 @@
     grid-column-start: 92;
     grid-column-end: 116;
     grid-row-start: 216;
-    font-size:20px;
+    font-size:19px;
 }
 }   
 @media only screen and (min-width:1401px) and (max-width:1451px){
@@ -12036,6 +12064,7 @@
     font-family: arial;
     font-size: 44px;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 33;
@@ -12465,6 +12494,7 @@
     font-family: arial;
     font-size: 44px;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 35;
@@ -12894,6 +12924,7 @@
     font-family: arial;
     font-size: 46px;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 35;
@@ -13323,6 +13354,7 @@
     font-family: arial;
     font-size: 46px;
     color:darkolivegreen;
+    font-weight: bold;
 }
 .description{
     grid-row-start: 35;
