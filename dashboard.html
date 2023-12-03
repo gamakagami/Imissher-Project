@@ -5,17 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
     <title>Dashboard</title>
 </head>
 <body>
-    <div class="top-bar">
-        <span><ion-icon name="call-outline"></ion-icon>0821 1911 3895 </span>
-        <ul>
-            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
-            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
-        </ul>
-    </div>
+
     <nav>
         <div class="logo">
           <a href="#">  <img src="logo.png" alt="logo"> AstraCares</a>
@@ -29,6 +23,126 @@
             <li><a href="#">Contact</a></li>
         </ul>
     </nav>
+
+<div class="container">
+    <div class="nav1">
+        <ul>
+            <li><a class="logo2">
+                <img src="logo.png" alt="">
+                <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a href="" class="new">
+                <i class="fas fa-home"></i>
+                <span class="nav-item">Home</span></a>
+            </li>
+           
+            <li><a href="" class="new">
+                <i class="fas fa-chart-bar"></i>
+                <span class="nav-item">Services</span></a>
+            </li>
+            <li><a href="" class="new"><i class="fas fa-calendar-alt"></i>
+                <span class="nav-item">Schedule</span></a></li>
+            <li><a href="" class="new"><i class="fas fa-wallet"></i>
+                <span class="nav-item">Finance</span></a></li>
+                <li><a href="" class="new"><i class="fas fa-cog"></i>
+                    <span class="nav-item">Settings</span>
+                </a></li>
+                    <li><a href="" class="new"><i class="fas fa-question-circle"></i>
+                        <span class="nav-item">Help</span></a></li>
+                        <li><a href="" class="logout"><i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span></a></li>
+        </ul>
+    </div>
+    <section class="main">
+        <div class="main-top">
+            <h1>Caretakers</h1>
+            <i class="fas fa-user-cog"></i>
+        </div>
+        <div class="main-skills">
+            <div class="card">
+                <i><img src="babysitterimg.png" width="100" height="100"> </i>
+                <h3>Babysitter</h3>
+                <p>Welcome to AstraCares and you can find babysitters here which
+                    perform general caregiving duties that ensure children's needs while their parents are away<br>
+                (Typically for children 0-2 of age)</p>
+               
+                <button>Find</button>
+            </div>
+            <div class="card">
+        
+                <i><img src="nanny.png" width="100" height="100"> </i>
+                <h3>Nanny</h3>
+                <p>Welcome to AstraCares and you can find nannies here which provides 
+                    children with the care they need so that parents can focus on other responsibilities
+                <br>(Typically for children of age 2-5)</p>
+                <button>Find</button>
+               
+            </div>
+            <div class="card">
+                <i><img src="governessimg.png" height="100" width="100"> </i>
+                <h3>Governess</h3>
+                <p>Welcome to AstraCares and you can find governess here which is a specialised child worker 
+                    who works with children to teach them different elements<br>
+                (Typically for children of age 5-12)</p>
+              
+                <button>Find</button>
+                
+            </div>
+        </div>
+
+        <section class="main-course">
+            <h1>Activities</h1>
+            <div class="course-box">
+                <ul>
+                    <li class="active">In progress</li>
+                    <li>explore</li>
+                    <li>haihai</li>
+                    <li>find</li>
+                </ul>
+                <div class="course">
+                    <div class="box">
+                        <h3>Services</h3>
+                        <P>Find out about our Services and book here!<br></P>
+                        <img src="wyheel-removebg-preview.png" width="100" height="100" style="float: right;">
+                        <div class="tes">
+                        <button>Find</button></div>
+                       
+                    </div>
+                    <div class="box">
+                        <h3>Schedule</h3>
+                        <P>Find out my schedule with caretakers here!</P>
+                        <img src="calendar-removebg-preview.png" height="100" width="100" style="float: right;">
+                        <div class="tes">
+                        <button>Find</button>
+                        </div>
+                        <i>
+                        </i>
+                    </div>
+                    <div class="box">
+                        
+                        <h3>Finance</h3>
+                        <P>find my Finance information in AstraCares here!</P>
+                        
+                        <img src="cc_img-removebg-preview.png" height="100" width="100" style="float: right;">
+                        <div class="tes">
+                        <button>Find</button>
+                        </div>
+                    </div>
+                    
+                   
+                    
+                    
+                </div>
+
+            </div>
+        </section>
+    </section>
+</div>
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="dashboard.js"></script>
 </body>
