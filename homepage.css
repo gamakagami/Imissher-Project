@@ -13859,7 +13859,12 @@
     border-radius: 6px;
 }
 }
-@media only screen and (min-width:801px) and (max-width:950px){
+@media only screen and (min-width:801px) and (max-width:820px){
+.body{
+    width:95%;
+}
+}
+@media only screen and (min-width:821px) and (max-width:900px){
 .container2{
     width: 90%;
     padding: 30px 35px 40px 35px;
@@ -13872,5 +13877,10 @@
     justify-content: center;
     border-radius: 6px;
     padding: 40px 60px 50px 50px
+}
+}
+@media only screen and (min-width:901px){
+.body{
+    width:95%;
 }
 }
