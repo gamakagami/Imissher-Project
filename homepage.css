@@ -330,9 +330,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -755,9 +754,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -1180,9 +1178,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -1606,9 +1603,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -2032,9 +2028,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -2458,9 +2453,8 @@
     transition: 0.3s ease-in-out;
 }
 .clickhere:hover{
-    background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -2885,8 +2879,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -3311,8 +3304,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -3737,8 +3729,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -4163,8 +4154,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -4589,8 +4579,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -5015,8 +5004,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 155;
@@ -5443,8 +5431,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 168;
@@ -5882,8 +5869,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 168;
@@ -6321,8 +6307,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 168;
@@ -6760,8 +6745,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 168;
@@ -7199,8 +7183,7 @@
 }
 .clickhere:hover{
     background-color: greenyellow;
-    color:black;
-    border:2px solid black;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 138;
@@ -7613,9 +7596,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 105;
@@ -8027,9 +8009,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 105;
@@ -8441,9 +8422,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 105;
@@ -8855,9 +8835,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpaihead{
     grid-row-start: 105;
@@ -9269,9 +9248,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 98;
@@ -9690,9 +9668,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 98;
@@ -10110,9 +10087,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 98;
@@ -10531,9 +10507,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 98;
@@ -10952,9 +10927,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 98;
@@ -11378,9 +11352,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
@@ -11804,9 +11777,8 @@
     z-index:2;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
@@ -12235,9 +12207,8 @@
     font-size: 18px;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
@@ -12666,9 +12637,8 @@
     font-size: 20px;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
@@ -13096,9 +13066,8 @@
     font-size: 20px;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
@@ -13526,9 +13495,8 @@
     font-size: 20px;
 }
 .clickhere:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: greenyellow;
+    color:white;
 }
 .senpai{
     grid-row-start: 103;
