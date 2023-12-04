@@ -4714,7 +4714,7 @@
 }
 .container{
     display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
+    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
 .menu{
@@ -4885,7 +4885,7 @@
 }
 .bg2{
     grid-column-start: 1;
-    grid-column-end:75;
+    grid-column-end:80;
     grid-row-start: 233;
     grid-row-end: 307;
     background-color: rgb(62, 61, 61);
@@ -13672,7 +13672,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 6px;
-    padding: 40px 60px 50px 50px
+    padding: 40px 60px 50px 50px;
 }
 .container2{
     width: 80%;
@@ -13775,7 +13775,7 @@
 }
 @media only screen and (max-width:400px){
 .body{
-    width:70%;
+    width:50%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13832,7 +13832,7 @@
     border-radius: 6px;
 }
 }
-@media only screen and (min-width:681px) and (max-width:731px){
+@media only screen and (min-width:681px) and (max-width:730px){
 .container2{
     width: 100%;
     padding: 30px 35px 40px 35px;
@@ -13841,6 +13841,16 @@
     width:83%;
 }
 }
+@media only screen and (min-width:731px) and (max-width:760px){
+.body{
+    width:90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+}
+@media only screen and (min-width:761px) and (max-width:800px){
 .body{
     width:85%;
     display: flex;
@@ -13848,7 +13858,8 @@
     justify-content: center;
     border-radius: 6px;
 }
-@media only screen and (min-width:821px) and (max-width:950px){
+}
+@media only screen and (min-width:801px) and (max-width:950px){
 .container2{
     width: 90%;
     padding: 30px 35px 40px 35px;
