@@ -306,14 +306,65 @@ a{
 }
 .newmain{
     display: grid;
-    grid-template-rows: 7% 30% 30% 30% 30% 30% 30%;
+    grid-template-rows: 10% 30% 30% 30%;
     grid-template-columns: 20% 80%;
+}
+
+.babysitter{
+    grid-row-start: 2;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 70%;
 }
 .babysitter1{
     grid-column-start: 1;
-    grid-row-start: 2;
+    grid-row-start: 1;
 }
 .babysitter2{
     grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+
+
+.nanny{
     grid-row-start: 3;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 70%;
+}
+.nanny1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.nanny2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+
+
+.governess{
+    grid-row-start: 4;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 30% 70%;
+}
+.gov1{
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.gov2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+
+
+
+
+.filters{
+    text-align: center;
+    grid-row-start: 1;
+    display: inline-block;
 }
