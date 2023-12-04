@@ -100,6 +100,7 @@
 }
 .signin{
     display:none;
+    cursor:pointer;
 }
 .moo{
     padding:20px 0;
@@ -7423,10 +7424,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor:pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
+    background-color:yellowgreen;
+    color:white;
     border:2px solid black;
 }
 .image1{
@@ -7837,11 +7839,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:430px;
@@ -8251,11 +8253,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:450px;
@@ -8665,11 +8667,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:450px;
@@ -9079,11 +9081,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:500px;
@@ -9500,11 +9502,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:500px;
@@ -9923,9 +9925,8 @@
     font-weight: bold;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color: white;
 }
 .image1{
     width:500px;
@@ -10342,11 +10343,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:500px;
@@ -10763,11 +10764,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:500px;
@@ -11615,11 +11616,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:550px;
@@ -12041,11 +12042,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:580px;
@@ -12375,6 +12376,7 @@
     font-size:21px;
 }
 }  
+/**/
 @media only screen and (min-width:1451px) and (max-width:1501px){
 *{
     font-family: arial;
@@ -12471,11 +12473,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:600px;
@@ -12901,11 +12903,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:640px;
@@ -13331,11 +13333,11 @@
     transition:0.8s;
     border-radius: 5px;
     font-weight: bold;
+    cursor: pointer;
 }
 .signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
+    background-color: yellowgreen;
+    color:white;
 }
 .image1{
     width:640px;
@@ -13773,9 +13775,27 @@
 .button input[type="button"]:hover{
     background: green;
 }
-@media only screen and (max-width:400px){
+@media only screen and (max-width:299px){
 .body{
-    width:50%;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+}
+@media only screen and (min-width:300px) and (max-width:350px){
+.body{
+    width:85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+}
+@media only screen and (min-width:351px) and (max-width:400px){
+.body{
+    width:72%;
     display: flex;
     align-items: center;
     justify-content: center;
