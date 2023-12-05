@@ -4,6 +4,126 @@
 .clickhere{
     cursor:pointer;
 }
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.menu{
+    grid-column-start: 52;
+    grid-column-end: 52;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:100%;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.logoo2{
+    grid-row-start:4;
+    grid-column-start:4;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end:6;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end:13;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 35;
+    grid-column-end: 43;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.service{
+    grid-column-start: 44;
+    grid-column-end: 47;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    transition: 0.3s ease-in-out;
+}
+.service:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
 /*For smartphones*/
 @media only screen and (max-width:400px){
 *{
@@ -13,25 +133,6 @@
     display:grid;
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-}
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 23;
-    grid-column-end: 35;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
 }
 .navbar{
     display: none;
@@ -61,40 +162,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -463,25 +530,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 27;
-    grid-column-end: 35;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -510,40 +558,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -887,25 +901,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 28;
-    grid-column-end: 35;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -934,40 +929,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -1311,25 +1272,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 29;
-    grid-column-end: 36;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -1358,40 +1300,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -1736,25 +1644,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 31;
-    grid-column-end: 36;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -1783,40 +1672,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -2161,25 +2016,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 33;
-    grid-column-end: 36;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -2208,40 +2044,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -2586,25 +2388,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 35;
-    grid-column-end: 36;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -2633,40 +2416,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -3011,25 +2760,6 @@
     grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 36;
-    grid-column-end: 37;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -3038,19 +2768,6 @@
     outline:none;
     cursor:pointer;
 }
-.menu-content{
-    display: none;
-    position: flex;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    background-color: darkolivegreen;
-    color:white;
-    border-color:black;
-    border-style:solid;
-    min-width:90px;
-    justify-self: center;
-    align-items: center;
-}
 .menu:hover .menu-content{
     color: black;
     padding: 12px 16px;
@@ -3058,40 +2775,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -3436,25 +3119,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 37;
-    grid-column-end: 39;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -3483,40 +3147,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -3861,25 +3491,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 40;
-    grid-column-end: 42;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -3908,40 +3519,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -4286,25 +3863,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 45;
-    grid-column-end: 42;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -4333,40 +3891,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -4711,25 +4235,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 44;
-    grid-column-end: 48;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -4758,40 +4263,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -5136,25 +4607,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 50;
-    grid-column-end: 70;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -5183,40 +4635,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -5574,25 +4992,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 55;
-    grid-column-end: 70;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -5621,40 +5020,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -6012,25 +5377,6 @@
     grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 58;
-    grid-column-end: 70;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -6059,40 +5405,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -6450,25 +5762,6 @@
     grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 68;
-    grid-column-end: 70;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -6497,40 +5790,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -6888,25 +6147,6 @@
     grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
 }
-.menu{
-    display:grid;
-    position:relative;
-    display:inline-block;
-    grid-column-start: 68;
-    grid-column-end: 70;
-    grid-row-start: 3;
-    grid-row-end: 8;
-    text-align: center;             
-    color:white;
-    padding-top:10px;            
-    cursor:pointer;
-    width:100%;
-    transform:translatex(50%);
-    z-index:1;
-    background-color: transparent;
-    transition:0.3s;
-    width:80px; 
-}
 .navbar{
     display: none;
 }
@@ -6935,40 +6175,6 @@
     display: block;
     text-align: left;
     width:80px;
-}
-.navbar2{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 25px;
-    top:0;
-    position:fixed;
-    z-index: 2;
-    background-color: white;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
-}
-.logoo2{
-    grid-row-start:3;
-    grid-column-start:3;
-    width:65px;
-    height:auto;
-}
-.logo2{
-    grid-column-start: 11;
-    grid-row-start: 4;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan2{
-    grid-column-start: 12;
-    grid-column-end: 26;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-style:italic;
-    color:black;
 }
 .aboutus{
     display:none;
@@ -7324,99 +6530,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 49;
-    grid-column-end: 57;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 64;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:80;
-    grid-column-end: 88;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor:pointer;
-}
-.signin:hover{
-    background-color:yellowgreen;
-    color:white;
-    border:2px solid black;
 }
 .image1{
     width:430px;
@@ -7738,98 +6856,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 54;
-    grid-column-end: 62;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 69;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:85;
-    grid-column-end: 93;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:430px;
@@ -8151,98 +7182,11 @@
     grid-template-rows:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 61;
-    grid-column-end: 69;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 76;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:90;
-    grid-column-end: 98;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:450px;
@@ -8564,98 +7508,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 59;
-    grid-column-end: 67;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 76;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:92;
-    grid-column-end: 100;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:450px;
@@ -8977,98 +7834,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns:10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 71;
-    grid-column-end: 79;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 86;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:98;
-    grid-column-end: 106;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:500px;
@@ -9397,98 +8167,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 74;
-    grid-column-end: 82;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 89;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:104;
-    grid-column-end: 112;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:500px;
@@ -9817,97 +8500,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 74;
-    grid-column-end: 82;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 89;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:104;
-    grid-column-end: 112;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color: white;
 }
 .image1{
     width:500px;
@@ -10236,98 +8833,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 74;
-    grid-column-end: 82;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 91;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:108;
-    grid-column-end: 116;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:500px;
@@ -10656,98 +9166,11 @@
     grid-template-rows:  10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 78;
-    grid-column-end: 86;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 95;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:112;
-    grid-column-end: 120;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:500px;
@@ -11081,98 +9504,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 83;
-    grid-column-end: 91;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 100;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:117;
-    grid-column-end: 125;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-}
-.signin:hover{
-    background-color: white;
-    color:darkolivegreen;
-    border:2px solid black;
 }
 .image1{
     width:550px;
@@ -11506,98 +9842,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 86;
-    grid-column-end: 94;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 103;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:120;
-    grid-column-end: 128;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:550px;
@@ -11931,98 +10180,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:68px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 30px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 6;
-    grid-row-end:8;
-    font-size: 15px;
-    font-style:italic;
-    color:black;
-    margin-top: 2px;
-    
-}
-.aboutus{
-    grid-column-start: 90;
-    grid-column-end: 98;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 15px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 107;
-    font-size: 15px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:124;
-    grid-column-end: 132;
-    grid-row-start: 4;
-    border:none;
-    font-size:15px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:28px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:580px;
@@ -12362,97 +10524,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:72px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 36px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 17px;
-    font-style:italic;
-    color:black;
-    
-}
-.aboutus{
-    grid-column-start: 90;
-    grid-column-end: 100;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 17px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 109;
-    font-size: 17px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:128;
-    grid-column-end: 138;
-    grid-row-start: 4;
-    border:none;
-    font-size:17px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:30px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:600px;
@@ -12791,97 +10867,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:72px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 36px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 17px;
-    font-style:italic;
-    color:black;
-    
-}
-.aboutus{
-    grid-column-start: 93;
-    grid-column-end: 103;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 17px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 112;
-    font-size: 17px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:131;
-    grid-column-end: 141;
-    grid-row-start: 4;
-    border:none;
-    font-size:17px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:30px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:640px;
@@ -13220,97 +11210,11 @@
     grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
     grid-gap:0px;
 }
-.navbar{
-    display:grid;
-    grid-template-columns: 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px 10px;
-    grid-template-rows: 10px 10px 10px 10px 10px 10px 10px 10px 10px 8px;
-    top:0;
-    position:fixed;
-    background-color: white;
-    width:100%;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
-    z-index: 10;
-}
 .navbar2{
     display:none;
 }
 .menu-content{
     display:none;
-}
-.logoo{
-    grid-row-start:2;
-    grid-row-end: 3;
-    grid-column-start:5;
-    width:72px;
-    height:auto;
-}
-.logo{
-    grid-column-start: 13;
-    grid-row-start: 3;
-    grid-row-end:4;
-    font-family: Arial;
-    font-size: 36px;
-    color:darkolivegreen;
-}
-.slogan{
-    grid-column-start: 14;
-    grid-column-end: 28;
-    grid-row-start: 7;
-    grid-row-end:8;
-    font-size: 17px;
-    font-style:italic;
-    color:black;
-    
-}
-.aboutus{
-    grid-column-start: 93;
-    grid-column-end: 103;
-    grid-row-start: 5;
-    grid-row-end:6;
-    font-size: 17px;
-    padding-bottom: 10px;
-    color:darkgreen;
-    font-weight:bold;
-    transition:0.3s ease-in-out;
-    font-family: Arial;
-    cursor: pointer;
-}
-.aboutus:hover{
-    color:black;
-}
-.services{
-    grid-row-start: 5;
-    grid-column-start: 112;
-    font-size: 17px;
-    padding-bottom: 10px;
-    font-family: Arial;
-    color:darkgreen;
-    transition:0.3s ease-in-out;
-    font-weight:bold;
-    cursor:pointer;
-}
-.services:hover{
-    color:black;
-}
-.signin{
-    grid-column-start:131;
-    grid-column-end: 141;
-    grid-row-start: 4;
-    border:none;
-    font-size:17px;
-    background-color: darkolivegreen;
-    color:white;
-    padding-top:10px;
-    font-family: arial;
-    padding-bottom:30px;
-    transition:0.8s;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-}
-.signin:hover{
-    background-color: yellowgreen;
-    color:white;
 }
 .image1{
     width:640px;
