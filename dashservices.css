@@ -318,9 +318,13 @@ p{
 }
 .newdata img{
     border-radius: 10px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 200px;
+    min-height: 200px;
 }
 button{
-    background: #000;
+    background: orangered;
     color:#fff;
     padding: 7px 10px;
     border-radius: 10px;
@@ -330,5 +334,5 @@ button{
     float: right;
 }
 button:hover{
-    background: rgba(0, 0, 0, 0.842);
+    background: greenyellow;
 }
