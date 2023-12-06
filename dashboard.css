@@ -6,6 +6,12 @@
 body{
     font-family: Arial;
 }
+.quote{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    display: inline-block;
+}
 a, a:hover{
     text-decoration: none;
 }
@@ -42,20 +48,7 @@ nav .menu li a{
     align-items: center;
     font-size: 30px;
 }
-.menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-}
-.menu li{
-    padding: 15px 10px;
-    font-size: 16px;
 
-}
-.toggle{
-    font-size: 30px;
-    display: none;
-}
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *{
@@ -80,7 +73,7 @@ body{
     top:0;
     bottom:0;
     height: 100vh;
-    background:lightsteelblue;
+    background:#fff;
     width: 280px;
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -130,7 +123,7 @@ a{
     margin-left: 10px;
 }
 .nav1 a:hover{
-    background: lightblue;
+    background: whitesmoke;
 }
 .logout{
     position: absolute;
@@ -178,7 +171,7 @@ a{
     font-size: 15px;
 }
 .main-skills .card button{
-    background-color: red;
+    background-color: darkolivegreen;
     color:#fff;
     padding: 7px 15px;
     border-radius: 10px;
@@ -186,7 +179,7 @@ a{
     cursor: pointer;
 }
 .main-skills .card button:hover{
-    background: blue;
+    background: greenyellow;
 }
 .main-skills .card i{
     font-size: 22px;
@@ -215,7 +208,16 @@ a{
     }
 
 }
-
+@media screen and (max-width:840px){
+    .nav1{
+        display: none;
+    }
+}
+@media screen and (min-width:841px){
+    .nav1{
+        height: 100vh;
+    }
+}
 
 
 .menu.active, .toggle{
@@ -253,7 +255,7 @@ a{
 }
 
 .course-box ul .active{
-    color:#000;
+    color:darkolivegreen;
     border-bottom: 1px solid #000;
 }
 .course-box .course{
@@ -276,7 +278,7 @@ a{
 
 }
 .box button{
-    background: #000;
+    background: darkolivegreen;
     color:#fff;
     padding: 7px 10px;
     border-radius: 10px;
@@ -285,22 +287,13 @@ a{
     bottom:0;
 }
 .box button:hover{
-    background: rgba(0, 0, 0, 0.842);
-
+    background: yellowgreen;
 }
 .box i{
     font-size: 7rem;
     float: right;
     margin: -20px 20px 20px 0;
-
-
 }
-.html{
-    color:red;
-}
-
-
-
 
 @media screen and (min-width:601px){
     .toggle{
