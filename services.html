@@ -1,88 +1,43 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <link rel="stylesheet" href="services.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
-    <title>Dashboard</title>
+    <link rel="stylesheet" href="servicestyle.css">
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
 </head>
 <body>
-
-    <nav>
-        <div class="logo">
-          <a href="#">  <img src="logo.png" alt="logo"> AstraCares</a>
-        </div>
-        <div class="quote">
-            <p>ガム卿はイケメンすぎる</p>
-        </div>
-    </nav>
-
-<div class="container">
-    <div class="nav1">
-        <ul>
-            <li><a class="logo2">
-                <img src="pp.jpg" alt="">
-                <span class="nav-item">Dashboard</span>
-            </a></li>
-            <li><a href="" class="new">
-                <i class="fas fa-home"></i>
-                <span class="nav-item">Home</span></a>
-            </li>
-           
-            <li><a href="" class="new">
-                <i class="fas fa-chart-bar"></i>
-                <span class="nav-item">Services</span></a>
-            </li>
-            <li><a href="" class="new"><i class="fas fa-calendar-alt"></i>
-                <span class="nav-item">Schedule</span></a></li>
-            <li><a href="" class="new"><i class="fas fa-wallet"></i>
-                <span class="nav-item">Finance</span></a></li>
-                <li><a href="" class="new"><i class="fas fa-cog"></i>
-                    <span class="nav-item">Settings</span>
-                </a></li>
-                    <li><a href="" class="new"><i class="fas fa-question-circle"></i>
-                        <span class="nav-item">Help</span></a></li>
-                        <li><a href="" class="logout"><i class="fas fa-sign-out-alt"></i>
-                            <span class="nav-item">Log out</span></a></li>
-        </ul>
+    <div class="navbar">
+        <img src="logo.png" class="logoo">
+        <div class="logo">AstraCares</div>
+        <div class="slogan">Caring for you</div>
+        <div class="about" onclick="location.href='abiutus.html'">ABOUT US</div>
+        <div class="HOME" onclick="location.href='index.html'">HOME</div>
+        <button type="submit" class="login" onclick="location.href='login.html'">LOGIN</button>
     </div>
-    <div class="newmain">
-        <div id="filters">
-            <button data-filter="all">All</button>
-            <button data-filter="babysitter">Babysitter</button>
-            <button data-filter="nanny">Nanny</button>
-            <button data-filter="governess">Governess</button>
-        </div>
-<div class="babysitter">
-        <div class="babysitter1">
-            <h1>op</h1>
-        </div>
-        <div class="babysitter2">
-            <h1>op</h1>
-        </div>
-</div>
-<div class="nanny">
-    <div class="nanny1">
-        <h1>op</h1>
-    </div>
-    <div class="nanny2">
-        <h1>op</h1>
-    </div>
-    <div class="governess">
-        <div class="gov1">
-            <h1>op</h1>
-        </div>
-        <div class="gov2">
-            <h1>op</h1>
+    <div class="navbar2">
+        <img src="logo.png" class="logoo2">
+        <div class="logo2">AstraCares</div>
+        <div class="slogan2">Caring for you</div>
+        <div class="menu">
+            <img src="menuicon.png" class="menuicon">
+            <div class="menu-content">
+                <div class="moo" id="home2"onclick="location.href='index.html'">HOME</div>
+                <div class="moo" id="aboutus2" onclick="location.href='x.html'">ABOUT US</a></div>
+                <div class="moo" id="signin2"onclick="location.href='login.html'">LOG IN</div>
+            </div>
         </div>
     </div>
-</div>
+    <div class="container">
+        <div class="sub">-- SERVICE TO OTHERS LEADS TO GREATNESS</div>
+        <div class="title">Our Featured Services</div>
+        <div class="baby">BABYSITTING SERVICES</div>
+        <div class="line"></div>
+        <div class="babydescription">We provide babysitting services mainly to help parents with urgent events. Customers can only buy services ONE DAY BEFORE the day at maximum. As an outline of our babysitting service, the babysitter will usually arrive before the time booked, the babysitter will ensure the safety, basic healthcare of the baby. They will play and engage appropriate activities, prepare meals, light housekeeping, communicate with the parents, transportation if needed and providing boundaries if requested by the parents. Prices may be higher according to the number of babies getting taken care of.  <br> <div class="average"> Average Price: ($5 - $10)/hour </div></div>
+        <img src="babyy.png" class="babyy">
+        <img src="nannyy.png" class="nannyy">
+        <div class="nanny">NANNY SERVICES</div>
+        <div class="line2"></div>
+        <div class="nannydescription">We provide nanny services to provide support towards parents who have difficulties in supervising their children, usually due to work. Nannies are similar to what babysitters do, the difference is that nannies are more experienced. Another difference is that there are two different types of nannies such as live-in nannies and live-out nannies. Live-in nannies stay in the customer's household, while live-out nannies do not. Thus, live-in nannies are more flexible and have longer working hours. As a result, the price of live-in nannies are significantly higher than live-out nannies. <br><div class="price2">Average Price: Live-out Nannies: ($10-$15)/hour <br> <div class="in">Live-in Nannies: ($15 - $25)/hour (Working hours only)</div></div></div>
+        <div class="governess">GOVERNESS SERVICES</div>
+        <div class="line3"></div>
+        <div class="governessdescription">We have governess services to help children that are struggling in school. A governess helps with academic subjects like science, maths and others. Thery also help with language skills and cultural activities like music. They can also discipline your children for those who are misbehaving. The price may be significantly higher than the other services as there are high demand but low supply. <br> <div class="in2">Average Price: ($30 - $40)/hour</div></div>
+        <img src="governesss.png" class="governesss">
     </div>
-   
-</div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="services.js"></script>
 </body>
-</html>
