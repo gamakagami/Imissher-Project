@@ -20,22 +20,22 @@
                     <div class="row align-items-center">
                         <div class="header-text mb-4 pt-2">
                             <img src="back.png" class="back" onclick="location.href='login.html'">
-                            <p class="hello mt-2">Join Us!</p>
+                            <p class="hello mt-2">Join Us!</p>  
                         </div>
-                        <form action="dashboard.html">
+                        <form action="dashboard.html" id="signupp">
                             <div class="input-group mb-3 ps-4">
                                 <input type="text" class="form-control form-control-lg bg-light fs-6" placeholder="Username:" id="name"required>
                             </div>
                             <div class="input-group mb-3 ps-4">
                                 <input type="email" class="form-control form-control-lg bg-light fs-6" id="email"placeholder="Email:"required>
                             </div>
-                            <div class="input-group mb-3 ps-4">
+                            <div class= "input-group mb-3 ps-4">
                                 <input type="password" id="password" class="form-control form-control-lg bg-light fs-6" placeholder="Password:"required>
                             </div>
                             <div class="input-group mb-3 ps-4">
-                                <input type="password" id="confirmPassword" class="form-control form-control-lg bg-light fs-6" placeholder="Confirm Password:"required>
+                                <input type="password" id="password2" class="form-control form-control-lg bg-light fs-6" placeholder="Confirm Password:"required>
                             </div>
-                            <div class="input-group mb-3 ps-4">
+                            <div class="input-group mb-4 ps-4">
                                 <input type="tel" id="phone" class="form-control form-control-lg bg-light fs-6" placeholder="Phone Number:"required>
                             </div>
                             <div class="input-group ps-4 mb-2">
@@ -47,19 +47,30 @@
             </div>
         </div>
     <script>
-        function check_email(){
-            var pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            var email = $("#form_email").val();
-            if (pattern.test(email) && email !== "" ){
-                $("#email_error_message").hide();
-                $("#form_email").css("border-bottom","2px solid #34F458");
-            } else {
-                $("#email_error_message").html("Invalid Email");
-                $("#email_error_message").show();
-                $("#form_email").css("border-bottom","2px solid #F90A0A");
-                error_email=true;
-            }
-        }        
+
+$(document).ready(function() {
+    $('#signupp').submit(function(event) {
+      event.preventDefault();
+      var checkinput = true;
+        
+      if ($('#password').val() !== $("#password2").val()) {
+        checkinput = false;
+        alert("Passwords do not match, please re-confirm your password");
+      }
+      if (checkinput) {
+        var data = $("#phone").val();
+        var isInteger = /^-?\d+$/.test(data);
+        if (isInteger){
+            alert("Account created successfully! You can now login.");
+            window.location.href="login.html";
+        } else {
+            alert ("Your phone number must bes in the form of integer");
+        }
+      }
+    });
+});
+
+
     </script>
     </body>
 </html>
