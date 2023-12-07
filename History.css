@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+.history{
+    position: relative;
+    max-width: 1200px; 
+    margin: 100px auto;
+}
+.container {
+padding: 10px 50px;
+position: relative;
+width: 50%;
+background: rgba(0, 0, 0, 0.3)
+}
+.history-content{
+padding: 20px 30px;
+background: #fff;
+position: relative;
+}
