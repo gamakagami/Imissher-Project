@@ -1,0 +1,317 @@
+*{
+    font-family: arial;
+}
+@media only screen and (max-width:901px){
+.navbar{
+    display:none;
+}
+.navbar2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.menu{
+    grid-column-start: 52;
+    grid-column-end: 52;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:40%;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: flex;
+    min-width:90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.logoo2{
+    grid-row-start:4;
+    grid-column-start:4;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end:6;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end:13;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+#aboutus2{
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 17px;
+}
+#aboutus2:hover{
+    color:black;
+}
+#home2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#home2:hover{
+    color:black;
+}
+#signin2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#signin2:hover{
+    color:black;
+}
+}
+@media only screen and (min-width:902px){
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: none;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 44;
+    grid-column-end: 52;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.home{
+    grid-column-start: 37;
+    grid-column-end: 40;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: rgb(255, 255, 255), (249);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
+#home2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+}
+
+
+.bigcontainer{
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+.aboutus .one{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
+.content{
+    flex: 1;
+    width: 600px;
+    margin: 0 25px;
+    animation: fadeInUp 2s ease;
+}
+.content .first{
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+.content{
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+}
+.content .button{
+    display:inline-block;
+    background-color:darkolivegreen;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.content .button:hover{
+    background-color: rgb(178, 219, 108);
+    transform: scale(1.1);
+}
+.idiots{
+    flex: 1;
+    width: 600px;
+    margin: auto;
+    animation: fadeInRight 2s ease;
+}
+.pain{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+@media screen and (max-width: 768px){
+    .aboutus .one{
+        font-size: 45px;
+        margin-top: 30px;
+    }
+    .bigcontainer{
+        margin: 0px;
+    }
+    .container2{
+        width: 100%;
+        flex-direction: column;
+        margin: 0px;
+        padding: 0px 40px;
+    }
+    .content{
+        width: 100%;
+        margin: 35px 0px;
+    }
+    .content .first{
+        font-size: 30px;
+    }
+   .content .paragraph{
+        font-size: 18px;
+        margin-bottom: 20px;
+   }
+   .content .button{
+    font-size: 16px;
+    padding:8px 16px;
+   }
+   .idiots{
+    width: 100%;
+   }
+}
+@keyframes fadeInUp{
+    0%{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+@keyframes fadeInRight{
+    0%{
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
