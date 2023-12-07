@@ -1,7 +1,7 @@
 *{
     font-family: arial;
 }
-@media only screen and (max-width:901px){
+@media only screen and (max-width:640px){
 .navbar{
     display:none;
 }
@@ -115,8 +115,828 @@
 #signin2:hover{
     color:black;
 }
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
 }
-@media only screen and (min-width:902px){
+.sub{
+    font-size: 10px;
+    grid-column-start: 16;
+    grid-column-end: 120;
+    padding-top: 5px;
+    grid-row-start:10;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 120;
+    font-size: 35px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 120;
+    font-size: 20px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:130;
+    font-size: 18px;
+}
+.babyy{
+    grid-row-start:33;
+    grid-column-start:32;
+    width:8900%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 45;
+    grid-row-end: 46;
+    grid-column-start: 50;
+    grid-column-end:130;
+    font-size: 20px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:46;
+    grid-row-end: 48;
+    grid-column-start:110;
+    grid-column-end: 130;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 18;
+    grid-column-end:130;
+    grid-row-start: 47;
+    text-align: right;
+    font-size: 18px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 68;
+    grid-column-start:22;
+    width: 12000%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 120;
+    font-size: 20px;
+    color: darkolivegreen;
+    grid-row-start: 81;
+}
+.line3{
+    grid-row-start:82;
+    grid-row-end:84;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:118;
+    grid-row-start:83;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 100;
+    grid-column-start:32;
+    width: 9000%;
+}
+}
+@media only screen and (min-width:641px) and (max-width:848px){
+.navbar{
+    display:none;
+}
+.navbar2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.menu{
+    grid-column-start: 52;
+    grid-column-end: 52;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:40%;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: flex;
+    min-width:90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.logoo2{
+    grid-row-start:4;
+    grid-column-start:4;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end:6;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end:13;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+#aboutus2{
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 17px;
+}
+#aboutus2:hover{
+    color:black;
+}
+#home2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#home2:hover{
+    color:black;
+}
+#signin2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#signin2:hover{
+    color:black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+.sub{
+    font-size: 12px;
+    grid-column-start: 16;
+    grid-column-end: 120;
+    padding-top: 5px;
+    grid-row-start:9;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 120;
+    font-size: 45px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 120;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:130;
+    font-size: 20px;
+}
+.babyy{
+    grid-row-start:28;
+    grid-column-start:32;
+    width:8200%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 45;
+    grid-row-end: 46;
+    grid-column-start: 50;
+    grid-column-end:130;
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:46;
+    grid-row-end: 48;
+    grid-column-start:110;
+    grid-column-end: 130;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 22;
+    grid-column-end:130;
+    grid-row-start: 47;
+    text-align: right;
+    font-size: 20px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 61;
+    grid-column-start:34;
+    width: 8700%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 98;
+    font-size: 28px;
+    color: darkolivegreen;
+    grid-row-start: 79;
+}
+.line3{
+    grid-row-start:80;
+    grid-row-end:82;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:118;
+    grid-row-start:81;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 90;
+    grid-column-start:40;
+    width: 7000%;
+}
+}
+@media only screen and (min-width:848px) and (max-width:902px){
+.navbar{
+    display:none;
+}
+.navbar2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.menu{
+    grid-column-start: 52;
+    grid-column-end: 52;
+    grid-row-start: 4;
+    grid-row-end: 8;
+    text-align: center;             
+    color:white;
+    padding-top:10px;            
+    cursor:pointer;
+    width:40%;
+    background-color: transparent;
+    transition:0.3s;
+    width:80px; 
+}
+.menuicon{
+    width:50px;
+    outline:none;
+    cursor:pointer;
+}
+.menu-content{
+    display: none;
+    position: flex;
+    min-width:90px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    background-color: darkolivegreen;
+    color:white;
+    border-color:black;
+    border-style:solid;
+    min-width:110px;
+    justify-self: center;
+    align-items: center;
+}
+.menu:hover .menu-content{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    width:80px;
+}
+.logoo2{
+    grid-row-start:4;
+    grid-column-start:4;
+    width:65px;
+    height:auto;
+}
+.logo2{
+    grid-column-start: 6;
+    grid-row-start: 6;
+    grid-row-end:6;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+.slogan2{
+    grid-column-start: 6;
+    grid-column-end: 12;
+    grid-row-start: 12;
+    grid-row-end:13;
+    font-size: 15px;
+    padding-bottom: 10px;
+    font-style:italic;
+    color:black;
+}
+#aboutus2{
+    padding-bottom: 10px;
+    color:white;
+    font-weight:bold;
+    transition:0.3s ease-in-out;
+    font-family: Arial;
+    cursor: pointer;
+    font-size: 17px;
+}
+#aboutus2:hover{
+    color:black;
+}
+#home2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#home2:hover{
+    color:black;
+}
+#signin2{
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-family: Arial;
+    color:white;
+    transition:0.3s ease-in-out;
+    font-weight:bold;
+    cursor:pointer;
+}
+#signin2:hover{
+    color:black;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+.sub{
+    font-size: 12px;
+    grid-column-start: 16;
+    grid-column-end: 67;
+    padding-top: 5px;
+    grid-row-start:9;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 95;
+    font-size: 45px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 97;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:81;
+    font-size: 20px;
+}
+.babyy{
+    grid-row-start:14;
+    grid-column-start:88;
+    width:7200%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 32;
+    grid-row-end: 33;
+    grid-column-start: 80;
+    grid-column-end:160;
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:33;
+    grid-row-end: 35;
+    grid-column-start:130;
+    grid-column-end: 150;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 87;
+    grid-column-end:146;
+    grid-row-start: 34;
+    text-align: right;
+    font-size: 20px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 33;
+    grid-column-start:1;
+    width: 8500%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 89;
+    font-size: 28px;
+    color: darkolivegreen;
+    grid-row-start: 56;
+}
+.line3{
+    grid-row-start:57;
+    grid-row-end:59;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:78;
+    grid-row-start:58;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 56;
+    grid-column-start:88;
+    grid-column-end: 91;
+    width: 2000%;
+}
+
+}
+@media only screen and (min-width:902px) and (max-width:1037px){
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: none;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 44;
+    grid-column-end: 52;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.home{
+    grid-column-start: 37;
+    grid-column-end: 40;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+.sub{
+    font-size: 12px;
+    grid-column-start: 16;
+    grid-column-end: 67;
+    padding-top: 5px;
+    grid-row-start:9;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 95;
+    font-size: 45px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 97;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:81;
+    font-size: 20px;
+}
+.babyy{
+    grid-row-start:13;
+    grid-column-start:88;
+    width:7200%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 32;
+    grid-row-end: 33;
+    grid-column-start: 80;
+    grid-column-end:160;
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:33;
+    grid-row-end: 35;
+    grid-column-start:130;
+    grid-column-end: 150;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 87;
+    grid-column-end:146;
+    grid-row-start: 34;
+    text-align: right;
+    font-size: 20px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 32;
+    grid-column-start:1;
+    width: 8500%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 89;
+    font-size: 28px;
+    color: darkolivegreen;
+    grid-row-start: 56;
+}
+.line3{
+    grid-row-start:57;
+    grid-row-end:59;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:78;
+    grid-row-start:58;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 55;
+    grid-column-start:88;
+    grid-column-end: 91;
+    width: 1900%;
+}
+
+}
+@media only screen and (min-width:1037px) and (max-width:1162px){
 .navbar{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -194,7 +1014,418 @@ button{
     margin-top: 3%;
 }
 
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
 }
+.sub{
+    font-size: 12px;
+    grid-column-start: 16;
+    grid-column-end: 67;
+    padding-top: 5px;
+    grid-row-start:9;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 89;
+    font-size: 45px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 97;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:81;
+    font-size: 20px;
+}
+.babyy{
+    grid-row-start:13;
+    grid-column-start:88;
+    width:5500%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 32;
+    grid-row-end: 33;
+    grid-column-start: 91;
+    grid-column-end:135;
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:33;
+    grid-row-end: 35;
+    grid-column-start:118;
+    grid-column-end: 135;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 74;
+    grid-column-end:135;
+    grid-row-start: 34;
+    text-align: right;
+    font-size: 20px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 31;
+    grid-column-start:5;
+    width: 6800%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 89;
+    font-size: 28px;
+    color: darkolivegreen;
+    grid-row-start: 53;
+}
+.line3{
+    grid-row-start:54;
+    grid-row-end:56;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:78;
+    grid-row-start:55;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 53;
+    grid-column-start:94;
+    width: 4200%;
+}
+}
+@media only screen and (min-width:1162px) and (max-width:1292px){
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: none;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 44;
+    grid-column-end: 52;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.home{
+    grid-column-start: 37;
+    grid-column-end: 40;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px 26px;
+}
+.sub{
+    font-size: 12px;
+    grid-column-start: 16;
+    grid-column-end: 67;
+    padding-top: 5px;
+    grid-row-start:9;
+    font-weight: bold;
+}
+.title{
+    grid-row-start: 7;
+    grid-column-start: 15;
+    grid-column-end: 89;
+    font-size: 45px;
+    color: darkolivegreen;
+}
+.baby{
+    grid-row-start:14;
+    grid-column-start:15;
+    grid-column-end: 97;
+    font-size: 28px;
+    color: darkolivegreen;
+}
+.line{
+    grid-row-start:15;
+    grid-row-end:17;
+    grid-column-start:15;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.babydescription{
+    grid-row-start:16;
+    grid-row-end:43;
+    grid-column-start:15;
+    grid-column-end:81;
+    font-size: 20px;
+}
+.babyy{
+    grid-row-start:12;
+    grid-column-start:88;
+    width:5200%;
+    height: auto;
+    z-index:100;
+}
+.average{
+    color:darkolivegreen;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.nanny{
+    grid-row-start: 32;
+    grid-row-end: 33;
+    grid-column-start: 91;
+    grid-column-end:135;
+    font-size: 28px;
+    color: darkolivegreen;
+    text-align: right;
+}
+.line2{
+    grid-row-start:33;
+    grid-row-end: 35;
+    grid-column-start:118;
+    grid-column-end: 135;
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.nannydescription{
+    grid-column-start: 74;
+    grid-column-end:135;
+    grid-row-start: 34;
+    text-align: right;
+    font-size: 20px;
+}
+.price2{
+    margin-top: 8px;
+    margin-bottom: 43px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.in{
+    margin-top: 8px;
+}
+.nannyy{
+    grid-row-start: 31;
+    grid-column-start:6;
+    width: 5600%;
+    height: auto;
+}
+.governess{
+    grid-column-start:16;
+    grid-column-end: 89;
+    font-size: 28px;
+    color: darkolivegreen;
+    grid-row-start: 53;
+}
+.line3{
+    grid-row-start:54;
+    grid-row-end:56;
+    grid-column-start:16;
+    grid-column-end: 36;  
+    background-color: darkolivegreen;
+    margin-top: 6px;
+    margin-bottom: 43px;
+}
+.governessdescription{
+    grid-column-start:16;
+    grid-column-end:78;
+    grid-row-start:55;
+    font-size: 20px;
+}
+.in2{
+    margin-top:8px;
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    grid-row-start: 52;
+    grid-column-start:94;
+    width: 3900%;
+}
+}
+@media only screen and (min-width:1292px){
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: none;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 44;
+    grid-column-end: 52;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.home{
+    grid-column-start: 37;
+    grid-column-end: 40;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
+
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -252,10 +1483,11 @@ button{
 .nanny{
     grid-row-start: 32;
     grid-row-end: 33;
-    grid-column-start: 102;
-    grid-column-end:142;
+    grid-column-start: 104;
+    grid-column-end:132;
     font-size: 28px;
     color: darkolivegreen;
+    text-align: right;
 }
 .line2{
     grid-row-start:33;
@@ -320,4 +1552,5 @@ button{
     grid-column-start:88;
     grid-column-end: 91;
     width: 1500%;
+}
 }
