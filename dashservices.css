@@ -340,3 +340,10 @@ body{
     color: gray;
     background-color: whitesmoke;
 }
+.heading{
+    display: inline-block;
+    text-align: center;
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
