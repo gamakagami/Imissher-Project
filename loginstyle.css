@@ -1,85 +1,85 @@
-*{
-    font-family: arial;
-}
-body{
-    background-image: url(sakura\ mountain.jpg) !important;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.img-fluid{
-    width:250px;
-    height:auto;
-}
-.container{
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-}
-.row{
-    background-color: white;
-    border-radius: 15px;
-}
-#box{
-    width: 930px;
-}
-.left-box{
-    background-color: darkolivegreen;
-}
-p{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-}
-small{
-    color: white;
-    width: 17rem;
-    text-align: center;
-}
-.hello{
-    color:black;
-    text-align: center;
-}
-.forget{
-    font-size: 12px;
-    color:grey;
-}
-.back{
-    width:30px;
-    height: auto;
-    cursor: pointer;
-}
-.ps-6{
-    padding-left: 240px;
-}
-.ps-7{
-    display: inline;
-}
-.linkk{
-    text-decoration: none;
-}
-@media only screen and (max-width:494px){
-    .ps-10{
-        padding-left: 24px;
+    *{
+        font-family: arial;
     }
-}
-@media only screen and (min-width:495px) and (max-width:522px){
-    .ps-10{
-        padding-left: 150px;
+    body{
+        background-image: url(sakura\ tree\ 4k.jpg) !important;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-size: cover;
     }
-}
-@media only screen and (min-width:523px) and (max-width:767px){
-    .ps-10{
-        padding-left: 178px;
+    .img-fluid{
+        width:250px;
+        height:auto;
     }
-}
-@media only screen and (min-width:768px) and (max-width:991px){
-    .ps-10{
-        padding-left: 20px;
+    .container{
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
     }
-}
-@media only screen and (min-width:992px){
-    .ps-10{
-        padding-left: 100px;
+    .row{
+        background-color: white;
+        border-radius: 15px;
     }
-}
+    #box{
+        width: 930px;
+    }
+    .left-box{
+        background-color: darkolivegreen;
+    }
+    p{
+        color: white;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    small{
+        color: white;
+        width: 17rem;
+        text-align: center;
+    }
+    .hello{
+        color:black;
+        text-align: center;
+    }
+    .forget{
+        font-size: 12px;
+        color:grey;
+    }
+    .back{
+        width:30px;
+        height: auto;
+        cursor: pointer;
+    }
+    .ps-6{
+        padding-left: 240px;
+    }
+    .ps-7{
+        display: inline;
+    }
+    .linkk{
+        text-decoration: none;
+    }
+    @media only screen and (max-width:494px){
+        .ps-10{
+            padding-left: 24px;
+        }
+    }
+    @media only screen and (min-width:495px) and (max-width:522px){
+        .ps-10{
+            padding-left: 150px;
+        }
+    }
+    @media only screen and (min-width:523px) and (max-width:767px){
+        .ps-10{
+            padding-left: 178px;
+        }
+    }
+    @media only screen and (min-width:768px) and (max-width:991px){
+        .ps-10{
+            padding-left: 20px;
+        }
+    }
+    @media only screen and (min-width:992px){
+        .ps-10{
+            padding-left: 100px;
+        }
+    }
