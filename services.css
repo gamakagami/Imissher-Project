@@ -423,7 +423,7 @@ button{
     padding-right: 3rem;
 }
 }
-@media only screen and (min-width:1100px){
+@media only screen and (min-width:1100px) and (max-width:1699px){
 *{
     font-family: arial;
 }
@@ -600,6 +600,194 @@ button{
     margin-top:1.2rem;
     max-width: 80%;
     font-size: 1.2em;
+}
+.in2{
+    color:darkolivegreen;
+    font-weight: bold;
+}
+.governesss{
+    max-width:27vw;
+    padding-right: 3rem;
+}
+}
+@media only screen and (min-width:1700px){
+*{
+    font-family: arial;
+}
+#nannysection2{
+    display: none;
+}
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px 5px;
+    top:0;
+    position: fixed;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    z-index: 10000;
+}
+.navbar2{
+    display: none;
+}
+.logoo{
+    width:70px;
+    height:auto;
+    grid-column-start: 3;
+    grid-row-start:3;
+    margin-right: 11px;
+}
+.logo{
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 4;
+    font-size: 35px;
+    color:darkolivegreen;
+}
+.slogan{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 11;
+}
+.about{
+    grid-column-start: 44;
+    grid-column-end: 52;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.about:hover{
+    color:black;
+}
+.home{
+    grid-column-start: 37;
+    grid-column-end: 40;
+    grid-row-start: 9;
+    color: darkolivegreen;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.home:hover{
+    color:black;
+}
+.login{
+    grid-column-start: 53;
+    grid-column-end: 57;
+    grid-row-start: 7;
+    grid-row-end: 14;
+    border: none;
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+.login:hover{
+    background-color: yellowgreen;
+}
+button{
+    margin-top: 3%;
+}
+.container{
+    display: flex;
+}
+.sub{
+    margin-top:10em;
+    padding-left: 2rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.title{
+    padding-left: 2rem;
+    font-size: 5rem;
+    color: darkolivegreen;
+}
+.baby{
+    padding-left:2rem;
+    font-size: 2.5rem;
+    margin-top:7rem;
+    color: darkolivegreen;
+}
+.line{
+    background-color: darkolivegreen;
+    height:0.5vh;
+    margin-top: 0.2em;
+    margin-left: 2em;
+    max-width:13%;
+}
+.babydescription{
+    padding-left:2rem;
+    margin-top:1rem;
+    max-width: 80%;
+    font-size: 1.8em;
+}
+.babyy{
+    padding-top: 2em;
+    max-width: 32vw;
+    padding-right: 5em;
+}
+.average{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.nanny{
+    font-size: 2.5rem;
+    text-align: right;
+    color: darkolivegreen;
+    padding-top: 3em;
+    padding-right: 1.5em;
+    text-align: right;
+}
+.line2{
+    background-color: darkolivegreen;
+    height:0.5vh;
+    margin-top: 0.2em;
+    max-width:13%;   
+    margin-left:auto;
+    margin-right:0;
+    margin-right: 3em;
+    }
+.nannydescription{
+    text-align: right;
+    margin-left:auto;
+    margin-right:2.6em;
+    margin-top: 1rem;
+    max-width: 85%;
+    padding-left: 4em;
+    font-size: 1.8em;
+}
+.nannyy{
+    padding-top: 3em;
+    max-width:32vw;
+    padding-left: 8em;
+}
+.in{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+.governess{
+    padding-left:2rem;
+    font-size: 2.5rem;
+    color: darkolivegreen;   
+    margin-top: 2rem;
+}
+.line3{
+    background-color: darkolivegreen;
+    height:0.5vh;
+    margin-top: 0.2em;
+    margin-left: 2em;
+    max-width:13%;
+}
+.governessdescription{
+    padding-left:2rem;
+    margin-top:1.2rem;
+    max-width: 80%;
+    font-size: 1.8em;
 }
 .in2{
     color:darkolivegreen;
