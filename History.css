@@ -48,6 +48,9 @@ body{
 .container:nth-child(6){
     animation-delay: 5s;
 }
+.container:nth-child(7){
+    animation-delay: 6s;
+}
 
 .history-content{
     padding: 20px 30px;
