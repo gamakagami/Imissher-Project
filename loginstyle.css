@@ -1,6 +1,12 @@
 *{
     font-family: arial;
 }
+body{
+    background-image: url(sakura\ mountain.jpg) !important;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .img-fluid{
     width:250px;
     height:auto;
