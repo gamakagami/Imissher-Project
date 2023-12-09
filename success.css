@@ -1,0 +1,58 @@
+*{
+    font-family: arial;
+}
+body{
+    background-image: url(bgg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.container{
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-top: 5%;
+    background:transparent;
+}
+.head{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: darkolivegreen;
+}
+.sub{
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding-top: 0.3em;
+    color: gray;
+}
+.pay{
+    display: block;
+    width:30vh;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 3em;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+body.effect .pay {
+    opacity: 1;
+}
+button{
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    margin-top: 4em;
+    display: block;
+    background-color: darkolivegreen;
+    color: white;
+    padding: 1.3em;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+button:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+}
