@@ -1,3 +1,9 @@
+.pfp1{
+    border-radius: 10px;
+}
+.pfp2{
+    border-radius: 10px;
+}
 @media only screen and (max-width:901px){
 *{
     font-family: arial;
@@ -278,6 +284,13 @@
 .pfp1{
     display: block;
     margin: auto;
+    min-width: 60%;
+}
+.pfp2{
+    display: block;
+    margin: auto;
+    min-width: 60%;
+    max-width: 63%;
 }
 .left-side{
     min-width: 50%;
@@ -290,6 +303,7 @@
 }
 .right-side-container{
     display: flex;
+    padding-top: 2rem;
 }
 }
 @media only screen and (min-width:902px) and (max-width:1099px){
@@ -521,6 +535,13 @@ button{
 .pfp1{
     display: block;
     margin: auto;
+    min-width: 60%;
+}
+.pfp2{
+    display: block;
+    margin: auto;
+    min-width: 60%;
+    max-width: 63%;
 }
 .left-side{
     min-width: 50%;
@@ -732,7 +753,7 @@ button{
     font-weight: bold;
 }
 .box{
-    max-width:60%;
+    width:60%;
     text-align: center;
     box-shadow: 10px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
@@ -758,11 +779,18 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
 }
 .pfp1{
     display: block;
     margin: auto;
+    min-width: 60%;
+}
+.pfp2{
+    display: block;
+    margin: auto;
+    min-width: 60%;
+    max-width: 63%;
 }
 .left-side{
     min-width: 50%;
@@ -1006,7 +1034,13 @@ button{
 .pfp1{
     display: block;
     margin: auto;
-    width:40%;
+    min-width: 60%;
+}
+.pfp2{
+    display: block;
+    margin: auto;
+    min-width: 60%;
+    max-width: 63%;
 }
 .left-side{
     min-width: 50%;
