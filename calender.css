@@ -1,0 +1,184 @@
+@media only screen and (max-width:714px){
+body{
+    font-family: arial;
+    color: white;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 520px;
+    width: 440px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
+    background-color: rgb(58, 56, 56);
+}
+.container .day,
+.container .number{
+    height: 60px;
+    width: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img{
+    display: none;
+}
+.container .date{
+    width:470px;
+    padding: 25px;
+}
+.container h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 15px 30px;
+}
+#ab{
+    color: grey;
+    text-align: center;
+}
+.number:hover{
+    border: 2px solid grey;
+}
+#now{
+    background-color:darkviolet;
+}
+#tw{
+    text-align: center;
+}
+}
+@media only screen and (min-width:715px) and (max-width:849px){
+body{
+    font-family: arial;
+    color: white;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 550px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
+    background-color: rgb(58, 56, 56);
+}
+.container .day,
+.container .number{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 140px;
+    padding-right: 60px;
+    width: 23%;
+}
+.container .date{
+    width:470px;
+    padding: 25px;
+}
+.container h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 15px 30px;
+}
+#ab{
+    color: grey;
+    text-align: center;
+}
+.number:hover{
+    border: 2px solid grey;
+}
+#now{
+    background-color:darkviolet;
+}
+#tw{
+    text-align: center;
+}
+}
+@media only screen and (min-width:850px){
+body{
+    font-family: arial;
+    color: white;
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 550px;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
+    background-color: rgb(58, 56, 56);
+}
+.container .day,
+.container .number{
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .days{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 60px;
+    padding-right: 30px;
+    width: 30%;
+}
+.container .date{
+    width:470px;
+    padding: 25px;
+}
+.container h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 15px 30px;
+}
+#ab{
+    color: grey;
+    text-align: center;
+}
+.number:hover{
+    border: 2px solid grey;
+}
+#now{
+    background-color:darkviolet;
+}
+#tw{
+    text-align: center;
+}
+}
