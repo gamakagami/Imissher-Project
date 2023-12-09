@@ -16,7 +16,7 @@ body{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(40, 49, 26);
 }
 .container .day,
 .container .number{
@@ -74,7 +74,7 @@ body{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(40, 49, 26);
 }
 .container .day,
 .container .number{
@@ -137,7 +137,7 @@ body{
     align-items: center;
     justify-content: space-between;
     box-shadow: 0 20px 20px 25px rgba(0,0,0,0.5);
-    background-color: rgb(58, 56, 56);
+    background-color: rgb(40, 49, 26);
 }
 .container .day,
 .container .number{
