@@ -294,9 +294,11 @@ body{
             <p><b>Occupation: </b><span>Governess</span></p>        
             <p><b>Price: </b><span>$30/day</span></p> 
             <p>What day do you want her to work?
-                <input type="date"></p>
-            <button onclick="location.href='payment.html'">Pay</button>              <br> 
+            <form action="payment.html">
+                <input type="date" required></p>
+            <button type="submit">Pay</button>              <br> 
             </div>
+            </form>
             <div id="reyna" class="data"> 
                 <a href="dashservices.html"> <img src="back.png" class="backa"> </a>
                 <p class="tita">Do you want to book Fu Xuan?</p>
