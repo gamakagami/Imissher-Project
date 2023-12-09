@@ -166,7 +166,8 @@
 .babyy{
     padding-top: 3em;
     max-width: 80vw;
-    
+    margin: auto;
+    display: block;
 }
 .average{
     color: darkolivegreen;
@@ -201,7 +202,8 @@
 .nannyy{
     padding-top: 4em;
     max-width:90vw;
-    padding-left: 1em;
+    margin: auto;
+    display: block;
 }
 .in{
     color: darkolivegreen;
@@ -232,7 +234,8 @@
 }
 .governesss{
     max-width:60vw;
-    padding-left: 5em;
+    margin: auto;
+    display: block;
     padding-top: 2em;
 }
 .head{
@@ -243,7 +246,7 @@
     font-weight: bold;
 }
 .box{
-    max-width:60%;
+    max-width:70%;
     text-align: center;
     box-shadow: 10px;
     box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1), 3px 3px 3px 1px rgba(0, 0, 0, 0.1);
@@ -407,7 +410,8 @@ button{
 .babyy{
     padding-top: 6em;
     max-width: 40vw;
-    padding-right:3em;
+    margin: auto;
+    display: block;
 }
 .average{
     color: darkolivegreen;
@@ -442,7 +446,8 @@ button{
 .nannyy{
     padding-top: 10em;
     max-width:40vw;
-    padding-left: 3em;
+    margin: auto;
+    display: block;
 }
 .in{
     color: darkolivegreen;
@@ -473,7 +478,8 @@ button{
 }
 .governesss{
     max-width:27vw;
-    padding-right: 3rem;
+    margin: auto;
+    display: block;
 }
 .head{
     color: darkolivegreen;
@@ -647,7 +653,8 @@ button{
 .babyy{
     padding-top: 2em;
     max-width: 32vw;
-    padding-right: 5em;
+    margin: auto;
+    display: block;
 }
 .average{
     color: darkolivegreen;
@@ -682,7 +689,8 @@ button{
 .nannyy{
     padding-top: 3em;
     max-width:32vw;
-    padding-left: 8em;
+    margin: auto;
+    display: block;
 }
 .in{
     color: darkolivegreen;
@@ -713,7 +721,8 @@ button{
 }
 .governesss{
     max-width:27vw;
-    padding-right: 3rem;
+    margin: auto;
+    display: block;
 }
 .head{
     color: darkolivegreen;
@@ -887,7 +896,8 @@ button{
 .babyy{
     padding-top: 2em;
     max-width: 32vw;
-    padding-right: 5em;
+    margin: auto;
+    display: block;
 }
 .average{
     color: darkolivegreen;
@@ -922,7 +932,8 @@ button{
 .nannyy{
     padding-top: 3em;
     max-width:32vw;
-    padding-left: 8em;
+    margin: auto;
+    display: block;
 }
 .in{
     color: darkolivegreen;
@@ -953,7 +964,8 @@ button{
 }
 .governesss{
     max-width:27vw;
-    padding-right: 3rem;
+    margin: auto;
+    display: block;
 }
 .head{
     color: darkolivegreen;
