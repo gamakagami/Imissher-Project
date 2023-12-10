@@ -27,3 +27,11 @@
 <h2>Login / Signup</h2>
 <img src="loginpreview.png">
 <img src="signuppreview.png">
+<h2>About Us</h2>
+<img src="aboutuspreview.png">
+<h2>Services</h2>
+<img src="servicespreview.png">
+<h2>Dashboard</h2>
+<img src="dashboardpreview.png">
+<h2>Choosing of services</h2>
+<img src="chooseservicepreview.png">
