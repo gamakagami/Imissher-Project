@@ -24,3 +24,6 @@
 <h2>Design</h2>
 <h3>HomePage</h3>
 <img src="homepagepreview.png">
+<h2>Login / Signup</h2>
+<img src="loginpreview.png">
+<img src="signuppreview.png">
