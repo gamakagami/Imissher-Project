@@ -32,6 +32,6 @@
 <h2>Services</h2>
 <img src="servicespreview.png">
 <h2>Dashboard</h2>
-<img src="dashboardpreview.png">
+<img src="dashboardpreview0.png">
 <h2>Choosing of services</h2>
-<img src="chooseservicepreview.png">
+<img src="chooseservicepreview0.png">
