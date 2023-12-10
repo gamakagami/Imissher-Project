@@ -14,7 +14,7 @@
 
 <h2>WebPages</h2>
 <ul>
-  <li>HomePagw</li>
+  <li>HomePage</li>
   <li>Login / Signup</li>
   <li>About Us</li>
   <li>Services</li>
