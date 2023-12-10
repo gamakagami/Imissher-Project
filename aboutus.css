@@ -323,6 +323,10 @@ button{
     justify-content: center;
     align-items: center;
 }
+.buttons{
+    align-items: center;
+    justify-content: center;
+}
 @media screen and (max-width: 768px){
     .aboutus .one{
         font-size: 45px;
