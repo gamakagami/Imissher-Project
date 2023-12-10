@@ -316,13 +316,6 @@ button{
     text-align: left;
     font-size: 30px;
 }
-.google{
-    width: 90%;
-    height: auto;
-    border-radius: 20px;
-    justify-content: center;
-    align-items: center;
-}
 .buttons{
     align-items: center;
     justify-content: center;
@@ -488,4 +481,26 @@ button{
     color: black;
     height: 0;
     transition: all 0.2s linear;
+}
+.gogol{
+    width: 100%;
+}
+.google{
+    width: 80%;
+    height: 600px;
+    border: 2px black;
+    margin-right: 0px;
+    margin-left: 255px;
+    margin-bottom: 10px;
+}
+iframe{
+    height: 500px;
+    width: 80%;
+    display: block;
+
+}
+.area{
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
