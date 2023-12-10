@@ -1,11 +1,44 @@
 <html>  
-    <head>
-        <meta charset="UTF-8">
+<head>
+   <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <link rel="stylesheet" href="aboutus.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://kit.fontawesome.com/1d05bd84d8.js" crossorigin="anonymous"></script>
+    <script>
+       const accordionContent = document.querySelectorAll(".accordion-content");
+            
+       accordionContent.forEach((item, index) => {
+        let header = item.querySelector(".clap");
+        header.addEventListener("click", () =>{
+            item.classList.toggle("open");
+        
+            let description = item.querySelector(".higher");
+            if(item.classList.contains ("open")) {
+                description.style.height = `${description.scrollHeight}px`;
+                item.querySelector("i").classList.replace("fa-plus", "fa-minus");
+            }else{
+                description.style.height = "0px";
+                item.querySelector("i").classList.replace("fa-minus", "fa-plus");
+            }
+            console.log(description);
+            removeOpen(index);
+        })
+    })
+    function removeOpen (index1){
+        accordionContent.forEach((item2, index2) => {
+            if(index1 != index2){
+                item2.classList.remove("open");
+                
+                let des = item2.querySelector(".description");
+                des.style.height = "0px";
+                item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
+            }
+        })
+    }
+    </script>   
     <title>About Us</title>
 </head>
 <body>
@@ -13,7 +46,7 @@
         <img src="logo.png" class="logoo">
         <div class="logo">AstraCares</div>
         <div class="slogan">Caring for you</div>
-        <div class="about" onclick="location.href='abiutus.html'">ABOUT US</div>
+        <div class="about" onclick="location.href='Service.html'">SERVICE</div>
         <div class="HOME" onclick="location.href='index.html'">HOME</div>
         <button type="submit" class="login" onclick="location.href='login.html'">LOGIN</button>
     </div>
@@ -37,7 +70,7 @@
         <div class="container2">
             <div class="content">
                 <h2 class="first"> What is AstraCares?</h2>
-                <p class="paragraph"> AstraCares is a Caretaker Service website founded by Albertus,Gabriel,and Raphael in 2015. We focuses on giving  parents a convinient way for parents to take care of their children while they are busy. 
+                <p class="paragraphs"> AstraCares is a Caretaker Service website founded by Albertus,Gabriel,and Raphael in 2005. We focuses on giving  parents a convinient way for parents to take care of their children while they are busy. 
                     Astra cares is 100 percent trusted and have been reviewed by millions of people in Indonesia.</p>
                 <a href="History.html">
                     <button class="button"> Learn More of Our History</button>
@@ -47,54 +80,74 @@
                 <img src="3idiots.png" class="pain">
             </div>
     </section>
-            <div class="vision">
-                <h2> Our Vision</h2>
-                <p> Our Vision is to be the trusted partner in nurturing happy childhoods, where parents find reliable and caring babysitters effortlessly, fostering a community where children thrive in a safe and loving environment.</p> 
-                <img src="vision.png">
+    <section class="bigcontainer">
+        <div class="container2">
+            <div class="content2">
+                <h2 class="two"> Our Vision</h2>
+                <div class="vision">
+                    <img src="vision.png" class="pain">
+                </div>
+                <p class="paragraph"> Our Vision is to be the trusted partner in nurturing happy childhoods, where parents find reliable and caring babysitters effortlessly, fostering a community where children thrive in a safe and loving environment.</p> 
             </div>
-            <div class="mission">
-                <p> our mission is to connect families with experienced and compassionate babysitters, creating a seamless and secure platform for parents to find the perfect childcare solution. We are dedicated to providing peace of mind, fostering positive relationships, and ensuring the well-being and joy of every child under our care. Through innovation, transparency, and a commitment to excellence, we aim to redefine babysitting services, making quality childcare accessible for every family.</p>
-                <img src="mission.png">
+        </div>
+    </section>
+    <section class="bigcontainer">
+        <div class="container2">
+            <div class="content2">
+                <h2 class="two"> Our Mission</h2>
+                <div class="vision" class="pain">
+                    <img src="mission.png" class="pain">
+                </div>
+                <p class="paragraph"> Our mission is to connect families with experienced and compassionate babysitters, creating a seamless and secure platform for parents to find the perfect childcare solution. We are dedicated to providing peace of mind, fostering positive relationships, and ensuring the well-being and joy of every child under our care. Through innovation, transparency, and a commitment to excellence, we aim to redefine babysitting services, making quality childcare accessible for every family.</p>
             </div>
-            <div class="location">
-                <h2> Our Location</h2>
-                <p> We are located in 6 diffrent city with a total of 9 buildings in Indonesia, Our headquarter is located in South Jakarta, Fx Sudirman Mall. </p>
+        </div>
+    </section>
+    <section class="bigcontainer">
+        <div class="container2">
+            <div class="content3">
+                <h2 class="two"> Our Location</h2>
                 <div class="google">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15865.186048122025!2d106.79343465835112!3d-6.224579500215088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14e44b2f2c7%3A0xbd4c3f8760b23de5!2sBINUS%20International%2C%20Kampus%20BINUS%20Fx%20Sudirman!5e0!3m2!1sen!2sid!4v1701267096621!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                    </iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2965113243854!2d106.80115411126026!3d-6.22457959373747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f14e44b2f2c7%3A0xbd4c3f8760b23de5!2sBINUS%20International%2C%20Kampus%20BINUS%20Fx%20Sudirman!5e0!3m2!1sen!2sid!4v1702104528225!5m2!1sen!2sid"
+                     width="600" height="400" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <p class="paragraph"> We are located in 6 diffrent city with a total of 9 buildings in Indonesia, Our headquarter is located in South Jakarta, Fx Sudirman Mall. </p>
+                <div class="area">
                     <a href="servicearea.html" target="_blank">
-                        <button class="button"> Our Service Area</button>
+                        <button class="buttons"> Our Service Area</button>
                     </a>
                 </div>
             </div>
-            <div class="Faq">
-            <h1 id="titles">FAQ</h1>
-            <div id="accordion">
-            <h3>How do I get Stellar Jade?</h3>
-            <div>
-            <p> Complete Daily quest, Memory of Chaos, Story and Character quest, Random quest, Achievement, Exploration and Simulated Universe</p>
+        </div>
+    </section>
+    <div class="accordion">
+        <div class="accordion-content">
+            <div class="clap">
+            <span class="question">When should we order the service?</span>
+                <i class="fa-solid fa-plus"></i>
+                <p class="higher"> You have to order the service maximum one day before the day you want the service. </p>
             </div>
-            <h3>Is Seele Good?</h3>
-            <div>
-            <p> Yes</p>
-            </div>
-            <h3>How do I get lucky in gatcha?</h3>
-            <div>
-            <p>You don't</p>
-            </div>
-            <h3>Is Dan Heng Dan Feng?</h3>
-            <div>
-            <p>He is in the past</p>
-            </div>
-            </div>
-            <script>
-                $(document).ready(function(){
-                    $("#accordion").accordion({
-                        collapsible: true,
-                        active: false
-                    });
-                });
-            </script>
-            </div>
-    </body>
+        </div>
+    </div>
+    <div class="accordion-content">
+        <div class="clap">
+        <span class="question">Is the caretaker service good??</span>
+            <i class="fa-solid fa-plus"></i>
+            <p class="higher">  Yes, We have been the go to website for parents to find caretaker and have been reviewed by millions of parents. </p>
+        </div>
+    </div>
+    <div class="accordion-content">
+        <div class="clap">
+        <span class="question">Can we cancel our order?</span>
+            <i class="fa-solid fa-plus"></i>
+            <p class="higher"> Yes, You can cancel the order however the cancellation will have a fee. </p>
+        </div>
+    </div>
+    <div class="accordion-content">
+        <div class="clap">
+        <span class="question">What methods of payment can i pay with?</span>
+            <i class="fa-solid fa-plus"></i>
+            <p class="higher"> What methods of payment can i pay with? </p>
+        </div>
+    </div>     
+</body>
 </html>
