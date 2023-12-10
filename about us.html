@@ -8,20 +8,17 @@
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://kit.fontawesome.com/1d05bd84d8.js" crossorigin="anonymous"></script>
     <script>
-       const accordionContent = document.querySelectorAll(".accordion-content");
-            
-       accordionContent.forEach((item, index) => {
-        let header = item.querySelector(".clap");
+      const accordionContent = document.querySelectorAll(".accordion-content");
+    accordionContent.forEach((item, index) => {
+        let header = item.querySelector("header");
         header.addEventListener("click", () =>{
             item.classList.toggle("open");
-        
-            let description = item.querySelector(".higher");
+            let description = item.querySelector(".description");
             if(item.classList.contains ("open")) {
                 description.style.height = `${description.scrollHeight}px`;
                 item.querySelector("i").classList.replace("fa-plus", "fa-minus");
             }else{
                 description.style.height = "0px";
-                item.querySelector("i").classList.replace("fa-minus", "fa-plus");
             }
             console.log(description);
             removeOpen(index);
@@ -32,7 +29,7 @@
             if(index1 != index2){
                 item2.classList.remove("open");
                 
-                let des = item2.querySelector(".higher");
+                let des = item2.querySelector(".description");
                 des.style.height = "0px";
                 item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
             }
@@ -121,33 +118,33 @@
     </section>
     <div class="accordion">
         <div class="accordion-content">
-            <div class="clap">
-            <span class="question">When should we order the service?</span>
+            <header>
+            <span class="title">When should we order the service?</span>
                 <i class="fa-solid fa-plus"></i>
-                <p class="higher"> You have to order the service maximum one day before the day you want the service. </p>
-            </div>
+                <p class="description"> You have to order the service maximum one day before the day you want the service. </p>
+            <header>
         </div>
-       <div class="accordion-content">
-           <div class="clap">
-           <span class="question">Is the caretaker service good??</span>
-               <i class="fa-solid fa-plus"></i>
-               <p class="higher">  Yes, We have been the go to website for parents to find caretaker and have been reviewed by millions of parents. </p>
-           </div>
-       </div>
-       <div class="accordion-content">
-           <div class="clap">
-           <span class="question">Can we cancel our order?</span>
-               <i class="fa-solid fa-plus"></i>
-               <p class="higher"> Yes, You can cancel the order however the cancellation will have a fee. </p>
-           </div>
-       </div>
-       <div class="accordion-content">
-           <div class="clap">
-           <span class="question">What methods of payment can i pay with?</span>
-               <i class="fa-solid fa-plus"></i>
-               <p class="higher"> What methods of payment can i pay with? </p>
-           </div>
-       </div> 
-   </div>
+        <div class="accordion-content">
+            <header>
+            <span class="title">Is the caretaker service good??</span>
+                <i class="fa-solid fa-plus"></i>
+                <p class="description">  Yes, We have been the go to website for parents to find caretaker and have been reviewed by millions of parents. </p>
+            <header>
+        </div>
+        <div class="accordion-content">
+            <header>
+            <span class="title">Can we cancel our order?</span>
+                <i class="fa-solid fa-plus"></i>
+                <p class="description"> Yes, You can cancel the order however the cancellation will have a fee. </p>
+            </header>
+        </div>
+        <div class="accordion-content">
+            <header>
+            <span class="title">What methods of payment can i pay with?</span>
+                <i class="fa-solid fa-plus"></i>
+                <p class="description"> What methods of payment can i pay with? </p>
+            </header>
+        </div>
+    </div>     
 </body>
 </html>
