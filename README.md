@@ -21,3 +21,6 @@
   <li>Dashboard</li>
   <li>Choosing of services</li>
 </ul>
+<h2>Design</h2>
+<h3>HomePage</h3>
+<img src="homepagepreview.png">
