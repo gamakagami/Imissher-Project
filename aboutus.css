@@ -456,7 +456,7 @@ button{
 .accordion-content .open{
     padding-bottom: 10px;
 }
-.accordion-content .clap{
+.accordion-content header{
     display: flex;
     min-height: 50px;
     padding: 0 15px;
@@ -465,19 +465,19 @@ button{
     cursor: pointer;
     transition: all 0.2s linear;
 }
-.accordion-content .open .clap{
+.accordion-content .open header{
     min-height: 35px;
 }
-.accordion-content .clap .question{
+.accordion-content header .title{
     font-size: 14px;
     font-weight: 500;
     color: black;
 }
-.accordion-content i{
+.accordion-content header i{
     font-size: 15px;
     color: whitesmoke;
 }
-.accordion-content .higher{
+.accordion-content .description{
     padding: 0 15px;
     font-size: 14px;
     font-weight: 400;
