@@ -181,7 +181,7 @@
     border: none;
     outline: none;
     background-color: darkolivegreen;
-    color: rgb(255, 255, 255), (249);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
@@ -212,6 +212,12 @@ button{
 .aboutus .one{
     color: rgb(0, 0, 0);
     font-size: 50px;
+    
+}
+.one{
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 20px;
 }
 .container2{
     display: flex;
@@ -220,11 +226,24 @@ button{
     width: 90%;
     margin: 65px auto;
 }
+
+.content2{
+    flex: 1;
+    width: 600px;
+    margin: 0 25px;
+    animation: fadeInBottom 2s ease;
+}
 .content{
     flex: 1;
     width: 600px;
     margin: 0 25px;
     animation: fadeInUp 2s ease;
+}
+.content3{
+    flex: 1;
+    width: 600px;
+    margin: 0 25px;
+    animation: fadeInLeft 2s ease;
 }
 .content .first{
     font-size: 38px;
@@ -247,7 +266,22 @@ button{
     cursor: pointer;
     transition: 0.3s ease;
 }
+.content3 .buttons{
+    display:inline-block;
+    background-color:darkolivegreen;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
 .content .button:hover{
+    background-color: rgb(178, 219, 108);
+    transform: scale(1.1);
+}
+.content .buttons:hover{
     background-color: rgb(178, 219, 108);
     transform: scale(1.1);
 }
@@ -257,10 +291,37 @@ button{
     margin: auto;
     animation: fadeInRight 2s ease;
 }
+.vision{
+    flex:1;
+    width: 400px;
+    margin: auto;
+    animation: fadeInBottom 2s ease;
+}
 .pain{
     width: 100%;
     height: auto;
     border-radius: 10px;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.paragraph{
+    text-align: center;
+    font-size: 30px;
+}
+.paragraphs{
+    text-align: left;
+    font-size: 30px;
+}
+.google{
+    width: 90%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
 }
 @media screen and (max-width: 768px){
     .aboutus .one{
@@ -277,22 +338,51 @@ button{
         padding: 0px 40px;
     }
     .content{
-        width: 100%;
+        width: 90%;
         margin: 35px 0px;
+    }
+    .content2{
+        width: 90%;
+        margin: 15px 15px;
+    }
+    .content3{
+        width: 90%;
+        margin: 20px 20px;
     }
     .content .first{
         font-size: 30px;
     }
-   .content .paragraph{
+   .content .paragraphs{
         font-size: 18px;
         margin-bottom: 20px;
    }
+   .content2 .two{
+        font-size: 30px;
+   }
+   .content3 .two{
+        font-size: 30px;
+   }
    .content .button{
-    font-size: 16px;
-    padding:8px 16px;
+        font-size: 16px;
+        padding:8px 16px;
+   }
+   .content3 .buttons{
+        font-size: 16px;
+        padding:8px 16px;
    }
    .idiots{
-    width: 100%;
+        width: 100%;
+   }
+   .vision{
+        width:100%;
+   }
+   .content2 .paragraph{
+        font-size: 18px;
+        margin-bottom: 20px;
+   }
+   .content3 .paragraph{
+        font-size: 18px;
+        margin-bottom: 20px;
    }
 }
 @keyframes fadeInUp{
@@ -314,4 +404,84 @@ button{
         opacity: 1;
         transform: translateX(0px);
     }
+}
+@keyframes fadeInLeft{
+    0%{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+@keyframes fadeInBottom{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.accordion{
+    max-width: 530px;
+    width: 100%;
+    background-color: white;
+    margin: 0 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 4px black;
+}
+.accordion .accordion-content{
+    margin: 10px 0;
+    background-color: whitesmoke;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.accordion-content:nth-child(2){
+    background-color: whitesmoke;
+    border-color: rgb(154, 154, 154);
+}
+.accordion-content:nth-child(3){
+    background-color: whitesmoke;
+    border-color: rgb(154, 154, 154);
+}
+.accordion-content:nth-child(4){
+    background-color: whitesmoke;
+    border-color: rgb(154, 154, 154);
+}
+.accordion-content .open{
+    padding-bottom: 10px;
+}
+.accordion-content .clap{
+    display: flex;
+    min-height: 50px;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.accordion-content .open .clap{
+    min-height: 35px;
+}
+.accordion-content .clap .question{
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+.accordion-content i{
+    font-size: 15px;
+    color: whitesmoke;
+}
+.accordion-content .higher{
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    height: 0;
+    transition: all 0.2s linear;
 }
