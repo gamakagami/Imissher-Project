@@ -23,7 +23,7 @@ nav{
     align-items: center;
 }
 nav a{
-    color: #fff;
+    color: darkolivegreen;
     cursor: default;
 }
 nav .menu li a:hover{
