@@ -1,6 +1,9 @@
 *{
     font-family: arial;
 }
+.clickhere{
+    cursor: pointer;
+}
 @media only screen and (max-width:450px){
 #wide{
     display: none;
@@ -2219,7 +2222,7 @@ button{
 .baby-text{
     padding-left: 1rem;
     padding-top: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .nanny-head{
     padding-top: 1.8rem;
@@ -2231,7 +2234,7 @@ button{
 .nanny-text{
     padding-left: 1rem;
     padding-top: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .governess-head{
     padding-top: 1.8rem;
@@ -2242,7 +2245,7 @@ button{
 }
 .governess-text{
     padding-left: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
     padding-top: 1rem;
     max-width:90%;
 }
@@ -2252,7 +2255,7 @@ button{
     padding-top: 4.7rem;
     font-weight: bold;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     max-width:80%;
 }
 .clickhere{
@@ -2266,7 +2269,7 @@ button{
     margin: 0 auto;
     margin-top:3rem;
     padding: 1rem;
-    font-size: 1.7rem;
+    font-size: 1.4rem;
 }
 .clickhere:hover{
     background-color: yellowgreen;
@@ -2845,6 +2848,7 @@ button{
     border-radius: 5px;
     text-align: center;
     transition: 0.3s ease-in-out;
+    cursor: pointer;
 }
 .send:hover{
     background-color: greenyellow;
