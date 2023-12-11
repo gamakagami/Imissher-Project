@@ -1443,9 +1443,9 @@ button{
 .about:hover{
     color:black;
 }
-.home{
-    grid-column-start: 37;
-    grid-column-end: 40;
+.HOME{
+    grid-column-start: 35;
+    grid-column-end: 45;
     grid-row-start: 9;
     color: darkolivegreen;
     font-weight: bold;
@@ -1784,8 +1784,8 @@ button{
     color:black;
 }
 .home{
-    grid-column-start: 37;
-    grid-column-end: 40;
+    grid-column-start: 35;
+    grid-column-end: 45;
     grid-row-start: 9;
     color: darkolivegreen;
     font-weight: bold;
@@ -2112,8 +2112,8 @@ button{
     color:black;
 }
 .home{
-    grid-column-start: 37;
-    grid-column-end: 40;
+    grid-column-start: 35;
+    grid-column-end: 45;
     grid-row-start: 9;
     color: darkolivegreen;
     font-weight: bold;
@@ -2443,8 +2443,8 @@ button{
     color:black;
 }
 .home{
-    grid-column-start: 37;
-    grid-column-end: 40;
+    grid-column-start: 35;
+    grid-column-end: 45;
     grid-row-start: 9;
     color: darkolivegreen;
     font-weight: bold;
