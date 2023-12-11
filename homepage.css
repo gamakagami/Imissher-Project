@@ -372,6 +372,7 @@ button{
 .container4{
     display: block;
     background-color: rgba(62, 61, 61,0.05) ;
+    padding-bottom: 3rem;
     margin: 0 auto;
     margin-top: 5rem;
 }
@@ -834,6 +835,7 @@ button{
     background-color: rgba(62, 61, 61,0.05) ;
     margin: 0 auto;
     margin-top: 5rem;
+    padding-bottom: 3rem;
 }
 .head2{
     text-align: center;
@@ -1301,6 +1303,7 @@ button{
     background-color: rgba(62, 61, 61,0.05) ;
     margin: 0 auto;
     margin-top: 5rem;
+    padding-bottom: 3rem;
 }
 .head2{
     text-align: center;
@@ -1649,6 +1652,7 @@ button{
     background-color: rgba(62, 61, 61,0.05) ;
     margin: 0 auto;
     margin-top: 5rem;
+    padding-bottom: 5rem;
 }
 .head2{
     text-align: center;
@@ -1979,6 +1983,7 @@ button{
     display: block;
     margin-top: 6rem;
     background-color: rgba(62, 61, 61,0.05) ;
+    padding-bottom: 7rem;
 }
 .head2{
     text-align: center;
@@ -1987,7 +1992,7 @@ button{
 }
 .container5{
     background-color: rgba(62, 61, 61,0.05) ;
-    margin-bottom: 2rem;
+    margin-bottom: 10rem;
 }
 .up{
     display: block;
@@ -2312,6 +2317,7 @@ button{
     margin: 0 auto;
     margin-top: 5rem;
     background-color: rgba(62, 61, 61,0.05) ;
+    padding-bottom: 7rem;
 }
 .head2{
     text-align: center;
@@ -2718,28 +2724,29 @@ button{
     font-size: 1.8rem;
 }
 }
-.body{
-    width: 93%;
+.body0{
+    width: 100%;
     background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 6px;
-    padding: 40px 60px 50px 50px
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
-.container6{
+.container20{
     width: 80%;
     background-color: white;
     border-radius: 6px;
     padding: 30px 60px 40px 40px;
     box-shadow: 0 5px 10px rgb(0, 0, 0) ;
 }
-.container6 .contents{
+.container20 .contents0{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.container6 .contents .left-side{
+.container20 .contents0 .left-side0{
     width: 25%;
     height: 100%;
     margin-top: 15px;
@@ -2749,52 +2756,52 @@ button{
     justify-content: center;
     position: relative;
 }
-.contents .left-side::before{
-content:'';
-position: absolute;
-height: 70%;
-width: 2px;
-right: -15px;
-top: 50%;
-transform: translateY(-50%);
-background: darkslategray;
+.contents0 .left-side0::before{
+    content:'';
+    position: absolute;
+    height: 70%;
+    width: 2px;
+    right: -15px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: darkslategray;
 }
 
-.contents .left-side .details{
+.contents0 .left-side0 .details{
     margin: 14px;
     text-align: center;
 }
-.contents .left-side .details i{
+.contents0 .left-side0 .details i{
     font-size: 30px;
     color: darkolivegreen;
     margin-bottom: 10px;
 }
-.contents .left-side .details .topic{
+.contents0 .left-side0 .details .topic{
     font-size: 18px;
     font-weight: 500;
 }
-.contents .left-side .details .text-one, 
-.contents .left-side .details .text-two{
+.contents0 .left-side0 .details .text-one, 
+.contents0 .left-side0 .details .text-two{
     font-size: 14px;
     color: darkgray;
 }
 
-.container2 .contents .right-side{
+.container20 .contents0 .right-side0{
     width: 75%;
     margin-left: 75px;
 }
-.contents .right-side .topic-text{
+.contents0 .right-side0 .topic-text{
     font-size: 23px;
     font-weight: 600;
     color: darkolivegreen;
 }
-.right-side .input-box{
+.right-side0 .input-box{
     height: 50px;
     width: 100%;
     margin: 12px 0;
 }
-.right-side .input-box input,
-.right-side .input-box textarea{
+.right-side0 .input-box input,
+.right-side0 .input-box textarea{
     height: 100%;
     width: 100%;
     border: none;
@@ -2804,15 +2811,15 @@ background: darkslategray;
     padding: 0 15px;
     resize: none;
 }
-.right-side .message-box{
+.right-side0 .message-box{
     min-height: 110px; 
     margin-top: 6px;
 }
-.right-side .button{
+.right-side0 .button{
     margin-top: 6px;
     display: inline-block;
 }
-.right-side .button input[type="button"]{
+.right-side0 .button input[type="button"]{
     color: white;
     font-size: 18px;
     outline: none;
@@ -2826,50 +2833,15 @@ background: darkslategray;
 .button input[type="button"]:hover{
     background: green;
 }
-@media (max-width:950px){
-    .container6{
-        width: 90%;
-        padding: 30px 35px 40px 35px;
-    }
-    .body{
-    width: 90%;
-    background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    padding: 40px 60px 50px 50px
-    }
-}
-@media (max-width:820px){
-    .container6{
-        margin: 40px 0;
-        height: 100%;
-    }
-    .body{
-    width: 90%;
-    background:linear-gradient(90deg,darkolivegreen,rgb(214, 240, 171));
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 6px;
-    padding: 40px 60px 50px 50px
-    }
-    .container6 .contents{
-        flex-direction: column-reverse;
-    }
-    .container6 .contents .left-side{
-        width: 100%;
-        flex-direction: row;
-        margin-top: 40px;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-    .container6 .contents .left-side::before{
-        display: none;
-    }
-    .container6 .contents .right-side{
-        width: 100%;
-        margin-left: 0;
-    }
+.send{
+    outline: none;
+    background-color: darkolivegreen;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    padding-left:30px;
+    padding-right: 30px;
+    border-radius: 5px;
+    text-align: center;
 }
