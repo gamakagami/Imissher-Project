@@ -226,6 +226,13 @@ button{
     width: 90%;
     margin: 65px auto;
 }
+.container3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 65px auto;
+}
 
 .content2{
     flex: 1;
@@ -277,6 +284,7 @@ button{
     cursor: pointer;
     transition: 0.3s ease;
 }
+
 .content .button:hover{
     background-color: rgb(178, 219, 108);
     transform: scale(1.1);
@@ -316,10 +324,7 @@ button{
     text-align: left;
     font-size: 30px;
 }
-.buttons{
-    align-items: center;
-    justify-content: center;
-}
+
 @media screen and (max-width: 768px){
     .aboutus .one{
         font-size: 45px;
@@ -387,6 +392,12 @@ button{
         font-size: 18px;
         margin-bottom: 20px;
    }
+   .google{
+        width: 90%;
+        flex-direction: column;
+        margin: 0px auto;
+        padding: 0px 40px;
+   }
 }
 @keyframes fadeInUp{
     0%{
@@ -429,12 +440,12 @@ button{
     }
 }
 .accordion{
-    max-width: 530px;
+    max-width: 580px;
     width: 100%;
     background-color: white;
     margin: 0 15px;
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 0 4px black;
 }
 .accordion .accordion-content{
@@ -488,9 +499,6 @@ button{
     height: 0;
     transition: all 0.2s linear;
 }
-.gogol{
-    width: 100%;
-}
 .google{
     width: 80%;
     height: 600px;
@@ -503,6 +511,7 @@ iframe{
     height: 500px;
     width: 80%;
     display: block;
+    margin: 0 auto;
 
 }
 .area{
