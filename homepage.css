@@ -357,12 +357,12 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:10px;
     width:50%;
     padding-top: 1.5rem;
     height:Auto;
     display: block;
     margin: auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -818,12 +818,12 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:10px;
     width:50%;
     padding-top: 1.5rem;
     height:Auto;
     display: block;
     margin: auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -1286,12 +1286,12 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:15px;
     width:50%;
     padding-top: 1.5rem;
     height:Auto;
     display: block;
     margin: auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -1511,7 +1511,7 @@ button{
     font-size: 1.3rem;
 }
 .container2{
-    margin-top: 11rem;
+    margin-top: 9rem;
     display: flex;
     flex-direction: row;
     background-color: rgba(62, 61, 61,0.05) ;
@@ -1635,12 +1635,12 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:15px;
     width:35%;
     padding-top: 1.5rem;
     height:Auto;
     display: block;
     margin: auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -1848,7 +1848,7 @@ button{
     font-size: 1.3rem;
 }
 .container2{
-    margin-top: 11rem;
+    margin-top: 9rem;
     display: flex;
     flex-direction: row;
     background-color: rgba(62, 61, 61,0.05) ;
@@ -1969,10 +1969,10 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:15px;
     width:75%;
     padding-top: 1.5rem;
     height:Auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -2148,7 +2148,7 @@ button{
 }
 .container1{
     display: flex;
-    margin-top: 11em;
+    margin-top: 9em;
 }
 .babysitterimage{
     width:75%;
@@ -2302,10 +2302,10 @@ button{
     font-size: 1.3rem;
 }
 .senpaiimg{
+    border-radius:15px;
     width:60%;
     padding-top: 1.5rem;
     height:Auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
@@ -2508,7 +2508,7 @@ button{
     max-width: 90%;
 }
 .container2{
-    margin-top: 11rem;
+    margin-top: 9rem;
     display: flex;
     flex-direction: row;
     background-color: rgba(62, 61, 61,0.05) ;
@@ -2634,10 +2634,10 @@ button{
     font-size: 1.8rem;
 }
 .senpaiimg{
+    border-radius:15px;
     width:60%;
     padding-top: 1.5rem;
     height:Auto;
-    border-radius: 15px 10px 10px 15px;
 }
 .text{
     font-weight: bold;
