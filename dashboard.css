@@ -23,7 +23,7 @@ nav{
     align-items: center;
 }
 nav a{
-    color: darkolivegreen;
+    color: #fff;
     cursor: default;
 }
 nav .menu li a:hover{
@@ -42,7 +42,6 @@ nav .menu li a{
 
 .logo{
     flex:1;
-    color:darkolivegreen;
 }
 .logo a{
     display: flex;
@@ -74,7 +73,7 @@ body{
     top:0;
     bottom:0;
     height: 100vh;
-    background:#fff;
+    background:#fff ;
     width: 280px;
     overflow: hidden;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
@@ -218,6 +217,18 @@ a{
     .nav1{
         height: 100vh;
     }
+}
+@media screen and (max-width:841px){
+    .main-skills .card{
+        width: 31%;
+        margin: 10px;
+        background: #fff;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }
+    
 }
 
 
