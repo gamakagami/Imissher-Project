@@ -599,7 +599,7 @@ button{
 .slogan{
     grid-column-start: 4;
     grid-column-end: 12;
-    grid-row-start: 11;
+    grid-row-start: 1   1;
 }
 .about{
     grid-column-start: 44;
@@ -659,7 +659,7 @@ button{
     color: darkolivegreen;
 }
 .baby{
-    padding-left: 2.5%;
+    padding-left: 2.5rem;
     font-size: 1.7rem;
     margin-top:7rem;
     color: darkolivegreen;
@@ -672,7 +672,7 @@ button{
     max-width:13%;
 }
 .babydescription{
-    padding-left: 2.5%;
+    padding-left: 2.5rem;
     margin-top:1rem;
     max-width: 80%;
     font-size: 1.2em;
