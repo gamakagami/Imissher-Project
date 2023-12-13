@@ -64,6 +64,9 @@
     transition:0.3s;
     width:80px; 
 }
+body{
+   background-color:white;
+    }
 .logoo2{
     grid-row-start:4;
     grid-column-start:4;
