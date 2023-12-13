@@ -313,8 +313,8 @@ body{
     padding-top: 3rem;
 }
 .percentagesymbol{
-    width:100px;
-    padding-left: 1.2rem;
+    width:7rem;
+    margin-left: 0.6rem;
 }
 #percentagehead{
     padding-left: 1rem;
@@ -323,7 +323,7 @@ body{
     padding-left: 1rem;
 }
 .lightningsymbol{
-    width: 120px;
+    width: 7.5rem;
     height: auto;
 }
 #lightning-head{
@@ -333,13 +333,13 @@ body{
     padding-left: 1rem;
 }
 .comfortsymbol{
-    width:120px;
-    padding-left: 0.8rem;
+    width:8rem;
+    margin-left: 0.5rem;
 }
 .healthsymbol{
-    width:120px;
+    width:8rem;
     height: auto;
-    padding-left: 0.8rem;
+    margin-left: 0.3rem;
 }
 .fee{
     max-width: 100%;
