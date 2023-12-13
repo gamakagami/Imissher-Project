@@ -1,8 +1,8 @@
 *{
     font-family: arial;
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 @media only screen and (max-width:901px){
 .navbar{
@@ -191,11 +191,12 @@ button{
 }
 }
 
-
+.aboutus{
+    padding-top: 3rem;
+}
 .bigcontainer{
     background-color: rgb(255, 255, 255);
     overflow: hidden;
-    margin-top:3rem;
 }
 .aboutus .one{
     color: rgb(0, 0, 0);
