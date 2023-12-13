@@ -7,6 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="https://kit.fontawesome.com/1d05bd84d8.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <script>
       const accordionContent = document.querySelectorAll(".accordion-content");
     accordionContent.forEach((item, index) => {
@@ -39,6 +40,20 @@
     <title>About Us</title>
 </head>
 <body>
+    <header class="header">
+        <img src="logo.png" class="logooo">
+        <a href="#" class="logo">AstraCares</a>
+        <input type="checkbox" id="check">
+        <label for="check" class="icons">
+            <i class="bx bx-menu" id="menu-icon"></i>
+            <i class="bx bx-x" id="close-icon"></i>
+        </label>
+        <nav class="navbar2">
+            <a href="index.html">HOME</a>
+            <a href="services.html">SERVICES</a>
+            <a href="login.html"><button class="login-btn">LOGIN</button></a>
+        </nav>
+    </header>
     <div class="navbar">
         <img src="logo.png" class="logoo">
         <div class="logo">AstraCares</div>
@@ -46,19 +61,6 @@
         <div class="about" onclick="location.href='services.html'">SERVICES</div>
         <div class="HOME" onclick="location.href='index.html'">HOME</div>
         <button type="submit" class="login" onclick="location.href='login.html'">LOGIN</button>
-    </div>
-    <div class="navbar2">
-        <img src="logo.png" class="logoo2">
-        <div class="logo2">AstraCares</div>
-        <div class="slogan2">Caring for you</div>
-        <div class="menu">
-            <img src="menuicon.png" class="menuicon">
-            <div class="menu-content">
-                <div class="moo" id="home2"onclick="location.href='index.html'">HOME</div>
-                <div class="moo" id="aboutus2" onclick="location.href='services.html'">SERVICES</a></div>
-                <div class="moo" id="signin2"onclick="location.href='login.html'">LOG IN</div>
-            </div>
-        </div>
     </div>
     <section class="bigcontainer">
         <div class="aboutus">
