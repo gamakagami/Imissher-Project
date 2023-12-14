@@ -101,7 +101,7 @@
 #check:checked~.navbar2 a{
     transform: translateY(0);
 }
-@media only screen and (max-width:450px){
+@media only screen and (max-width:475px){
 #wide{
     display: none;
 }
@@ -379,7 +379,7 @@ body{
     font-size: 1.5rem;
 }
 }
-@media only screen and (min-width:451px) and (max-width:686px){
+@media only screen and (min-width:475px) and (max-width:727px){
 #wide{
     display: none;
 }
@@ -399,7 +399,7 @@ body{
     margin-top: 11em;
 }
 .babysitterimage{
-    width:80%;
+    width:25rem;
     display: block;
     margin: 0 auto;
     border-radius:0px 0px 15px 50px;
@@ -424,7 +424,7 @@ body{
 }
 .description{
     padding-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 .container2{
     display: none;
@@ -463,36 +463,41 @@ body{
 .baby-head{
     padding-top: 2rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: darkolivegreen;
     font-weight: bold;
 }
 .baby-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
 }
 .nanny-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
 .nanny-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 30rem;
 }
 .governess-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
 .governess-text{
     padding-left: 1rem;
     padding-top: 1rem;
-    max-width:90%;
+    max-width:30rem;
+    font-size: 1.2rem;
 }
 .viewmore-text{
     display: block;
@@ -500,8 +505,8 @@ body{
     padding-top: 4.7rem;
     font-weight: bold;
     text-align: center;
-    font-size: 1.1rem;
-    max-width:80%;
+    font-size: 1.3rem;
+    max-width:15rem;
 }
 .clickhere{
     border-radius: 5px;
@@ -514,6 +519,7 @@ body{
     margin: 0 auto;
     margin-top:3rem;
     padding: 1rem;
+    font-size: 1.1rem;
 }
 .clickhere:hover{
     background-color: yellowgreen;
@@ -537,6 +543,7 @@ body{
 }
 .caretakershead{
     color: darkolivegreen;
+    padding: 1rem;
 }
 .list{
     max-width: 50%;
@@ -557,6 +564,7 @@ body{
     font-weight: bold;
     color: darkolivegreen;
     font-size: 1.3rem;
+    padding: 1rem;
 }
 .senpaitext{
     font-size: 1.3rem;
@@ -594,8 +602,8 @@ body{
     padding-left: 0.3rem;
 }
 .percentagesymbol{
-    width:100px;
-    padding-left: 1.2rem;
+    width:7rem;
+    margin-left: 0.6rem;
 }
 #percentagehead{
     padding-left: 1rem;
@@ -604,7 +612,7 @@ body{
     padding-left: 1rem;
 }
 .lightningsymbol{
-    width: 120px;
+    width: 7.5rem;
     height: auto;
 }
 #lightning-head{
@@ -614,13 +622,13 @@ body{
     padding-left: 1rem;
 }
 .comfortsymbol{
-    width:120px;
-    padding-left: 0.5rem;
+    width:8rem;
+    margin-left: 0.5rem;
 }
 .healthsymbol{
-    width:120px;
+    width:8rem;
     height: auto;
-    padding-left: 0.8rem;
+    margin-left: 0.3rem;
 }
 .fee{
     max-width: 100%;
@@ -654,14 +662,15 @@ body{
     max-width: 100%;
     padding-top: 0.5rem;
     padding-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
+    max-width: 75%;
 }
 .heads{
     font-weight: bold;
     font-size: 1.5rem;
 }
 }
-@media only screen and (min-width:687px) and (max-width:900px){
+@media only screen and (min-width:727px) and (max-width:900px){
 #wide{
     display: none;
 }
@@ -681,7 +690,7 @@ body{
     margin-top: 11em;
 }
 .babysitterimage{
-    width:80%;
+    width:28rem;
     display: block;
     margin: 0 auto;
     border-radius:0px 0px 15px 50px;
@@ -706,13 +715,13 @@ body{
 }
 .description{
     padding-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .container2{
     display: none;
 }
 .box{
-    width: 80%;
+    max-width: 80%;
     height: 280px;
     background-color: white; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
@@ -745,29 +754,31 @@ body{
 .baby-head{
     padding-top: 2rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold;
 }
 .baby-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
 }
 .nanny-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
 .nanny-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
 }
 .governess-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
@@ -775,6 +786,7 @@ body{
     padding-left: 1rem;
     padding-top: 1rem;
     max-width:90%;
+    font-size: 1.2rem;
 }
 .viewmore-text{
     display: block;
@@ -782,7 +794,7 @@ body{
     padding-top: 4.7rem;
     font-weight: bold;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     max-width:80%;
 }
 .clickhere{
@@ -796,6 +808,7 @@ body{
     margin: 0 auto;
     margin-top:3rem;
     padding: 1rem;
+    font-size: 1.3rem;
 }
 .clickhere:hover{
     background-color: yellowgreen;
@@ -819,17 +832,18 @@ body{
 }
 .caretakershead{
     color: darkolivegreen;
+    padding: 1rem;
 }
 .list{
     max-width: 50%;
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .senpaiimg{
     border-radius: 35px 35px 15px 15px;
-    width:50%;
+    width:40%;
     padding-top: 1.5rem;
     height:Auto;
     display: block;
@@ -838,10 +852,11 @@ body{
 .text{
     font-weight: bold;
     color: darkolivegreen;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
 .senpaitext{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .container4{
     display: block;
@@ -853,7 +868,8 @@ body{
 .head2{
     text-align: center;
     color: darkolivegreen;
-    padding-top: 1rem;
+    padding-top: 3rem;
+    font-size: 1.35rem;
 }
 .container5{
     background-color: rgba(62, 61, 61,0.05) ;
@@ -870,8 +886,8 @@ body{
     padding-top: 3rem;
 }
 .percentagesymbol{
-    width:100px;
-    padding-left: 1.2rem;
+    width:8.5rem;
+    margin-left: 1rem;
 }
 #percentagehead{
     padding-left: 1rem;
@@ -880,7 +896,7 @@ body{
     padding-left: 1rem;
 }
 .lightningsymbol{
-    width: 120px;
+    width: 9.5rem;
     height: auto;
 }
 #lightning-head{
@@ -890,13 +906,25 @@ body{
     padding-left: 1rem;
 }
 .comfortsymbol{
-    width:120px;
-    padding-left: 0.8rem;
+    width:9.5rem;
+    margin-left: 0.5rem;
+}
+#comfort-head{
+    margin-left: 0.4rem;
+}
+.comfort-text{
+    margin-left: 0.4rem;
+}
+#health-head{
+    margin-left: 0.7rem;
+}
+.health-text{
+    margin-left: 0.7rem;
 }
 .healthsymbol{
-    width:120px;
+    width:9.5rem;
     height: auto;
-    padding-left: 0.8rem;
+    margin-left: 0.5rem;
 }
 .fee{
     max-width: 100%;
@@ -931,13 +959,15 @@ body{
     padding-top: 0.5rem;
     padding-left: 1rem;
     font-size: 1.5rem;
+    line-height: 2.5rem;
 }
 .heads{
     font-weight: bold;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 }
-@media only screen and (min-width:901px) and (max-width:1100px){
+/**/
+@media only screen and (min-width:901px) and (max-width:1115px){
 #wide{
     display: none;
 }
@@ -1028,7 +1058,7 @@ button{
     margin-top: 13em;
 }
 .babysitterimage{
-    width:50%;
+    width:30rem;
     display: block;
     margin: 0 auto;
     border-radius:0px 0px 15px 50px;
@@ -1047,13 +1077,13 @@ button{
     padding-left: 2rem;
 }
 .head{
-    font-size:2.5em;
+    font-size:2.7em;
     color:darkolivegreen;
     font-weight: bold;
 }
 .description{
     padding-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
 }
 .container2{
     margin-top: 9rem;
@@ -1065,7 +1095,7 @@ button{
 }
 .box{
     width: 350px;
-    height: 280px;
+    height: 300px;
     background-color: white; 
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
     z-index: 2;
@@ -1097,29 +1127,33 @@ button{
 .baby-head{
     padding-top: 2rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold;
 }
 .baby-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 90%;
 }
 .nanny-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
 .nanny-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.2rem;
+    max-width: 90%;
 }
 .governess-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
@@ -1127,6 +1161,7 @@ button{
     padding-left: 1rem;
     padding-top: 1rem;
     max-width:90%;
+    font-size: 1.2rem;
 }
 .viewmore-text{
     display: block;
@@ -1134,7 +1169,7 @@ button{
     padding-top: 4.7rem;
     font-weight: bold;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     max-width:80%;
 }
 .clickhere{
@@ -1148,6 +1183,7 @@ button{
     margin: 0 auto;
     margin-top:3rem;
     padding: 1rem;
+    font-size: 1.2rem;
 }
 .clickhere:hover{
     background-color: yellowgreen;
@@ -1165,19 +1201,20 @@ button{
     max-width: 100%;
 }
 .senpaihead{
-    max-width:60%;
+    max-width:80%;
     display: block;
     margin: 0 auto;
 }
 .caretakershead{
     color: darkolivegreen;
+    padding: 1rem;
 }
 .list{
     max-width: 50%;
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .senpaiimg{
     border-radius: 35px 35px 15px 15px;
@@ -1190,10 +1227,11 @@ button{
 .text{
     font-weight: bold;
     color: darkolivegreen;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
+    padding: 0.5rem;
 }
 .senpaitext{
-    font-size: 1.3rem;
+    font-size: 1.5rem;  
 }
 .container4{
     display: block;
@@ -1222,9 +1260,9 @@ button{
     padding-top: 3rem;
 }
 .percentagesymbol{
-    width:7rem;
+    width:8rem;
     height: auto;
-    margin-left: 8.5rem;
+    margin-left: 8rem;
 }
 #percentagehead{
     margin-left: 0.7rem;
@@ -1233,16 +1271,16 @@ button{
     margin-left: 0.7rem;
 }
 .lightningsymbol{
-    width: 7.5rem;
+    width: 8.5rem;
     height: auto;
     margin-left: 4rem;
 }
 .comfortsymbol{
-    width:8rem;
-    margin-left: 8rem;
+    width:9rem;
+    margin-left: 7.5rem;
 }
 .healthsymbol{
-    width:7.8rem;
+    width:8.8rem;
     height: auto;
     margin-left: 3.8rem;
 }
@@ -1273,9 +1311,10 @@ button{
 .content{
     display:flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 45%;
     padding-top: 0.5rem;
     padding-left: 1rem;
+    font-size: 1.06rem;
 }
 .heads{
     font-weight: bold;
@@ -1283,7 +1322,7 @@ button{
 }
 
 }
-@media only screen and (min-width:1100px) and (max-width:1400px){
+@media only screen and (min-width:1115px) and (max-width:1400px){
 #small{
     display: none;
 }
@@ -1505,12 +1544,13 @@ button{
     max-width: 40%;
 }
 .senpaihead{
-    max-width:60%;
+    max-width:80%;
     display: block;
     margin: 0 auto;
 }
 .caretakershead{
     color: darkolivegreen;
+    padding: 1rem;
 }
 .list{
     max-width: 50%;
@@ -1521,14 +1561,15 @@ button{
 }
 .senpaiimg{
     border-radius: 35px 35px 15px 15px;
-    width:75%;
-    padding-top: 1.5rem;
+    width:20rem;
+    padding-top: 1.2rem;
     height:Auto;
 }
 .text{
     font-weight: bold;
     color: darkolivegreen;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
+    padding: 0.5rem;
 }
 .senpaitext{
     font-size: 1.3rem;
@@ -1610,8 +1651,9 @@ button{
 .content{
     display:flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 48%;
     padding-left: 1rem;
+    font-size: 1.2rem;
 }
 .heads{
     font-weight: bold;
@@ -1729,13 +1771,13 @@ button{
     padding-left: 2rem;
 }
 .head{
-    font-size:2.5em;
+    font-size:2.7em;
     color:darkolivegreen;
     font-weight: bold;
 }
 .description{
     padding-top: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     max-width: 90%;
 }
 .container2{
@@ -1755,20 +1797,20 @@ button{
     z-index: 2;
 }
 .babyimg{
-    width:80px;
+    width:100px;
     height: auto;
     display: block;
     margin: 0 auto;
     padding-top: 15px;
 }
 .nannyimg{
-    width:100px;
+    width:120px;
     height: auto;
     display: block;
     margin: 0 auto;
 }
 .governessimg{
-    width:100px;
+    width:120px;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -1777,7 +1819,7 @@ button{
 .baby-head{
     padding-top: 2rem;
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: darkolivegreen;
     font-weight: bold;
 }
@@ -1789,7 +1831,7 @@ button{
 .nanny-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
@@ -1801,7 +1843,7 @@ button{
 .governess-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 2rem;
+    font-size: 1.8rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
@@ -1849,38 +1891,41 @@ button{
     max-width: 40%;
 }
 .senpaihead{
-    max-width:60%;
+    max-width:80%;
     display: block;
     margin: 0 auto;
 }
 .caretakershead{
     color: darkolivegreen;
+    padding: 1rem;
 }
 .list{
     max-width: 50%;
     display: block;
     margin: 0 auto;
     margin-bottom: 2rem;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .senpaiimg{
     border-radius: 35px 35px 15px 15px;
-    width:60%;
+    width:22rem;
     padding-top: 1.5rem;
     height:Auto;
+    display: block;
 }
 .text{
     font-weight: bold;
     color: darkolivegreen;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    padding: 0.5rem;
 }
 .senpaitext{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 .container4{
     display: block;
     margin: 0 auto;
-    margin-top: 5rem;
+    margin-top: 8rem;
     background-color: rgba(62, 61, 61,0.05) ;
     padding-bottom: 7rem;
 }
@@ -1905,7 +1950,7 @@ button{
     padding-top: 3rem;
 }
 .percentagesymbol{
-    width:9rem;
+    width:11rem;
     height: auto;
     margin-left: 11.5rem;
 }
@@ -1916,16 +1961,16 @@ button{
     margin-left: 0.7rem;
 }
 .lightningsymbol{
-    width: 9.7rem;
+    width: 11.7rem;
     height: auto;
     margin-left: 8rem ;
 }
 .comfortsymbol{
-    width:10.4rem;
+    width:12.4rem;
     margin-left: 10.6rem;
 }
 .healthsymbol{
-    width:10rem;
+    width:12rem;
     height: auto;
     margin-left: 7.8rem;
 }
@@ -2210,7 +2255,7 @@ button{
 }
 .senpaiimg{
     border-radius: 35px 35px 15px 15px;
-    width:60%;
+    width:22rem;
     padding-top: 1.5rem;
     height:Auto;
 }
