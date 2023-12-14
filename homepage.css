@@ -1929,6 +1929,7 @@ button{
     margin-top: 8rem;
     background-color: rgba(62, 61, 61,0.05) ;
     padding-bottom: 7rem;
+    padding-top: 3rem;
 }
 .head2{
     text-align: center;
@@ -1960,6 +1961,7 @@ button{
 }
 .percentage-text{
     margin-left: 0.7rem;
+    min-width: 120%;
 }
 .lightningsymbol{
     width: 11.7rem;
@@ -1989,6 +1991,9 @@ button{
     max-width: 45%;
     display: inline-flex;
 }
+.comfort-text{
+    width: 120%;
+}
 .health{
     max-width: 45%;
     display: inline-flex;
@@ -2002,10 +2007,10 @@ button{
 .content{
     display:flex;
     flex-direction: column;
-    max-width: 40%;
+    max-width: 60%;
     padding-top: 0.5rem;
     padding-left: 1rem;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
 }
 .heads{
     font-weight: bold;
@@ -2273,6 +2278,7 @@ button{
     margin: 0 auto;
     margin-top: 8rem;
     background-color: rgba(62, 61, 61,0.05) ;
+    padding-top: 3rem;
     padding-bottom: 7rem;
 }
 .head2{
