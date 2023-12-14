@@ -95,6 +95,9 @@ body{
     font-size: 18px;
     text-transform: uppercase;
 }
+.lig{
+    overflow: visible;
+}
 h1{
     font-family: Arial;
     font-size: 30px;
