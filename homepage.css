@@ -1664,7 +1664,7 @@ button{
     max-width: 50%;
 }
 }
-@media only screen and (min-width:1400px) and (max-width:1800px){
+@media only screen and (min-width:1400px) and (max-width:1853px){
 #small{
     display: none;
 }
@@ -2011,7 +2011,7 @@ button{
     font-size: 1.5rem;
 }
 }
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 1853px){
 #small{
     display: none;
 }
@@ -2270,17 +2270,15 @@ button{
 .container4{
     display: block;
     margin: 0 auto;
-    margin-top: 10rem;
+    margin-top: 8rem;
     background-color: rgba(62, 61, 61,0.05) ;
-    padding-top: 5rem;
-    padding-bottom: 8rem;
+    padding-bottom: 7rem;
 }
 .head2{
-    width:100%;
     text-align: center;
     color: darkolivegreen;
     padding-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }
 .container5{
     background-color: rgba(62, 61, 61,0.05) ;
@@ -2297,7 +2295,7 @@ button{
     padding-top: 3rem;
 }
 .percentagesymbol{
-    width:10rem;
+    width:11rem;
     height: auto;
     margin-left: 11.5rem;
 }
@@ -2308,16 +2306,16 @@ button{
     margin-left: 0.7rem;
 }
 .lightningsymbol{
-    width: 10.7rem;
+    width: 11.7rem;
     height: auto;
     margin-left: 8rem ;
 }
 .comfortsymbol{
-    width:11.4rem;
+    width:12.4rem;
     margin-left: 10.6rem;
 }
 .healthsymbol{
-    width:11rem;
+    width:12rem;
     height: auto;
     margin-left: 7.8rem;
 }
@@ -2355,7 +2353,7 @@ button{
 }
 .heads{
     font-weight: bold;
-    font-size: 1.8rem;
+    font-size: 1.7rem;
 }
 }
 .body0{
