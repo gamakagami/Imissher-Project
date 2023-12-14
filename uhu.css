@@ -21,12 +21,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px;
+    padding-left: 50%;
+    padding-right: 50%;
     min-height: 100vh;
-    max-height: 200vh;
-    min-width: 100%;
-    max-width: 300%;
-   
+    min-width: 100vh;
+    max-width: 30000000%;
     padding-bottom: 70px;
 
 }
@@ -35,6 +34,7 @@ body{
     width: 700px;
     background: #fff;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+
 }
 .container form .row{
     display: flex;
@@ -98,4 +98,18 @@ h3{
 }
 .container form .submit-btn:hover{
     background: #2ecc71;
+}
+@media screen and (max-width:650px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-left: 64%;
+        padding-right: 50%;
+        min-height: 100vh;
+        min-width: 100vh;
+        max-width: 30000000%;
+        padding-bottom: 70px;
+    
+    }
 }
