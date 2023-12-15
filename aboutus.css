@@ -199,21 +199,21 @@ button{
     overflow: hidden;
 }
 .aboutus .one{
-    color: rgb(0, 0, 0);
-    font-size: 50px;
-    
+    color: darkolivegreen;
+    font-size: 40px;
 }
 .one{
-    padding-top: 50px;
+    padding-top: 5rem;
     text-align: center;
     padding-bottom: 20px;
+    color: darkolivegreen;
 }
 .container2{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90%;
-    margin: 65px auto;
+    margin: 30px auto;
 }
 .container3{
     display: flex;
@@ -242,8 +242,9 @@ button{
     animation: fadeInLeft 2s ease;
 }
 .content .first{
-    font-size: 38px;
+    font-size: 30px;
     margin-bottom: 20px;
+    color: darkolivegreen;
 }
 .content{
     font-size: 24px;
@@ -261,6 +262,7 @@ button{
     border: none;
     cursor: pointer;
     transition: 0.3s ease;
+    margin-top: 1rem;
 }
 .content3 .buttons{
     display:inline-block;
@@ -295,23 +297,34 @@ button{
     animation: fadeInBottom 2s ease;
 }
 .pain{
-    width: 100%;
+    width: 80%;
     height: auto;
     border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.pain2{
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
 }
 .two{
     text-align: center;
-    font-size: 40px;
+    font-size: 32px;
     padding-top: 30px;
     padding-bottom: 20px;
+    color: darkolivegreen;
 }
 .paragraph{
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
+    padding-top: 3rem;
 }
 .paragraphs{
     text-align: left;
-    font-size: 30px;
+    font-size: 24px;
 }
 
 @media screen and (max-width: 768px){
