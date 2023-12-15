@@ -1429,13 +1429,13 @@ button{
     padding-left: 2rem;
 }
 .head{
-    font-size:2.5em;
+    font-size:2.6em;
     color:darkolivegreen;
     font-weight: bold;
 }
 .description{
     padding-top: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.34rem;
 }
 .container2{
     margin-top: 9rem;
@@ -1476,29 +1476,32 @@ button{
 .baby-head{
     padding-top: 2rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.34rem;
     color: darkolivegreen;
     font-weight: bold;
 }
 .baby-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.1rem;
+    max-width: 90%;
 }
 .nanny-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.34rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
 .nanny-text{
     padding-left: 1rem;
     padding-top: 1rem;
+    font-size: 1.1rem;
 }
 .governess-head{
     padding-top: 1.8rem;
     padding-left: 1rem;
-    font-size: 1.3rem;
+    font-size: 1.34rem;
     color: darkolivegreen;
     font-weight: bold; 
 }
@@ -1506,6 +1509,7 @@ button{
     padding-left: 1rem;
     padding-top: 1rem;
     max-width:90%;
+    font-size: 1.1rem;
 }
 .viewmore-text{
     display: block;
@@ -1513,7 +1517,7 @@ button{
     padding-top: 4.7rem;
     font-weight: bold;
     text-align: center;
-    font-size: 1.1rem;
+    font-size: 1.14rem;
     max-width:80%;
 }
 .clickhere{
@@ -1527,6 +1531,7 @@ button{
     margin: 0 auto;
     margin-top:3rem;
     padding: 1rem;
+    font-size: 1.04rem;
 }
 .clickhere:hover{
     background-color: yellowgreen;
@@ -1573,6 +1578,7 @@ button{
 }
 .senpaitext{
     font-size: 1.3rem;
+    line-height: 1.6rem;
 }
 .container4{
     display: block;
