@@ -185,53 +185,6 @@ a{
     font-size: 22px;
     padding:10px
 }
-
-
-
-@media screen and (max-width:600px) {
-    nav{
-        display: block;
-        position: relative;
-        padding:15px 20px;
-    }
-    .menu{
-        margin-top: 15px;
-        display: none;
-    }
-}
-
-@media screen and (max-width:1400px){
-    .tes{
-        position: absolute; bottom: 0; 
-        padding-bottom: 45px;
-        display: flex;
-    }
-
-}
-@media screen and (max-width:840px){
-    .nav1{
-        display: none;
-    }
-}
-@media screen and (min-width:841px){
-    .nav1{
-        height: 100vh;
-    }
-}
-@media screen and (max-width:841px){
-    .main-skills .card{
-        width: 30%;
-        margin: 10px;
-        background: #fff;
-        text-align: center;
-        border-radius: 20px;
-        padding: 10px;
-        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-    }
-    
-}
-
-
 .menu.active, .toggle{
     display: block;
 }
@@ -240,8 +193,6 @@ a{
     top:35%;
     right:20px
 }
-
-
 .main-course{
     margin-top: 20px;
     text-transform: capitalize;
@@ -281,13 +232,10 @@ a{
     border-radius: 10px;
     background: rgb(235,233,233);
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-
 }
 .box p{
     font-size: 15px;
     margin-top: 5px;
-
-
 }
 .box button{
     background: darkolivegreen;
@@ -307,12 +255,85 @@ a{
     margin: -20px 20px 20px 0;
 }
 
-@media screen and (min-width:601px){
+@media only screen and (max-width:499px){
+    .main-skills{
+        display: block;
+    }
+    .nav1{
+        display: none;
+    }
+    .main-skills .card{
+        width: 100%;
+        margin: 10px;
+        background: #fff;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }   
+    nav{
+        display: block;
+        position: relative;
+        padding:15px 20px;
+    }
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+}
+@media only screen and (min-width:499px) and (max-width:840px){
+    .nav1{
+        display: none;
+    }
+    .main-skills .card{
+        width: 30%;
+        margin: 10px;
+        background: #fff;
+        text-align: center;
+        border-radius: 20px;
+        padding: 10px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }   
+    nav{
+        display: block;
+        position: relative;
+        padding:15px 20px;
+    }
+    .menu{
+        margin-top: 15px;
+        display: none;
+    }
+    .main-course-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width:601px){
     .toggle{
         display: none;
         float: right;
     }
     .menu{
+        display: none;
+    }
+    .main-course-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width:841px){
+    .nav1{
+        height: 100vh;
+    }
+    .main-course-phone{
+        display: none;
+    }
+}
+@media only screen and (max-width:1400px){
+    .tes{
+        position: absolute; bottom: 0; 
+        padding-bottom: 45px;
+        display: flex;
+    }
+    .main-course-phone{
         display: none;
     }
 }
