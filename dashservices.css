@@ -243,6 +243,20 @@ a{
         width: 90px;
         overflow: visible;
     }
+    nav{
+        width: 115vw;
+    
+    }
+}
+@media screen and (max-width:360px){
+    nav{
+        width: 130vw;
+    }
+}
+@media screen and (max-width:391px){
+    nav{
+        width: 130vw;
+    }
 }
 @media screen and (min-width:431px){
     .sig{
