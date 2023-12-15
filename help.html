@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finance</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/6.4.0/css/all.min.css"/>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <link rel="stylesheet" href="finance.css">
+    <link href="https://fonts.googleapis.com/icon?family-Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script>
+      const accordionContent = document.querySelectorAll(".accordion-content");
+    accordionContent.forEach((item, index) => {
+        let header = item.querySelector("header");
+        header.addEventListener("click", () =>{
+            item.classList.toggle("open");
+            let description = item.querySelector(".description");
+            if(item.classList.contains ("open")) {
+                description.style.height = `${description.scrollHeight}px`;
+                item.querySelector("i").classList.replace("fa-plus", "fa-minus");
+            }else{
+                description.style.height = "0px";
+            }
+            console.log(description);
+            removeOpen(index);
+        })
+    })
+    function removeOpen (index1){
+        accordionContent.forEach((item2, index2) => {
+            if(index1 != index2){
+                item2.classList.remove("open");
+                
+                let des = item2.querySelector(".description");
+                des.style.height = "0px";
+                item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
+            }
+        })
+    }
+    </script>   
+</head>
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="dashboard.js"></script>
+    <nav>
+        <div class="logo">
+          <a href="#">  <img src="logo.png" alt="logo"> AstraCares</a>
+        </div>
+        <div class="quote">
+            <p>ガム卿はイケメンすぎる</p>
+        </div>
+    </nav>
+<div class="container">
+    <div class="nav1">
+        <ul>
+            <li><a class="logo2">
+                <img src="pp.jpg" alt="">
+                <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a href="dashboard.html" class="new">
+                <i class="fas fa-home"></i>
+                <span class="nav-item">Home</span></a>
+            </li>
+           
+            <li><a href="dashservices.html" class="new">
+                <i class="fas fa-chart-bar"></i>
+                <span class="nav-item">Services</span></a>
+            </li>
+            <li><a href="calender.html" class="new"><i class="fas fa-calendar-alt"></i>
+                <span class="nav-item">Schedule</span></a></li>
+            <li><a href="" class="new"><i class="fas fa-wallet"></i>
+                <span class="nav-item">Finance</span></a></li>
+                <li><a href="Finance.html" class="new"><i class="fas fa-cog"></i>
+                    <span class="nav-item">Settings</span>
+                </a></li>
+                    <li><a href="" class="new"><i class="fas fa-question-circle"></i>
+                        <span class="nav-item">Help</span></a></li>
+                        <li><a href="index.html" class="logout"><i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span></a></li>
+        </ul>
+    </div>
+     <div class="accordion">
+        <div class="accordion-content">
+            <header>
+                <span class="title">When should we order the service?</span>
+                <i class="fa-solid fa-plus"></i>
+            <header>
+            <p class="description"> You have to order the service maximum one day before the day you want the service. </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">Is the caretaker service good??</span>
+                <i class="fa-solid fa-plus"></i>
+            <header>
+            <p class="description">  Yes, We have been the go to website for parents to find caretaker and have been reviewed by millions of parents. </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">Can we cancel our order?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="description"> Yes, You can cancel the order however the cancellation will have a fee. </p>
+        </div>
+        <div class="accordion-content">
+            <header>
+                <span class="title">What methods of payment can i pay with?</span>
+                <i class="fa-solid fa-plus"></i>
+            </header>
+            <p class="description"> What methods of payment can i pay with? </p>
+        </div>
+    </div>     
