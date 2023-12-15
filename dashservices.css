@@ -235,6 +235,20 @@ a{
         display: none;
     }
 }
+@media screen and (max-width:430px){
+    .lig{
+        display: none;
+    }
+    .nav1{
+        width: 90px;
+        overflow: visible;
+    }
+}
+@media screen and (min-width:431px){
+    .sig{
+        display: none;
+    }
+}
 .newmain{
     padding: 0;
     margin: 0;
