@@ -280,8 +280,71 @@ a{
         margin-top: 15px;
         display: none;
     }
+    .main-course{
+        margin-top: 20px;
+        text-transform: capitalize;
+    
+    }
+    .course-box{
+        width: 100%;
+        padding: 10px;
+        margin-top: 10px;
+        background: #fff;
+        border-radius: 10px;
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    }
+    .course-box ul{
+        list-style: none;
+        display: flex;
+    
+    }
+    .course-box ul li{
+        margin: 10px;
+        color:gray;
+        cursor: pointer;
+    }
+    
+    .course-box ul .active{
+        color:darkolivegreen;
+        border-bottom: 1px solid #000;
+    }
+    .course-box .course{
+        display: block;
+    }
+    .box{
+        width: 100%;          
+        margin: 10px;
+        border-radius: 10px;
+        background: rgb(235,233,233);
+        box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+        height: 20vh;
+    }
+    .box p{
+        font-size: 15px;
+        margin-top: 5px;
+    }
+    .box button{
+        background: darkolivegreen;
+        color:#fff;
+        padding: 7px 10px;
+        border-radius: 10px;
+        margin-top: 3rem;
+        cursor: pointer;
+        bottom:0;
+    }
+    .box button:hover{
+        background: yellowgreen;
+    }
+    .box i{
+        font-size: 7rem;
+        float: right;
+        margin: -20px 20px 20px 0;
+    }
 }
 @media only screen and (min-width:499px) and (max-width:840px){
+    .phonee{
+        display: none;
+    }
     .nav1{
         display: none;
     }
