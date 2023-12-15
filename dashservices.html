@@ -1,281 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <link rel="stylesheet" href="dashservices.css">
-    <link rel="stylesheet" href="dashservices.js">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <title>AstraCares - Caretakers</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <title>AstraCares - Dashboard</title>
 </head>
 <body>
 
     <nav>
         <div class="logo">
-            <a href="#"> <img src="logo.png" alt="logo"> AstraCares</a>
+          <a href="#">  <img src="logo.png" alt="logo"> AstraCares</a>
         </div>
         <div class="quote">
             <p>ガム卿はイケメンすぎる</p>
         </div>
     </nav>
 
-    <div class="container">
-        <div class="nav1">
-            <ul>
-                <div class="lig">
-                <li><a class="logo2">
-                        <img src="pp.jpg" alt="logo">
-                        <span class="nav-item">Dashboard</span>
-                    </a></li>
-                <li><a href="dashboard.html" class="new">
-                        <i class="fas fa-home"></i>
-                        <span class="nav-item">Home</span></a>
-                </li>
-
-                <li><a href="dashservices.html" class="new">
-                        <i class="fas fa-chart-bar"></i>
-                        <span class="nav-item">Services</span></a>
-                </li>
-                <li><a href="calender.html" class="new"><i class="fas fa-calendar-alt"></i>
-                        <span class="nav-item">Schedule</span></a></li>
-                <li><a href="Finance.html" class="new"><i class="fas fa-wallet"></i>
-                        <span class="nav-item">Finance</span></a></li>
+<div class="container">
+    <div class="nav1">
+        <ul>
+            <li><a class="logo2">
+                <img src="pp.jpg" alt="logo">
+                <span class="nav-item">Dashboard</span>
+            </a></li>
+            <li><a href="" class="new">
+                <i class="fas fa-home"></i>
+                <span class="nav-item">Home</span></a>
+            </li>
+       
+            <li><a href="dashservices.html" class="new">
+                <i class="fas fa-chart-bar"></i>
+                <span class="nav-item">Services</span></a>
+            </li>
+            <li><a href="calender.html" class="new"><i class="fas fa-calendar-alt"></i>
+                <span class="nav-item">Schedule</span></a></li>
+            <li><a href="Finance.html" class="new"><i class="fas fa-wallet"></i>
+                <span class="nav-item">Finance</span></a></li>
                 <li><a href="" class="new"><i class="fas fa-cog"></i>
-                        <span class="nav-item">Settings</span>
-                    </a></li>
-                <li><a href="" class="new"><i class="fas fa-question-circle"></i>
-                        <span class="nav-item">Help</span></a></li>
-                <li><a href="index.html" class="logout"><i class="fas fa-sign-out-alt"></i>
-                        <span class="nav-item">Log out</span></a></li>
-                </div>
-                <div class="sig">
-                    <li><a class="logo2">
-                            <img src="pp.jpg" alt="logo">
-                            <span class="nav-item"></span>
-                        </a></li>
-                    <li><a href="dashboard.html" class="new">
-                            <i class="fas fa-home"></i>
-                            <span class="nav-item"></span></a>
-                    </li>
-    
-                    <li><a href="dashservices.html" class="new">
-                            <i class="fas fa-chart-bar"></i>
-                            <span class="nav-item"></span></a>
-                    </li>
-                    <li><a href="calender.html" class="new"><i class="fas fa-calendar-alt"></i>
-                            <span class="nav-item"></span></a></li>
-                    <li><a href="Finance.html" class="new"><i class="fas fa-wallet"></i>
-                            <span class="nav-item"></span></a></li>
-                    <li><a href="" class="new"><i class="fas fa-cog"></i>
-                            <span class="nav-item"></span>
-                        </a></li>
+                    <span class="nav-item">Settings</span>
+                </a></li>
                     <li><a href="" class="new"><i class="fas fa-question-circle"></i>
-                            <span class="nav-item"></span></a></li>
-                    <li><a href="index.html" class="logout"><i class="fas fa-sign-out-alt"></i>
-                            <span class="nav-item"></span></a></li>
-                    </div>
-            </ul>
+                        <span class="nav-item">Help</span></a></li>
+                        <li><a href="index.html" class="logout"><i class="fas fa-sign-out-alt"></i>
+                            <span class="nav-item">Log out</span></a></li>
+        </ul>
+    </div>
+    <section class="main">
+        <div class="main-top">
+            <h1>Caretakers</h1>
+            <i class="fas fa-user-cog"></i>
         </div>
-        <div class="newmain">
-            <div class="wrapper">
-                <div class="menus">
-                    <select id="name">
-                        <option value="all">All</option>
-                        <option value="baby">Babysitter</option>
-                        <option value="nanny">Nanny</option>
-                        <option value="governess">Governess</option>
-                    </select>
-                    <div class="heading">Book Caretakers here!</div>
-                </div>
-
-                <div class="content">
-                    <div id="all" class="data">
-                        <div class="newdata">
-                            <img src="jeann.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Jean Gunnhildr<br>
-                                    Age: 20<br>
-                                    Occupation: Governess<br>
-                                    Description: Jean is a righteous and rigorous person, Jean often takes all of her
-                                    responsibilities and duties seriously regarding how minor the
-                                    tasks may seem. Jean strives to teach other kids to achieve perfection by becoming a
-                                    governess.</p>
-                                <button onclick="location.href='book jean.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="newdata">
-                            <img src="shigeru ui hci.jpeg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Shigure Ui <br>
-                                    Age: 16<br>
-                                    Occupation: Nanny<br>
-                                    Description: Ui has a relaxed and carefree disposition, Ui can easily engage with
-                                    childrens and could even be friends with them and even though she likes messing
-                                    around with people, Ui knows when to take things seriously when she has
-                                    responsibilities.</p>
-                                    <button onclick="location.href='book ui.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="newdata">
-                            <img src="fuhua projek.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Fu Hua <br>
-                                    Age: 17<br>
-                                    Occupation: Babysitter<br>
-                                    Description: Fu hua is one of our most booked babysitter. She is a fun and engaging
-                                    person which makes her very good with babies and she have a good entertainment
-                                    skills for babies. </p>
-                                    <button onclick="location.href='book fuhua.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-
-                        <div class="newdata">
-                            <img src="new liu.png" height="200" width="200">
-                            <div class="isi">
-                                <p>Name: Jing Liu <br>
-                                    Age: 22<br>
-                                    Occupation: Nanny<br>
-                                    Description: Jing Liu is a strict nanny, although you might see this as a setback.
-                                    Most parents are satisfied with the results, as their children became more well
-                                    mannered and disciplined. She also helps with homework, although she's not the best
-                                    at it, she tries her best.</p>
-                                    <button onclick="location.href='book liu.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-
-
-                        <div class="newdata">
-                            <img src="elainaa.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Elaina <br>
-                                    Age: 15<br>
-                                    Occupation: Governess<br>
-                                    Description: Elaina is a friendly, quick-witted and resourceful person. Elaina
-                                    enjoys teaching others and strives to be a governess to share and expand her
-                                    knowledge by teaching others.</p>
-                                    <button onclick="location.href='book elaina.html'">Book</button>
-                            </div>
-                        </div> <br>
-                        <div class="newdata">
-                            <img src="fuxuan hci.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Fu Xuan <br>
-                                    Age: 21<br>
-                                    Occupation: Babysitter<br>
-                                    Description: Fu xuan is a confident and straightforward person. She always have a
-                                    solution for every problem and firmly believe that there is a best solution for
-                                    every problem. Fu xuan yearns to be a babysitter.
-                                </p>
-                                <button onclick="location.href='book fuxuan.html'">Book</button>
-                            </div>
-                        </div><br>
-                    </div>
-                    <div id="baby" class="data">
-                        <div class="hai"></div>
-                        <div class="newdata">
-                            <img src="fuhua projek.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Fu Hua <br>
-                                    Age: 17<br>
-                                    Occupation: Babysitter<br>
-                                    Description: Fu hua is one of our most booked babysitter. She is a fun and engaging
-                                    person which makes her very good with babies and she have a good entertainment
-                                    skills for babies</p>
-                                    <button onclick="location.href='book fuhua.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="newdata">
-                            <img src="fuxuan hci.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Fu Xuan <br>
-                                    Age: 21<br>
-                                    Occupation: Babysitter<br>
-                                    Description: Fu xuan is a confident and straightforward person. She always have a
-                                    solution for every problem and firmly believe that there is a best solution for
-                                    every problem. Fu xuan yearns to be a babysitter.</p>
-                                    <button onclick="location.href='book fuxuan.html'">Book</button>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div id="nanny" class="data">
-                        <div class="newdata">
-                            <img src="new liu.png" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Jing Liu <br>
-                                    Age: 22<br>
-                                    Occupation: Nanny<br>
-                                    Description: Jing Liu is a strict nanny, although you might see this as a setback.
-                                    Most parents are satisfied with the results, as their children became more well
-                                    mannered and disciplined. She also helps with homework, although she's not the best
-                                    at it, she tries her best. </p>
-                                    <button onclick="location.href='book liu.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="newdata">
-                            <img src="shigeru ui hci.jpeg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Shigure Ui <br>
-                                    Age: 16<br>
-                                    Occupation: Nanny<br>
-                                    Description: Ui has a relaxed and carefree disposition, Ui can easily engage with
-                                    childrens and could even be friends with them and even though she likes messing
-                                    around with people, Ui knows when to take things seriously when she has
-                                    responsibilities</p>
-                                    <button onclick="location.href='book ui.html'">Book</button>
-                            </div>
-                        </div>
-                    </div>
-                    <div id="governess" class="data">
-                        <div class="newdata">
-                            <img src="jeann.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Jean Gunnhildr<br>
-                                    Age: 20<br>
-                                    Occupation: Governess<br>
-                                    Description: Jean is a righteous and rigorous person, Jean often takes all of her
-                                    responsibilities and duties seriously regarding how minor the
-                                    tasks may seem. Jean strives to teach other kids to achieve perfection by becoming a
-                                    governess</p>
-                                    <button onclick="location.href='book jean.html'">Book</button>
-                            </div>
-                        </div>
-                        <br>
-                        <div class="newdata">
-                            <img src="elainaa.jpg" height="200" width="200" class="foto">
-                            <div class="isi">
-                                <p>Name: Elaina <br>
-                                    Age: 15<br>
-                                    Occupation: Governess<br>
-                                    Description: Elaina is a friendly, quick-witted and resourceful person. Elaina
-                                    enjoys teaching others and strives to be a governess to share and expand her
-                                    knowledge by teaching others.</p>
-                                    <button onclick="location.href='book elaina.html'">Book</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="main-skills">
+            <div class="card">
+                <br>
+                <i><img src="baby2.png" width="80" height="80"> </i>
+                <br>
+               
+                <h3>Babysitter</h3>
+                <p>Book Babysitters Here!</p>
+               
+                <button onclick="location.href='babysitter service.html'">Book</button>
+            </div>
+            <div class="card">
+        
+                <i><img src="nanny.png" width="100" height="100" style="padding-right: 5px;"> </i>
+                <h3>Nanny</h3>
+                <p>Book Nannies Here!</p>
+                 <button onclick="location.href='nannyservice.html'">Book</button>
+               
+            </div>
+            <div class="card">
+                <i><img src="governessimg.png" height="100" width="90"> </i>
+                <h3>Governess</h3>
+                <p>Book Governesses Here!</p>
+                <button onclick="location.href='govservice.html'">Book</button>
+                
             </div>
         </div>
-    </div>
 
+        <section class="main-course">
+            <h1>Activities</h1>
+            <div class="course-box">
+                <ul>
+                    <li class="active">Menus</li>
+                    <li onclick="location.href=''">Settings</li>
+                    <li onclick="location.href=''">Help</li>
+                    <li onclick="location.href='index.html'">Log out</li>
+                </ul>
+                <div class="course">
+                    <div class="box">
+                        <h3>Services</h3>
+                        <P>Find out about our Services and book here!<br></P>
+                        <img src="wyheel-removebg-preview.png" width="100" height="100" style="float: right;">
+                        <div class="tes">
+                        <button onclick="location.href='dashservices.html'">Find</button></div>
+                        <button onclick="location.href='dashservices.html'" class="phonee">Find</button>
+                       
+                    </div>
+                    <div class="box">
+                        <h3>Schedule</h3>
+                        <P>Find out my schedule with caretakers here!</P>
+                        <button onclick="location.href='dashservices.html'" class="phonee">Find</button>
+                        <img src="calendar-removebg-preview.png" height="100" width="100" style="float: right;">
+                        <div class="tes">
+                        <button onclick="location.href='calender.html'">Find</button>   
+                        </div>
+                        <i>
+                        </i>
+                    </div>
+                    <div class="box">    
+                        <h3>Finance</h3>
+                        <P>find my Finance information in AstraCares here!</P>
+                        
+                        <img src="cc_img-removebg-preview.png" height="100" width="100" style="float: right;">
+                        <div class="tes">
+                        <button onclick="location.href='Finance.html'">Find</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </section>
+</div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("#name").on('change', function () {
-                $(".data").hide()
-                $('#' + $(this).val()).fadeIn(700);
-            }).change();
-        });
-    </script>
+    <script src="dashboard.js"></script>
 </body>
-
 </html>
