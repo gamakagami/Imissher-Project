@@ -8,7 +8,7 @@
 body{
     background-color: rgba(25, 38, 38, 0.02);
 }
-.container{
+.container2{
     margin-top: 2rem;
     margin-left: 2rem;
     display:block;
@@ -108,14 +108,14 @@ body{
     height: 6vh;
 }
 }
-@media only screen and (min-width:450px) and (max-width:850px){
+@media only screen and (min-width:400px) and (max-width:1000px){
 *{
     font-family: arial;
 }
 body{
     background-color: rgba(25, 38, 38, 0.02);
 }
-.container{
+.container2{
     margin-top: 2rem;
     margin-left: 2rem;
     display:block;
@@ -202,20 +202,123 @@ body{
     text-align: center;
     padding-top: 2rem;
 }
-.cancel-plan{
-    outline: none;
-    border: none;
-    background-color: rgb(23, 93, 206); 
-    color: white;
-    display: block;
-    margin: 0 auto;
-    margin-top: 2rem;
-    width: 60%;
-    font-weight: bold;  
-    height: 6vh;
+.nav1{
+    min-height: 170vh;
 }
+
 }
-@media only screen and (min-width:850px){
+
+@media only screen and  (max-width:400px){
+    *{
+        font-family: arial;
+    }
+    body{
+        background-color: rgba(25, 38, 38, 0.02);
+    }
+    .container2{
+        margin-top: 2rem;
+        margin-left: 2rem;
+        display:block;
+    }
+    .left-side{
+        width: 100%;
+    }
+    .right-side{
+        width: 100%;
+    }
+    .address2{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+    .address{
+        margin-top: 4rem;
+        font-weight: bold;
+    }
+    .sub-address{
+        margin-top: 0.6rem;
+    }
+    .head{
+        color: darkolivegreen;
+        font-weight: bold;
+        font-size:1.7rem;
+    }
+    .sub{
+        font-weight: bold;
+        font-size: 1.1rem;
+        margin-top: 1.5rem;
+    }
+    #details{
+        margin-top: 2rem;
+        font-size: 1.2rem;
+    }
+    #box{
+        margin-top: 1rem;
+        padding: 0.5rem;
+        width: 20rem;
+    }
+    .update{
+        background-color: rgb(23, 93, 206);
+        border: none;
+        outline: none;
+        color: white;
+        margin-top: 2rem;
+        text-align: center;
+        width: 20rem;
+        height: 6vh;
+        cursor: pointer;
+        font-weight: bold;
+    }
+    .boxx{
+        width: 60vw;
+        height: 45vh;
+        background-color: rgb(92, 117, 50);
+        font-weight: bold;
+        display: block;
+        margin: 0 auto;
+        margin-top: 3rem;
+    }
+    .plan-details{
+        margin-top: 3rem;
+    }
+    .headd{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+        font-weight: bold;
+    }
+    .date{
+        color: white;
+        text-align: center;
+        font-size: 8rem;
+        padding-top: 1rem;
+        font-weight: bold;
+    }
+    .sub-date{
+        color: white;
+        text-align: center;
+    }
+    .detaill{
+        color: white;
+        text-align: center;
+        padding-top: 2rem;
+    }
+    .nav1{
+        min-height: 170vh;
+    }
+    nav{
+        min-width: 500px;
+    }
+    
+    }
+
+@media only screen and (max-width:500px){
+    .lig{
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width:1000px){
 body{
     background-color: rgba(25, 38, 38, 0.02);
 }
@@ -276,8 +379,8 @@ input{
     font-weight: bold;
 }
 .boxx{
-    width: 28vw;
-    height: 60vh;
+    width: 25vw;
+    height: 40vh;
     background-color: rgb(92, 117, 50);
     font-weight: bold;
 }
@@ -446,4 +549,25 @@ a{
 .logout{
     position: absolute;
     bottom:0;
+}
+.lig{
+    overflow: visible;
+}
+@media screen and (max-width:500px){
+    .lig{
+        display: none;
+    }
+    .nav1{
+        width: 90px;
+        overflow: visible;
+    }
+    nav{
+        width: 115vw;
+    
+    }
+}
+@media screen and (min-width:501px){
+    .sig{
+        display: none;
+    }
 }
