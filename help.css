@@ -131,63 +131,77 @@ a{
     bottom:0;
 }
 
+
+
+h2{
+    text-align: center;
+}
 .accordion{
-    max-width: 580px;
-    width: 100%;
-    background-color: white;
-    margin: 0 15px;
+    max-width: 1400px;
     padding: 15px;
     border-radius: 8px;
-    box-shadow: 0 0 4px black;
-}
-.accordion .accordion-content{
-    margin: 10px 0;
+    box-shadow: 0 0 4px rgb(255, 255, 255);
+    width: 100%;
     background-color: whitesmoke;
-    border: 1px solid lightgray;
-    border-radius: 5px;
-    overflow: hidden;
+    margin: 0 15px;
 }
-.accordion-content:nth-child(2){
-    background-color: whitesmoke;
-    border-color: rgb(154, 154, 154);
+.accordion .contextbox {
+   position: relative;
+   margin: 10px 20px;
 }
-.accordion-content:nth-child(3){
-    background-color: whitesmoke;
-    border-color: rgb(154, 154, 154);
-}
-.accordion-content:nth-child(4){
-    background-color: whitesmoke;
-    border-color: rgb(154, 154, 154);
-}
-.accordion-content .open{
-    padding-bottom: 10px;
-}
-.accordion-content header{
-    display: flex;
-    min-height: 50px;
-    padding: 0 15px;
-    align-items: center;
-    justify-content: space-between;
+.accordion .contextbox .label{
+    position: relative;
+    padding: 10px;
+    background: darkolivegreen;
+    color: white;
     cursor: pointer;
-    transition: all 0.2s linear;
+}   
+.accordion .contextbox .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
 }
-.accordion-content .open header{
-    min-height: 35px;
+.accordion .contextbox.active .context{
+    height: 150px;
+    padding: 10px;
 }
-.accordion-content header .title{
-    font-size: 14px;
-    font-weight: 500;
-    color: black;
+.accordion .contextbox.active .label::before{
+    content: '-';
 }
-.accordion-content header i{
-    font-size: 15px;
-    color: whitesmoke;
-}
-.accordion-content .description{
-    padding: 0 15px;
-    font-size: 14px;
-    font-weight: 400;
-    color: black;
+.accordion .contextbox .context{
+    position: relative;
+    background: white;
     height: 0;
-    transition: all 0.2s linear;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+    
 }
+@media screen and (max-width:768px){
+    .accordion{
+        width: 50%;
+        height: auto;
+    }
+    .contextbox{
+        width: 90%;
+    }
+    .label::before{
+        width: 1%;
+    }
+}
+@media screen and (min-width:768px){
+    .accordion{
+        width: 50%;
+        height: auto;
+    }
+    .contextbox{
+        width: 90%;
+    }
+    .label::before{
+        width: 1%;
+    }
+}
+
