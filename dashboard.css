@@ -15,7 +15,6 @@ body{
 a, a:hover{
     text-decoration: none;
 }
-
 nav{
     background: greenyellow;
     padding: 5px 20px;
@@ -39,7 +38,6 @@ nav .menu li a{
     width:80px;
     margin-right: 10px;
 }
-
 .logo{
     flex:1;
 }
@@ -48,8 +46,6 @@ nav .menu li a{
     align-items: center;
     font-size: 30px;
 }
-
-
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 *{
     margin: 0;
@@ -59,8 +55,6 @@ nav .menu li a{
     text-decoration: none;
     box-sizing: border-box;
     font-family: "poppins",sans-serif;
-
-
 }
 body{
     background: #fff;
@@ -106,9 +100,7 @@ a{
     display: table;
     width: 280px;
     padding: 10px;
-
 }
-
 .nav1 .fas{
     position: relative;
     width: 70px;
@@ -129,15 +121,10 @@ a{
     position: absolute;
     bottom:0;
 }
-
-
-
-
 .main{
     position: relative;
     padding: 20px;
     width: 100%;
-
 }
 .main-top{
     display: flex;
@@ -196,7 +183,6 @@ a{
 .main-course{
     margin-top: 20px;
     text-transform: capitalize;
-
 }
 .course-box{
     width: 100%;
@@ -209,21 +195,18 @@ a{
 .course-box ul{
     list-style: none;
     display: flex;
-
 }
 .course-box ul li{
     margin: 10px;
     color:gray;
     cursor: pointer;
 }
-
 .course-box ul .active{
     color:darkolivegreen;
     border-bottom: 1px solid #000;
 }
 .course-box .course{
     display: flex;
-
 }
 .box{
     width: 30%;
@@ -254,8 +237,10 @@ a{
     float: right;
     margin: -20px 20px 20px 0;
 }
-
 @media only screen and (max-width:499px){
+    #finance-btn{
+        display: none;
+    }
     .main-skills{
         display: block;
     }
@@ -283,7 +268,7 @@ a{
     .main-course{
         margin-top: 20px;
         text-transform: capitalize;
-    
+
     }
     .course-box{
         width: 100%;
@@ -296,14 +281,14 @@ a{
     .course-box ul{
         list-style: none;
         display: flex;
-    
+
     }
     .course-box ul li{
         margin: 10px;
         color:gray;
         cursor: pointer;
     }
-    
+
     .course-box ul .active{
         color:darkolivegreen;
         border-bottom: 1px solid #000;
@@ -397,6 +382,11 @@ a{
         display: flex;
     }
     .main-course-phone{
+        display: none;
+    }
+}
+@media only screen and (min-width:1400px){
+    .phonee{
         display: none;
     }
 }
