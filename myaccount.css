@@ -219,16 +219,19 @@ body{
 body{
     background-color: rgba(25, 38, 38, 0.02);
 }
-.container{
+input{
+    border: 1px solid black;
+}
+.container2{
     margin-top: 2rem;
     margin-left: 2rem;
     display: flex;
 }
 .left-side{
-    width: 50%;
+    width: 60%;
 }
 .right-side{
-    width: 50%;
+    width: 40%;
 }
 .address2{
     font-size: 1.1rem;
@@ -314,4 +317,133 @@ body{
     font-weight: bold;  
     height: 6vh;
 }
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+body{
+    font-family: Arial;
+}
+.quote{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 30%;
+    display: inline-block;
+}
+a, a:hover{
+    text-decoration: none;
+}
+
+nav{
+    background: greenyellow;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: #fff;
+    cursor: default;
+}
+nav .menu li a:hover{
+    color:aqua;
+    cursor: pointer;
+}
+nav .menu li a{
+    font-size: 20px;
+    justify-content: space-between;
+    margin-right: 25px;
+}
+.logo img{
+    width:80px;
+    margin-right: 10px;
+}
+
+.logo{
+    flex:1;
+}
+.logo a{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+body{
+    background: #fff;
+}
+.container{
+    display: flex;
+}
+.nav1{
+    position: relative;
+    top:0;
+    bottom:0;
+    height: 100vh;
+    background:#fff ;
+    width: 280px;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.logo2{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo2 img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.logo2 span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h1{
+    font-family: Arial;
+    font-size: 30px;
+    color:darkolivegreen;
+}
+a{
+    position: relative;
+    color:rgb(85,83,83);
+    font-size: 14px;
+    display: table;
+    width: 280px;
+    padding: 10px;
+
+}
+
+.nav1 .fas{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top:14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top:12px;
+    margin-left: 10px;
+}
+.nav1 a:hover{
+    background: whitesmoke;
+}
+.logout{
+    position: absolute;
+    bottom:0;
 }
