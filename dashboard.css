@@ -371,6 +371,11 @@ a{
     .nav1{
         height: 100vh;
     }
+    .tes{
+        position: absolute; bottom: 0; 
+        padding-bottom: 45px;
+        display: flex;
+    }
     .main-course-phone{
         display: none;
     }
@@ -381,9 +386,14 @@ a{
         margin-bottom: 8rem;
     }
 }
-@media only screen and (min-width:976px){
+@media only screen and (min-width:975px) and (max-width:1200px){
     .nav1{
         height: 100vh;
+    }
+    .tes{
+        position: absolute; bottom: 0; 
+        padding-bottom: 45px;
+        display: flex;
     }
     .main-course-phone{
         display: none;
@@ -395,7 +405,7 @@ a{
         margin-bottom: 10rem;
     }
 }
-@media only screen and (max-width:1400px){
+@media only screen and (min-width:1200px){
     .tes{
         position: absolute; bottom: 0; 
         padding-bottom: 45px;
@@ -403,6 +413,12 @@ a{
     }
     .main-course-phone{
         display: none;
+    }
+    .phonee{
+        display: none;
+    }
+    .lap{
+        margin-bottom: 10rem;
     }
 }
 @media only screen and (min-width:1400px){
