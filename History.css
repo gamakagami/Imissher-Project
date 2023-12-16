@@ -135,7 +135,39 @@ h1{
     border-right: 15px solid #fff;
     left: -15px;
 }
-
+.bobox{
+    height: 50px;
+    width: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    cursor: pointer;
+}
+button{
+    height: 50px;
+    width: 100px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+button .fa{
+    color: rgb(255, 255, 255);
+    box-shadow: 3px 3px 6px black;
+}
+.fa{
+    font-size: 20px;
+    padding: 10px 18px;
+}
+.fa-arrow-left{
+    background: rgb(255, 255, 255);
+}
+.buttons .fa-arrow-left{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
 @media screen and (max-width:600px){
     .history{
         margin: 50px auto;
@@ -166,3 +198,4 @@ h1{
         left: -15px;
     }
 }
+
