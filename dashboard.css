@@ -374,6 +374,9 @@ a{
     .main-course-phone{
         display: none;
     }
+    .phonee{
+        display: none;
+    }
 }
 @media only screen and (max-width:1400px){
     .tes{
