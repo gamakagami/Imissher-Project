@@ -1,0 +1,317 @@
+*{
+    font-family: arial;
+}
+@media only screen and (max-width:450px){
+*{
+    font-family: arial;
+}
+body{
+    background-color: rgba(25, 38, 38, 0.02);
+}
+.container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display:block;
+}
+.left-side{
+    width: 100%;
+}
+.right-side{
+    width: 100%;
+}
+.address2{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.address{
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.sub-address{
+    margin-top: 0.6rem;
+}
+.head{
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size:1.7rem;
+}
+.sub{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+#details{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+#box{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+.update{
+    background-color: rgb(23, 93, 206);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    width: 20rem;
+    height: 6vh;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boxx{
+    width: 70vw;
+    height: 45vh;
+    background-color: rgb(92, 117, 50);
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.plan-details{
+    margin-top: 3rem;
+}
+.headd{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.date{
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.sub-date{
+    color: white;
+    text-align: center;
+}
+.detaill{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.cancel-plan{
+    outline: none;
+    border: none;
+    background-color: rgb(23, 93, 206); 
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 60%;
+    font-weight: bold;  
+    height: 6vh;
+}
+}
+@media only screen and (min-width:450px) and (max-width:850px){
+*{
+    font-family: arial;
+}
+body{
+    background-color: rgba(25, 38, 38, 0.02);
+}
+.container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display:block;
+}
+.left-side{
+    width: 100%;
+}
+.right-side{
+    width: 100%;
+}
+.address2{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.address{
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.sub-address{
+    margin-top: 0.6rem;
+}
+.head{
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size:1.7rem;
+}
+.sub{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+#details{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+#box{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+.update{
+    background-color: rgb(23, 93, 206);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    width: 20rem;
+    height: 6vh;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boxx{
+    width: 50vw;
+    height: 45vh;
+    background-color: rgb(92, 117, 50);
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.plan-details{
+    margin-top: 3rem;
+}
+.headd{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: bold;
+}
+.date{
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.sub-date{
+    color: white;
+    text-align: center;
+}
+.detaill{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.cancel-plan{
+    outline: none;
+    border: none;
+    background-color: rgb(23, 93, 206); 
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 60%;
+    font-weight: bold;  
+    height: 6vh;
+}
+}
+@media only screen and (min-width:850px){
+body{
+    background-color: rgba(25, 38, 38, 0.02);
+}
+.container{
+    margin-top: 2rem;
+    margin-left: 2rem;
+    display: flex;
+}
+.left-side{
+    width: 50%;
+}
+.right-side{
+    width: 50%;
+}
+.address2{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.address{
+    margin-top: 4rem;
+    font-weight: bold;
+}
+.sub-address{
+    margin-top: 0.6rem;
+}
+.head{
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size:1.7rem;
+}
+.sub{
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+}
+#details{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+}
+#box{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+.update{
+    background-color: rgb(23, 93, 206);
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 2rem;
+    text-align: center;
+    width: 20rem;
+    height: 6vh;
+    cursor: pointer;
+    font-weight: bold;
+}
+.boxx{
+    width: 28vw;
+    height: 60vh;
+    background-color: rgb(92, 117, 50);
+    font-weight: bold;
+}
+.plan-details{
+    margin-top: 3rem;
+}
+.headd{
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+.date{
+    color: white;
+    text-align: center;
+    font-size: 8rem;
+    padding-top: 1rem;
+    font-weight: bold;
+}
+.sub-date{
+    color: white;
+    text-align: center;
+}
+.detaill{
+    color: white;
+    text-align: center;
+    padding-top: 2rem;
+}
+.cancel-plan{
+    outline: none;
+    border: none;
+    background-color: rgb(23, 93, 206); 
+    color: white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+    width: 60%;
+    font-weight: bold;  
+    height: 6vh;
+}
+}
