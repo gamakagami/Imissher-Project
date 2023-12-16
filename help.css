@@ -189,8 +189,9 @@ h2{
         width: 90%;
     }
     .label::before{
-        width: 1%;
+        width: 0.1%;
     }
+
 }
 @media screen and (min-width:768px){
     .accordion{
@@ -201,7 +202,25 @@ h2{
         width: 90%;
     }
     .label::before{
-        width: 1%;
+        width: 0.1%;
     }
+  
 }
+
+@media screen and (min-width:1300px){
+    .accordion{
+        width: 100%;
+        height: auto;
+    }
+    .contextbox{
+        width: 90%;
+    }
+    .label::before{
+        width: 0.5%;
+    }
+    
+}
+
+
+
 
