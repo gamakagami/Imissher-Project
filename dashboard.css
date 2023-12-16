@@ -406,6 +406,14 @@ a{
     }
 }
 @media only screen and (min-width:1400px){
+    .tes{
+        position: absolute; bottom: 0; 
+        padding-bottom: 45px;
+        display: flex;
+    }
+    .main-course-phone{
+        display: none;
+    }
     .phonee{
         display: none;
     }
