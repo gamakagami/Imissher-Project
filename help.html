@@ -6,37 +6,36 @@
     <title>Finance</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font- awesome/6.4.0/css/all.min.css"/>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <link rel="stylesheet" href="finance.css">
-    <link href="https://fonts.googleapis.com/icon?family-Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="help.css">
     <script>
       const accordionContent = document.querySelectorAll(".accordion-content");
-    accordionContent.forEach((item, index) => {
-        let header = item.querySelector("header");
-        header.addEventListener("click", () =>{
-            item.classList.toggle("open");
-            let description = item.querySelector(".description");
-            if(item.classList.contains ("open")) {
-                description.style.height = `${description.scrollHeight}px`;
-                item.querySelector("i").classList.replace("fa-plus", "fa-minus");
-            }else{
-                description.style.height = "0px";
-            }
-            console.log(description);
-            removeOpen(index);
-        })
-    })
-    function removeOpen (index1){
-        accordionContent.forEach((item2, index2) => {
-            if(index1 != index2){
-                item2.classList.remove("open");
-                
-                let des = item2.querySelector(".description");
-                des.style.height = "0px";
-                item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
-            }
-        })
-    }
+        accordionContent.forEach((item, index) => {
+           let header = item.querySelector("header");
+           header.addEventListener("click", () =>{
+               item.classList.toggle("open");
+
+               let description = item.querySelector(".description");
+               if(item.classList.contains ("open")) {
+                   description.style.height = `${description.scrollHeight}px`;
+                   item.querySelector("i").classList.replace("fa-plus", "fa-minus");
+               }else{
+                   description.style.height = "0px";
+                   item.querySelector("i").classList.replace("fa-minus", "fa-plus");
+               }
+               removeOpen(index);
+           })
+       })
+       function removeOpen(index1){
+           accordionContent.forEach((item2, index2) => {
+               if(index1 != index2){
+                   item2.classList.remove("open");
+   
+                   let des = item2.querySelector(".description");
+                   des.style.height = "0px";
+                   item2.querySelector("i").classList.replace("fa-minus", "fa-plus");
+               }
+           })
+       }
     </script>   
 </head>
 <body>
@@ -61,7 +60,7 @@
                 <i class="fas fa-home"></i>
                 <span class="nav-item">Home</span></a>
             </li>
-           
+
             <li><a href="dashservices.html" class="new">
                 <i class="fas fa-chart-bar"></i>
                 <span class="nav-item">Services</span></a>
@@ -79,7 +78,7 @@
                             <span class="nav-item">Log out</span></a></li>
         </ul>
     </div>
-     <div class="accordion">
+    <div class="accordion">
         <div class="accordion-content">
             <header>
                 <span class="title">When should we order the service?</span>
@@ -106,6 +105,9 @@
                 <span class="title">What methods of payment can i pay with?</span>
                 <i class="fa-solid fa-plus"></i>
             </header>
-            <p class="description"> What methods of payment can i pay with? </p>
+            <p class="description"> You can pay with your mobile banking app. </p>
         </div>
-    </div>     
+    </div>
+    <script src="https://kit.fontawesome.com/1d05bd84d8.js" crossorigin="anonymous"></script>
+</body>
+</html>    
