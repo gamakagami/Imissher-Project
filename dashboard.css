@@ -326,7 +326,7 @@ a{
         margin: -20px 20px 20px 0;
     }
 }
-@media only screen and (min-width:499px) and (max-width:840px){
+@media only screen and (min-width:499px) and (max-width:600px){
     .phonee{
         display: none;
     }
@@ -355,7 +355,7 @@ a{
         display: none;
     }
 }
-@media only screen and (min-width:601px){
+@media only screen and (min-width:601px) and (max-width:710px){
     .toggle{
         display: none;
         float: right;
@@ -366,15 +366,34 @@ a{
     .main-course-phone{
         display: none;
     }
+    .phonee{
+        display: none;
+    }
+    .lap{
+        margin-bottom: 2.4rem;
+    }
 }
-@media only screen and (min-width:841px) and (max-width:975px){
+@media only screen and (min-width:711px) and (max-width:840px){
+    .toggle{
+        display: none;
+        float: right;
+    }
+    .menu{
+        display: none;
+    }
+    .main-course-phone{
+        display: none;
+    }
+    .phonee{
+        display: none;
+    }
+    .lap{
+        margin-bottom: 5rem;
+    }
+}
+@media only screen and (min-width:841px){
     .nav1{
         height: 100vh;
-    }
-    .tes{
-        position: absolute; bottom: 0; 
-        padding-bottom: 45px;
-        display: flex;
     }
     .main-course-phone{
         display: none;
@@ -386,39 +405,23 @@ a{
         margin-bottom: 8rem;
     }
 }
-@media only screen and (min-width:975px) and (max-width:1200px){
+@media only screen and (max-width:1400px){
+    .tes{
+        position: absolute; bottom: 0; 
+        padding-bottom: 45px;
+        display: flex;
+    }
+    .main-course-phone{
+        display: none;
+    }
     .nav1{
         height: 100vh;
     }
-    .tes{
-        position: absolute; bottom: 0; 
-        padding-bottom: 45px;
-        display: flex;
-    }
-    .main-course-phone{
-        display: none;
-    }
     .phonee{
         display: none;
     }
     .lap{
-        margin-bottom: 10rem;
-    }
-}
-@media only screen and (min-width:1200px){
-    .tes{
-        position: absolute; bottom: 0; 
-        padding-bottom: 45px;
-        display: flex;
-    }
-    .main-course-phone{
-        display: none;
-    }
-    .phonee{
-        display: none;
-    }
-    .lap{
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
     }
 }
 @media only screen and (min-width:1400px){
@@ -430,7 +433,13 @@ a{
     .main-course-phone{
         display: none;
     }
+    .nav1{
+        height: 100vh;
+    }
     .phonee{
         display: none;
+    }
+    .lap{
+        margin-bottom: 10rem;
     }
 }
