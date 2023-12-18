@@ -135,7 +135,7 @@ h1{
     border-right: 15px solid #fff;
     left: -15px;
 }
-.bobox i{
+.bobox{
     height: 50px;
     width: 60px;
     display: flex;
@@ -143,6 +143,9 @@ h1{
     align-items: center;
     background-color: #fff;
     cursor: pointer;
+}
+i{
+    color:black;
 }
 button{
     height: 50px;
