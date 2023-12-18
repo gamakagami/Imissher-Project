@@ -23,16 +23,16 @@
   <li>Choosing of services</li>
 </ul>
 <h2>Design</h2>
-<h3>HomePage</h3>
+<h3>HomePage: It is where the users are briefly introduced about the services we provide.</h3>
 <img src="homepagepreview.png">
-<h2>Login / Signup</h2>
+<h2>Login / Signup : Users are able to create their own account and login, in order to order our services.</h2>
 <img src="loginpreview.png">
 <img src="signuppreview.png">
-<h2>About Us</h2>
+<h2>About Us : We introduce our company deeper, so the users know us better.</h2>
 <img src="aboutuspreview.png">
-<h2>Services</h2>
+<h2>Services : We provide the description of the services and the prices of each one of them.</h2>
 <img src="servicespreview.png">
-<h2>Dashboard</h2>
+<h2>Dashboard : It is when the users have login to their account, and they are able to access some cool features in it.</h2>
 <img src="dashboardpreview0.png">
 <h2>Choosing of services</h2>
 <img src="chooseservicepreview0.png">
