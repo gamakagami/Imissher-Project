@@ -36,3 +36,11 @@
 <img src="dashboardpreview0.png">
 <h2>Choosing of services</h2>
 <img src="chooseservicepreview0.png">
+<h2>Schedule</h2>
+<img src="schedule.png">
+<h2>Finance</h2>
+<img src="finance.png">
+<h2>Account</h2>
+<img src="account.png">
+<h2>Help</h2>
+<img src="help.png">
