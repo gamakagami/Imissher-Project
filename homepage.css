@@ -4,6 +4,9 @@
     box-sizing: border-box;
     margin: 0;
 }
+body{
+    background-color:white;
+}
 .login-btn{
     outline: none;
     background-color: rgb(67, 81, 67);
