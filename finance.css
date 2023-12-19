@@ -230,7 +230,7 @@ main .insights h3{
     margin: 1rem 0 0.6rem;
     font-size: 1rem;
 }
-.fas .insights .amogus{
+main .insights .begins{
     position: relative;
     width: 90px;
     height: 90px;
@@ -308,6 +308,12 @@ main .historys .speedy{
 .soda{
     margin-top: 1.4rem;
 }
+.soda .users{
+    display: flex;
+    justify-content: end;
+    gap: 2rem;
+    background: whitesmoke;
+}
 .soda .user .infos{
     display: flex;
     gap: 2rem;
@@ -336,6 +342,8 @@ main .historys .speedy{
     gap: 1rem;
     margin-bottom: 1rem;
 }
+
+
 .soda .current-order{
     margin-top: 2rem;
 }
@@ -366,14 +374,5 @@ main .historys .speedy{
 .lol{
     width: 100%;
     height: auto;
-
-}
-@media screen and(max-width:1200px){
-    body{
-        width: 100%;
-    }
-    .container{
-        width:94%;
-    }
 
 }
